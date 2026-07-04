@@ -5,8 +5,8 @@
     "subject": "역사",
     "grade": "중학교 2학년",
     "exam": "2-1 기말",
-    "description": "스캔 이미지 기반: 중국 고대부터 명·청까지",
-    "cardCount": 37,
+    "description": "업로드한 사진에 보이는 내용만 시험 전 최종 확인용 빈칸 카드로 정리했습니다. 사진에 없는 보충 내용은 넣지 않았습니다.",
+    "cardCount": 122,
     "file": "data/history-mid2-1-final-2026.json",
     "tags": [
       "중2",

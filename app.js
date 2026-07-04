@@ -10,6 +10,7 @@ const state = {
 const $ = (id) => document.getElementById(id);
 
 const els = {
+  installCard: $('installCard'),
   installButton: $('installButton'),
   installGuide: $('installGuide'),
   setupPanel: $('setupPanel'),
@@ -253,24 +254,47 @@ function goBack() {
   updateStats();
 }
 
+function isStandaloneApp() {
+  return window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+}
+
+function hideInstallCard() {
+  els.installCard?.classList.add('hidden');
+}
+
 function setupInstallGuide() {
   let installPrompt = null;
+
+  if (isStandaloneApp()) {
+    hideInstallCard();
+    return;
+  }
+
+  window.matchMedia('(display-mode: standalone)').addEventListener?.('change', (event) => {
+    if (event.matches) hideInstallCard();
+  });
+
+  window.addEventListener('appinstalled', hideInstallCard);
 
   window.addEventListener('beforeinstallprompt', (event) => {
     event.preventDefault();
     installPrompt = event;
-    els.installButton.textContent = '웹앱 설치';
+    if (els.installButton) els.installButton.textContent = '웹앱 설치';
   });
 
   els.installButton?.addEventListener('click', async () => {
     if (installPrompt) {
       installPrompt.prompt();
-      await installPrompt.userChoice.catch(() => null);
+      const choice = await installPrompt.userChoice.catch(() => null);
       installPrompt = null;
+      if (choice?.outcome === 'accepted') {
+        hideInstallCard();
+        return;
+      }
       els.installButton.textContent = '설치 방법 보기';
       return;
     }
-    els.installGuide.classList.toggle('hidden');
+    els.installGuide?.classList.toggle('hidden');
   });
 }
 

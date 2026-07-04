@@ -1,4 +1,4 @@
-const CACHE_NAME = 'jianstudy-v4';
+const CACHE_NAME = 'jianstudy-v5';
 const ASSETS = [
   './',
   './index.html',
@@ -11,7 +11,8 @@ const ASSETS = [
   './assets/icon-180.png',
   './assets/icon-192.png',
   './assets/icon-512.png',
-  './assets/logo.svg'
+  './assets/logo.svg',
+  './assets/og-image.png'
 ];
 
 self.addEventListener('install', (event) => {

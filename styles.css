@@ -42,56 +42,13 @@ button { cursor: pointer; }
 
 .hero {
   display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 22px;
-  align-items: center;
-  padding: 28px 0 18px;
-}
-
-.hero-copy-block {
-  position: relative;
-  padding-left: 16px;
-}
-
-.hero-copy-block::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 6px;
-  bottom: 6px;
-  width: 6px;
-  border-radius: 999px;
-  background: linear-gradient(var(--ribbon), var(--accent));
-}
-
-.eyebrow {
-  margin: 0 0 8px;
-  color: var(--muted);
-  font-size: 13px;
-  font-weight: 900;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
-
-h1 {
-  margin: 0;
-  font-size: clamp(40px, 9vw, 78px);
-  line-height: 0.9;
-  letter-spacing: -0.075em;
-}
-
-.hero-copy {
-  max-width: 660px;
-  margin: 16px 0 0;
-  color: var(--muted);
-  font-size: 17px;
-  line-height: 1.55;
-  font-weight: 700;
+  place-items: center;
+  padding: 20px 0 16px;
 }
 
 .app-logo {
-  width: min(300px, 35vw);
-  max-height: 126px;
+  width: min(420px, 92vw);
+  max-height: 148px;
   object-fit: contain;
   filter: drop-shadow(10px 12px 0 rgba(40, 51, 95, 0.12));
 }

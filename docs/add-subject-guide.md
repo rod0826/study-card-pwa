@@ -14,7 +14,7 @@ JianStudy는 정적 PWA라서 과목/시험 범위를 JSON 파일로 추가하�
 1. 새 카드 JSON 파일을 `data/<set-id>.json` 형태로 만듭니다.
 2. `data/sets.json`에 새 세트 메타데이터를 추가합니다.
 3. `sw.js`의 `ASSETS` 배열에 새 카드 JSON 경로를 추가합니다.
-4. `CACHE_NAME`을 한 단계 올립니다. 예: `jianstudy-v4` → `jianstudy-v5`
+4. `CACHE_NAME`을 한 단계 올립니다. 예: `jianstudy-v5` → `jianstudy-v6`
 5. 로컬 서버에서 데이터/앱 로딩을 확인합니다.
 6. 커밋 후 GitHub Pages 배포 URL에서 다시 확인합니다.
 
