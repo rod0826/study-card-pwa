@@ -4,7 +4,8 @@ Date: 2026-07-04
 Project folder: `/Users/rod.chang/projects/personal/study-card-pwa`
 Repo: `https://github.com/rod0826/study-card-pwa.git`
 Live URL: `https://rod0826.github.io/study-card-pwa/`
-Latest commit at handoff: `62340c7 feat: refine installed app and history cards`
+Latest implementation commit: `62340c7 feat: refine installed app and history cards`
+Handoff notes commit: `1c449d3 docs: add project handoff notes`
 
 ## How to resume tomorrow with Codex
 
