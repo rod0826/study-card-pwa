@@ -1,0 +1,16 @@
+{
+  "name": "원페이퍼 암기 카드",
+  "short_name": "암기카드",
+  "description": "원페이퍼 요약 노트를 빈칸 카드로 복습하는 작은 학습 앱",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fffaf0",
+  "theme_color": "#f7d86f",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

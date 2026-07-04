@@ -1,0 +1,13 @@
+[
+  {
+    "id": "history-mid2-1-final-2026",
+    "title": "중2-1 기말 역사",
+    "subject": "역사",
+    "grade": "중학교 2학년",
+    "exam": "2-1 기말",
+    "description": "원페이퍼 요약 노트 기반: 춘추전국시대부터 신해혁명까지",
+    "cardCount": 72,
+    "file": "data/history-mid2-1-final-2026.json",
+    "tags": ["중2", "역사", "기말", "동아시아", "세계사"]
+  }
+]
