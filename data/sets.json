@@ -5,9 +5,15 @@
     "subject": "역사",
     "grade": "중학교 2학년",
     "exam": "2-1 기말",
-    "description": "원페이퍼 요약 노트 기반: 춘추전국시대부터 신해혁명까지",
-    "cardCount": 72,
+    "description": "스캔 이미지 기반: 중국 고대부터 명·청까지",
+    "cardCount": 37,
     "file": "data/history-mid2-1-final-2026.json",
-    "tags": ["중2", "역사", "기말", "동아시아", "세계사"]
+    "tags": [
+      "중2",
+      "역사",
+      "기말",
+      "중국사",
+      "스캔기반"
+    ]
   }
 ]

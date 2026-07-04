@@ -1,28 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 248" role="img" aria-labelledby="title desc">
   <title id="title">JianStudy logo</title>
-  <desc id="desc">JianStudy wordmark with study cards, pencil, and check mark.</desc>
-  <defs>
-    <linearGradient id="card" x1="86" y1="18" x2="220" y2="212" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#fffdf7"/>
-      <stop offset="1" stop-color="#f6eddc"/>
-    </linearGradient>
-  </defs>
-  <rect x="8" y="8" width="704" height="224" rx="46" fill="#fffaf0"/>
-  <circle cx="624" cy="64" r="42" fill="#f7d86f" opacity="0.48"/>
-  <circle cx="82" cy="184" r="26" fill="#7fc8df" opacity="0.45"/>
-
-  <g transform="translate(56 28)">
-    <rect x="34" y="8" width="128" height="166" rx="24" fill="#f7d86f" stroke="#2f2b24" stroke-width="10" transform="rotate(5 98 91)"/>
-    <rect x="12" y="0" width="128" height="166" rx="24" fill="url(#card)" stroke="#2f2b24" stroke-width="10"/>
-    <path d="M48 48h64M48 82h64M48 116h42" stroke="#2f2b24" stroke-width="10" stroke-linecap="round" opacity="0.38"/>
-    <path d="M56 42v69c0 21-12 34-33 34" fill="none" stroke="#2f2b24" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M130 46c-11-12-45-13-51 7-9 28 59 19 49 54-6 24-43 24-60 7" fill="none" stroke="#2f2b24" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="142" cy="146" r="29" fill="#7ccf91" stroke="#2f2b24" stroke-width="8"/>
-    <path d="M128 146l10 11 20-25" fill="none" stroke="#2f2b24" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <desc id="desc">JianStudy wordmark with a scan-note flashcard mark and a highlighter stroke.</desc>
+  <rect x="8" y="8" width="744" height="232" rx="48" fill="#fff8e8"/>
+  <path d="M32 65h690M32 124h690M32 183h690" stroke="#28335f" stroke-width="4" opacity="0.08"/>
+  <g transform="translate(55 33)">
+    <rect x="46" y="11" width="128" height="164" rx="25" fill="#b8ff5c" stroke="#20243f" stroke-width="10" transform="rotate(6 110 93)"/>
+    <rect x="12" y="0" width="132" height="172" rx="26" fill="#fffdf6" stroke="#20243f" stroke-width="10"/>
+    <path d="M44 52h72M44 86h58M44 120h78" stroke="#20243f" stroke-width="10" stroke-linecap="round" opacity="0.2"/>
+    <path d="M69 44v70c0 23-13 37-36 37" fill="none" stroke="#20243f" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M112 40l-10 74" stroke="#ff7c8a" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="141" cy="148" r="31" fill="#b8ff5c" stroke="#20243f" stroke-width="8"/>
+    <path d="M127 148l11 11 21-27" fill="none" stroke="#20243f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
-
-  <g fill="#2f2b24">
-    <text x="246" y="108" font-family="ui-rounded, 'Arial Rounded MT Bold', 'Apple SD Gothic Neo', system-ui, sans-serif" font-size="66" font-weight="900" letter-spacing="-3">JianStudy</text>
-    <text x="250" y="154" font-family="ui-rounded, 'Apple SD Gothic Neo', system-ui, sans-serif" font-size="22" font-weight="800" fill="#736b5d" letter-spacing="0.4">외워야 할 것만 카드로, 헷갈리는 것만 다시</text>
+  <g>
+    <path d="M255 146h324" stroke="#b8ff5c" stroke-width="28" stroke-linecap="round" opacity="0.78"/>
+    <text x="250" y="128" font-family="ui-rounded, 'Arial Rounded MT Bold', 'Apple SD Gothic Neo', system-ui, sans-serif" font-size="72" font-weight="900" letter-spacing="-4" fill="#20243f">JianStudy</text>
+    <text x="256" y="174" font-family="ui-rounded, 'Apple SD Gothic Neo', system-ui, sans-serif" font-size="22" font-weight="850" fill="#69708f">스캔 노트 안에서만 만들고, 헷갈리는 것만 다시</text>
   </g>
 </svg>

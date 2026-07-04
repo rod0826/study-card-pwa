@@ -3,7 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#f7d86f" />
+  <meta name="theme-color" content="#3c4f8f" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="apple-mobile-web-app-title" content="JianStudy" />
   <meta name="application-name" content="JianStudy" />
   <title>JianStudy</title>
@@ -15,18 +18,30 @@
 <body>
   <div class="app-shell">
     <header class="hero">
-      <div>
-        <p class="eyebrow">One-paper study cards</p>
+      <div class="hero-copy-block">
+        <p class="eyebrow">스캔 노트 기반 암기 카드</p>
         <h1>JianStudy</h1>
-        <p class="hero-copy">직접 정리한 노트를 빈칸 카드로 바꿔서, 헷갈리는 것만 다시 봅니다.</p>
+        <p class="hero-copy">전달된 노트 범위 안에서만 카드로 만들고, 헷갈린 문제만 다시 꺼내 봅니다.</p>
       </div>
       <img class="app-logo" src="assets/logo.svg" alt="JianStudy 로고" />
     </header>
 
     <main>
+      <section id="installCard" class="install-card" aria-labelledby="installHeading">
+        <div>
+          <h2 id="installHeading">아이폰 홈 화면에 설치</h2>
+          <p>Safari에서 열고 공유 버튼 → 홈 화면에 추가를 누르면 앱처럼 쓸 수 있어요.</p>
+        </div>
+        <button type="button" id="installButton" class="install-button">설치 방법 보기</button>
+        <p id="installGuide" class="install-guide hidden">
+          iPhone/iPad: Safari 하단 공유 버튼을 누른 뒤 <strong>홈 화면에 추가</strong>를 선택하세요.<br />
+          Android/Chrome: 주소창 또는 메뉴의 <strong>앱 설치</strong>를 선택하세요.
+        </p>
+      </section>
+
       <section class="panel setup" id="setupPanel">
         <div class="section-title">
-          <span>01</span>
+          <span>범위</span>
           <h2>카드 세트 선택</h2>
         </div>
 
@@ -54,8 +69,8 @@
         </div>
 
         <div class="actions primary-actions">
-          <button id="startBtn" class="primary">시작하기</button>
-          <button id="shuffleBtn" class="ghost">섞기</button>
+          <button id="startBtn" class="primary">카드 시작</button>
+          <button id="shuffleBtn" class="ghost">섞기 켜짐</button>
         </div>
       </section>
 
@@ -109,10 +124,10 @@
 
       <section class="panel guide">
         <div class="section-title">
-          <span>02</span>
+          <span>추가</span>
           <h2>다른 과목 추가 방법</h2>
         </div>
-        <p>새 과목은 <code>data/sets.json</code>에 세트 정보를 추가하고, 같은 형식의 카드 JSON 파일을 하나 더 만들면 됩니다. 앱은 자동으로 세트 선택 목록에 보여줍니다.</p>
+        <p>새 노트 사진을 보내주시면 스캔 이미지에 실제로 있는 범위만 추려 <code>data/sets.json</code>과 카드 JSON 파일에 추가합니다.</p>
       </section>
     </main>
   </div>

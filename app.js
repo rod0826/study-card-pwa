@@ -10,6 +10,8 @@ const state = {
 const $ = (id) => document.getElementById(id);
 
 const els = {
+  installButton: $('installButton'),
+  installGuide: $('installGuide'),
   setupPanel: $('setupPanel'),
   studyPanel: $('studyPanel'),
   setSelect: $('setSelect'),
@@ -250,6 +252,29 @@ function goBack() {
   els.setupPanel.classList.remove('hidden');
   updateStats();
 }
+
+function setupInstallGuide() {
+  let installPrompt = null;
+
+  window.addEventListener('beforeinstallprompt', (event) => {
+    event.preventDefault();
+    installPrompt = event;
+    els.installButton.textContent = '웹앱 설치';
+  });
+
+  els.installButton?.addEventListener('click', async () => {
+    if (installPrompt) {
+      installPrompt.prompt();
+      await installPrompt.userChoice.catch(() => null);
+      installPrompt = null;
+      els.installButton.textContent = '설치 방법 보기';
+      return;
+    }
+    els.installGuide.classList.toggle('hidden');
+  });
+}
+
+setupInstallGuide();
 
 els.setSelect.addEventListener('change', loadSelectedSet);
 els.startBtn.addEventListener('click', startStudy);

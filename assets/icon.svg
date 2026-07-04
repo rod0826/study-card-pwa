@@ -1,34 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
   <title id="title">JianStudy app icon</title>
-  <desc id="desc">A cheerful study card logo with the initials JS, a pencil, and a check mark.</desc>
+  <desc id="desc">A study card app icon with a notebook card, highlighter stripe, pencil, and J.</desc>
   <defs>
-    <linearGradient id="bg" x1="70" y1="36" x2="442" y2="476" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#fff7d6"/>
-      <stop offset="0.52" stop-color="#f7d86f"/>
-      <stop offset="1" stop-color="#7fc8df"/>
+    <linearGradient id="bg" x1="70" y1="42" x2="442" y2="470" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff8e8"/>
+      <stop offset="0.48" stop-color="#8bd6ff"/>
+      <stop offset="1" stop-color="#3c4f8f"/>
     </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#2f2b24" flood-opacity="0.18"/>
-    </filter>
   </defs>
   <rect width="512" height="512" rx="112" fill="url(#bg)"/>
-  <circle cx="108" cy="108" r="34" fill="#fffaf0" opacity="0.65"/>
-  <circle cx="420" cy="120" r="22" fill="#fffaf0" opacity="0.55"/>
-  <circle cx="82" cy="398" r="18" fill="#fffaf0" opacity="0.55"/>
-
-  <g filter="url(#shadow)">
-    <rect x="118" y="80" width="276" height="342" rx="42" fill="#fffdf7" stroke="#2f2b24" stroke-width="16"/>
-    <path d="M164 174h184M164 238h152M164 302h122" stroke="#2f2b24" stroke-width="18" stroke-linecap="round" opacity="0.24"/>
-    <path d="M202 143v134c0 39-23 63-61 63" fill="none" stroke="#2f2b24" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M340 154c-20-22-82-24-94 12-17 52 108 36 91 100-12 44-79 44-110 13" fill="none" stroke="#2f2b24" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
-  </g>
-
-  <g transform="rotate(-13 352 358)">
-    <rect x="300" y="318" width="132" height="42" rx="20" fill="#ef7d70" stroke="#2f2b24" stroke-width="12"/>
-    <path d="M424 318l48 21-48 21z" fill="#fffaf0" stroke="#2f2b24" stroke-width="12" stroke-linejoin="round"/>
-    <path d="M462 335l10 4-10 4z" fill="#2f2b24"/>
-  </g>
-
-  <circle cx="338" cy="374" r="58" fill="#7ccf91" stroke="#2f2b24" stroke-width="14"/>
-  <path d="M311 373l20 21 39-49" fill="none" stroke="#2f2b24" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M70 150h372M70 218h372M70 286h372M70 354h372" stroke="#ffffff" stroke-width="6" opacity="0.26"/>
+  <path d="M178 83h226c24 0 43 19 43 43v274c0 24-19 43-43 43H178c-24 0-43-19-43-43V126c0-24 19-43 43-43z" fill="#b8ff5c" stroke="#20243f" stroke-width="16" transform="rotate(5 291 263)"/>
+  <path d="M109 72h232c25 0 46 21 46 46v276c0 25-21 46-46 46H109c-25 0-46-21-46-46V118c0-25 21-46 46-46z" fill="#fffdf6" stroke="#20243f" stroke-width="16"/>
+  <path d="M112 156h222M112 224h184M112 292h140" stroke="#20243f" stroke-width="17" stroke-linecap="round" opacity="0.18"/>
+  <path d="M181 132v143c0 44-26 72-70 72" fill="none" stroke="#20243f" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M272 128l-18 128" stroke="#ff7c8a" stroke-width="28" stroke-linecap="round" opacity="0.92"/>
+  <path d="M294 347l116-116" stroke="#20243f" stroke-width="18" stroke-linecap="round"/>
+  <path d="M384 205l44 44" stroke="#20243f" stroke-width="18" stroke-linecap="round"/>
+  <path d="M402 212l31-31 39 39-31 31z" fill="#ff7c8a" stroke="#20243f" stroke-width="12" stroke-linejoin="round"/>
+  <circle cx="342" cy="366" r="58" fill="#b8ff5c" stroke="#20243f" stroke-width="14"/>
+  <path d="M316 365l19 21 41-52" fill="none" stroke="#20243f" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

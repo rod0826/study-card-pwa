@@ -1,12 +1,12 @@
 {
   "name": "JianStudy",
   "short_name": "JianStudy",
-  "description": "직접 정리한 노트를 빈칸 카드로 복습하고 헷갈리는 것만 다시 보는 학습 앱",
+  "description": "전달된 스캔 노트를 빈칸 카드로 복습하고 헷갈리는 것만 다시 보는 학습 앱",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#fffaf0",
-  "theme_color": "#f7d86f",
+  "background_color": "#fff8e8",
+  "theme_color": "#3c4f8f",
   "icons": [
     {
       "src": "assets/icon.svg",

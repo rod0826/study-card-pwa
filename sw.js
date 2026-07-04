@@ -1,4 +1,4 @@
-const CACHE_NAME = 'jianstudy-v2';
+const CACHE_NAME = 'jianstudy-v3';
 const ASSETS = [
   './',
   './index.html',
