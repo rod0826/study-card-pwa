@@ -1,4 +1,4 @@
-const CACHE_NAME = 'study-card-pwa-v1';
+const CACHE_NAME = 'jianstudy-v2';
 const ASSETS = [
   './',
   './index.html',
@@ -7,7 +7,11 @@ const ASSETS = [
   './manifest.webmanifest',
   './data/sets.json',
   './data/history-mid2-1-final-2026.json',
-  './assets/icon.svg'
+  './assets/icon.svg',
+  './assets/icon-180.png',
+  './assets/icon-192.png',
+  './assets/icon-512.png',
+  './assets/logo.svg'
 ];
 
 self.addEventListener('install', (event) => {

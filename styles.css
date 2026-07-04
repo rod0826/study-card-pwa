@@ -68,24 +68,11 @@ h1 {
   line-height: 1.55;
 }
 
-.paper-mark {
-  width: 82px;
-  height: 112px;
-  border: 2px solid var(--line);
-  border-radius: 18px 18px 28px 18px;
-  background: var(--paper-deep);
-  box-shadow: 8px 8px 0 var(--accent);
-  transform: rotate(4deg);
-  display: grid;
-  align-content: center;
-  gap: 12px;
-  padding: 16px;
-}
-
-.paper-mark span {
-  height: 3px;
-  background: var(--line);
-  border-radius: 99px;
+.app-logo {
+  width: min(280px, 34vw);
+  max-height: 112px;
+  object-fit: contain;
+  filter: drop-shadow(8px 10px 0 rgba(47, 43, 36, 0.12));
 }
 
 .panel, .card {
@@ -301,7 +288,7 @@ code {
 
 @media (max-width: 760px) {
   .hero { grid-template-columns: 1fr; }
-  .paper-mark { display: none; }
+  .app-logo { width: min(260px, 86vw); }
   .filters, .study-layout, .grade-actions { grid-template-columns: 1fr; }
   .topbar { grid-template-columns: 1fr auto; }
   .progress-wrap { grid-column: 1 / -1; order: 3; }
