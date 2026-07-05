@@ -88,7 +88,7 @@ async function loadSets() {
   const res = await fetch('data/sets.json', { cache: 'no-store' });
   state.sets = await res.json();
   els.setSelect.innerHTML = state.sets
-    .map((set) => `<option value="${set.id}">${set.title} · ${set.subject}</option>`)
+    .map((set) => `<option value="${set.id}">${set.title}</option>`)
     .join('');
   await loadSelectedSet();
 }

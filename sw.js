@@ -1,4 +1,4 @@
-const CACHE_NAME = 'jianstudy-v5';
+const CACHE_NAME = 'jianstudy-v6';
 const ASSETS = [
   './',
   './index.html',
@@ -7,6 +7,8 @@ const ASSETS = [
   './manifest.webmanifest',
   './data/sets.json',
   './data/history-mid2-1-final-2026.json',
+  './data/technology-mid2-1-final-2026.json',
+  './data/home-mid2-1-final-2026.json',
   './assets/icon.svg',
   './assets/icon-180.png',
   './assets/icon-192.png',

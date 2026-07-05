@@ -1,7 +1,7 @@
 [
   {
     "id": "history-mid2-1-final-2026",
-    "title": "중2-1 기말 역사",
+    "title": "중 2-1 기말 역사",
     "subject": "역사",
     "grade": "중학교 2학년",
     "exam": "2-1 기말",
@@ -14,6 +14,42 @@
       "기말",
       "중국사",
       "스캔기반"
+    ]
+  },
+  {
+    "id": "technology-mid2-1-final-2026",
+    "title": "중 2-1 기말 기술",
+    "subject": "기술",
+    "grade": "중학교 2학년",
+    "exam": "2-1 기말",
+    "description": "등록된 기술 암기노트와 QnA 카드 PDF 범위 안에서 시험 전 확인용 빈칸 카드로 정리했습니다.",
+    "cardCount": 143,
+    "file": "data/technology-mid2-1-final-2026.json",
+    "tags": [
+      "중2",
+      "기술",
+      "기말",
+      "건설기술",
+      "정보통신",
+      "PDF기반"
+    ]
+  },
+  {
+    "id": "home-mid2-1-final-2026",
+    "title": "중 2-1 기말 가정",
+    "subject": "가정",
+    "grade": "중학교 2학년",
+    "exam": "2-1 기말",
+    "description": "등록된 가정 암기노트와 QnA 카드 PDF 범위 안에서 시험 전 확인용 빈칸 카드로 정리했습니다.",
+    "cardCount": 93,
+    "file": "data/home-mid2-1-final-2026.json",
+    "tags": [
+      "중2",
+      "가정",
+      "기말",
+      "가족",
+      "생활자원",
+      "PDF기반"
     ]
   }
 ]
