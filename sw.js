@@ -23,6 +23,6 @@ self.addEventListener('fetch', (event) => {
         caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
         return response;
       })
-      .catch(() => caches.match(event.request).then((cached) => cached || (event.request.mode === 'navigate' ? caches.match('./index.html') : Response.error())))
+      .catch(() => caches.match(event.request, { ignoreSearch: true }).then((cached) => cached || (event.request.mode === 'navigate' ? caches.match('./index.html') : Response.error())))
   );
 });
