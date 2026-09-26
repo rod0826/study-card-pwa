@@ -118,9 +118,9 @@ app.addEventListener('change', (event) => { const setting = event.target.dataset
 document.addEventListener('keydown', (event) => { if (event.key === 'Enter' && document.activeElement?.id === 'answerInput') showAnswer(); });
 
 async function init() {
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).catch(() => {});
   try { migrateProgress(); } catch { setSaveState(false); } [state.exams, state.subjects] = await Promise.all([readJson('data/catalog/exams.json'), readJson('data/catalog/subjects.json')]);
   const indexes = await Promise.all(state.exams.map((exam) => readJson(exam.indexFile))); for (const index of indexes) { index.cardKeys = []; for (const entry of index.subjects) { entry.cardCount = 0; for (const file of entry.setFiles) { const set = await readJson(file); entry.cardCount += set.cards.length; index.cardKeys.push(...set.cards.map((card) => `${set.id}:${card.id}`)); } } state.indexes.set(index.examId, index); }
   renderHome();
-  if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
 }
 init().catch((error) => { app.innerHTML = `<div class="empty-state"><span class="big-icon">!</span><h2>앱을 열지 못했어요</h2><p>${safe(error.message)}<br>인터넷 연결을 확인하고 새로고침해 주세요.</p><button class="button primary" onclick="location.reload()">다시 열기</button></div>`; });
