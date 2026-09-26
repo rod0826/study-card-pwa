@@ -1,0 +1,9 @@
+[
+  { "id": "korean", "name": "국어", "shortName": "국어", "symbol": "ㄱ", "color": "coral", "order": 10 },
+  { "id": "english", "name": "영어", "shortName": "영어", "symbol": "A", "color": "blue", "order": 20 },
+  { "id": "math", "name": "수학", "shortName": "수학", "symbol": "π", "color": "mint", "order": 30 },
+  { "id": "science", "name": "과학", "shortName": "과학", "symbol": "⚗", "color": "violet", "order": 40 },
+  { "id": "history", "name": "역사", "shortName": "역사", "symbol": "時", "color": "amber", "order": 50 },
+  { "id": "technology", "name": "기술", "shortName": "기술", "symbol": "⚙", "color": "teal", "order": 60 },
+  { "id": "home", "name": "가정", "shortName": "가정", "symbol": "⌂", "color": "pink", "order": 70 }
+]

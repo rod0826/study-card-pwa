@@ -1,21 +1,8 @@
-const CACHE_NAME = 'jianstudy-v6';
-const ASSETS = [
-  './',
-  './index.html',
-  './styles.css',
-  './app.js',
-  './manifest.webmanifest',
-  './data/sets.json',
-  './data/history-mid2-1-final-2026.json',
-  './data/technology-mid2-1-final-2026.json',
-  './data/home-mid2-1-final-2026.json',
-  './assets/icon.svg',
-  './assets/icon-180.png',
-  './assets/icon-192.png',
-  './assets/icon-512.png',
-  './assets/logo.svg',
-  './assets/og-image.png'
-];
+importScripts('./asset-manifest.js');
+
+const CACHE_PREFIX = 'jianstudy-quest-';
+const CACHE_NAME = `${CACHE_PREFIX}${self.JIANSTUDY_ASSET_MANIFEST.version}`;
+const ASSETS = self.JIANSTUDY_ASSET_MANIFEST.assets;
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(ASSETS)));
@@ -23,7 +10,7 @@ self.addEventListener('install', (event) => {
 
 self.addEventListener('activate', (event) => {
   event.waitUntil(
-    caches.keys().then((keys) => Promise.all(keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key))))
+    caches.keys().then((keys) => Promise.all(keys.filter((key) => key.startsWith(CACHE_PREFIX) && key !== CACHE_NAME).map((key) => caches.delete(key))))
   );
 });
 
@@ -36,6 +23,6 @@ self.addEventListener('fetch', (event) => {
         caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
         return response;
       })
-      .catch(() => caches.match(event.request).then((cached) => cached || caches.match('./index.html')))
+      .catch(() => caches.match(event.request).then((cached) => cached || (event.request.mode === 'navigate' ? caches.match('./index.html') : Response.error())))
   );
 });

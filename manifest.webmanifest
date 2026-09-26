@@ -1,12 +1,12 @@
 {
-  "name": "JianStudy",
+  "name": "JianStudy 나의 시험 원정대",
   "short_name": "JianStudy",
-  "description": "전달된 스캔 노트를 빈칸 카드로 복습하고 헷갈리는 것만 다시 보는 학습 앱",
+  "description": "국어·영어·수학·과학을 짧은 카드 퀘스트로 공부하는 시험 준비 앱",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#fff8e8",
-  "theme_color": "#3c4f8f",
+  "background_color": "#f8f5eb",
+  "theme_color": "#2456e6",
   "icons": [
     {
       "src": "assets/icon.svg",

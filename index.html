@@ -1,138 +1,24 @@
 <!doctype html>
 <html lang="ko">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#3c4f8f" />
-  <meta name="mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-  <meta name="apple-mobile-web-app-title" content="JianStudy" />
-  <meta name="application-name" content="JianStudy" />
-  <meta name="description" content="등록된 시험 범위만 빠르게 확인하는 JianStudy 암기 카드" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="JianStudy" />
-  <meta property="og:title" content="JianStudy 암기 카드" />
-  <meta property="og:description" content="등록된 시험 범위를 시험 전 최종 확인용 카드로 복습해요." />
-  <meta property="og:url" content="https://rod0826.github.io/study-card-pwa/" />
-  <meta property="og:image" content="https://rod0826.github.io/study-card-pwa/assets/og-image.png" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <title>JianStudy</title>
-  <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="assets/icon-180.png" />
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#2456e6"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="JianStudy">
+  <meta name="description" content="시험까지 한 칸씩, 재미있게 익히는 지안의 학습 카드">
+  <meta property="og:type" content="website"><meta property="og:site_name" content="JianStudy"><meta property="og:title" content="JianStudy | 나의 시험 원정대"><meta property="og:description" content="국어·영어·수학·과학을 짧은 카드 퀘스트로 공부해요."><meta property="og:url" content="https://rod0826.github.io/study-card-pwa/"><meta property="og:image" content="https://rod0826.github.io/study-card-pwa/assets/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="시험까지 한 칸씩 전진하는 JianStudy"><meta name="twitter:card" content="summary_large_image">
+  <title>JianStudy | 나의 시험 원정대</title>
+  <link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="assets/icon.svg" type="image/svg+xml"><link rel="shortcut icon" href="favicon.ico"><link rel="apple-touch-icon" href="assets/icon-180.png"><link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="sky" aria-hidden="true"><i></i><i></i><i></i></div>
   <div class="app-shell">
-    <header class="hero">
-      <img class="app-logo" src="assets/logo.svg" alt="JianStudy 로고" />
+    <header class="site-header">
+      <button class="brand" data-action="home" aria-label="JianStudy 홈"><img src="assets/logo.svg" alt="JianStudy 나의 시험 원정대"></button>
+      <div class="header-actions"><span class="save-state"><i></i> 자동 저장</span><button class="round-button" data-action="install" aria-label="앱 설치 안내">↓</button></div>
     </header>
-
-    <main>
-      <section id="installCard" class="install-card" aria-labelledby="installHeading">
-        <div>
-          <h2 id="installHeading">아이폰 홈 화면에 설치</h2>
-          <p>Safari에서 열고 공유 버튼 → 홈 화면에 추가를 누르면 앱처럼 쓸 수 있어요.</p>
-        </div>
-        <button type="button" id="installButton" class="install-button">설치 방법 보기</button>
-        <p id="installGuide" class="install-guide hidden">
-          iPhone/iPad: Safari 하단 공유 버튼을 누른 뒤 <strong>홈 화면에 추가</strong>를 선택하세요.<br />
-          Android/Chrome: 주소창 또는 메뉴의 <strong>앱 설치</strong>를 선택하세요.
-        </p>
-      </section>
-
-      <section class="panel setup" id="setupPanel">
-        <div class="section-title">
-          <span>범위</span>
-          <h2>카드 세트 선택</h2>
-        </div>
-
-        <label class="field-label" for="setSelect">과목 / 시험 범위</label>
-        <select id="setSelect"></select>
-
-        <div id="setMeta" class="set-meta"></div>
-
-        <div class="filters">
-          <div>
-            <label class="field-label" for="modeSelect">복습 모드</label>
-            <select id="modeSelect">
-              <option value="all">전체 카드</option>
-              <option value="weak">틀림 + 헷갈림만</option>
-              <option value="wrong">틀린 카드만</option>
-              <option value="new">아직 안 푼 카드만</option>
-            </select>
-          </div>
-          <div>
-            <label class="field-label" for="categorySelect">단원</label>
-            <select id="categorySelect">
-              <option value="all">전체 단원</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="actions primary-actions">
-          <button id="startBtn" class="primary">카드 시작</button>
-          <button id="shuffleBtn" class="ghost">섞기 켜짐</button>
-        </div>
-      </section>
-
-      <section class="study-layout hidden" id="studyPanel">
-        <div class="topbar">
-          <button id="backBtn" class="text-btn">← 세트 선택</button>
-          <div class="progress-wrap" aria-label="progress">
-            <div id="progressBar" class="progress-bar"></div>
-          </div>
-          <span id="counter" class="counter">0 / 0</span>
-        </div>
-
-        <article class="card" id="card">
-          <div class="card-head">
-            <span id="categoryBadge" class="badge">단원</span>
-            <span id="typeBadge" class="badge muted">빈칸</span>
-          </div>
-          <p id="question" class="question"></p>
-
-          <div class="answer-box">
-            <label class="field-label" for="answerInput">내 답</label>
-            <div class="answer-entry">
-              <input id="answerInput" autocomplete="off" placeholder="답을 직접 입력해 보세요" />
-              <button id="showAnswerBtn" class="primary answer-submit">정답 입력</button>
-            </div>
-            <p class="input-help">입력 후 <kbd>Enter</kbd> 또는 <strong>정답 입력</strong>을 눌러 확인해요.</p>
-          </div>
-
-          <div class="hint hidden" id="hintBox"></div>
-          <div class="answer hidden" id="answerBox"></div>
-
-          <div class="actions card-actions">
-            <button id="hintBtn" class="ghost">힌트</button>
-          </div>
-
-          <div class="grade-actions hidden" id="gradeActions">
-            <button data-grade="correct" class="grade good">맞았어요</button>
-            <button data-grade="hesitant" class="grade unsure">헷갈렸어요</button>
-            <button data-grade="wrong" class="grade bad">틀렸어요</button>
-          </div>
-        </article>
-
-        <aside class="stats panel">
-          <h2>오늘 상태</h2>
-          <div class="stat-grid">
-            <div><strong id="statCorrect">0</strong><span>맞음</span></div>
-            <div><strong id="statHesitant">0</strong><span>헷갈림</span></div>
-            <div><strong id="statWrong">0</strong><span>틀림</span></div>
-            <div><strong id="statNew">0</strong><span>남음</span></div>
-          </div>
-          <button id="resetProgressBtn" class="danger">이 세트 기록 초기화</button>
-        </aside>
-      </section>
-
-    </main>
+    <main id="app" tabindex="-1"></main>
+    <footer><span>JIANSTUDY</span><p><b>LIGHT</b> · 세계와 미래를 밝히는 빛</p></footer>
   </div>
-
-  <script src="app.js" defer></script>
+  <dialog id="installDialog"><button class="dialog-close" data-action="close-install" aria-label="닫기">×</button><span class="dialog-icon">＋</span><h2>홈 화면에 담아두기</h2><p>iPhone은 Safari의 공유 버튼에서 <strong>홈 화면에 추가</strong>를 눌러요. Android Chrome은 메뉴에서 <strong>앱 설치</strong>를 선택해요.</p><button class="button primary full" data-action="close-install">알겠어요</button></dialog>
+  <noscript>JianStudy를 사용하려면 JavaScript를 켜 주세요.</noscript><script src="app.js" defer></script>
 </body>
 </html>

@@ -1,0 +1,8 @@
+{
+  "examId": "2026-mid2-sem1-final",
+  "subjects": [
+    {"subjectId":"history","status":"reviewed","setFiles":["data/exams/2026-mid2-sem1-final/history/core.json"]},
+    {"subjectId":"technology","status":"reviewed","setFiles":["data/exams/2026-mid2-sem1-final/technology/core.json"]},
+    {"subjectId":"home","status":"reviewed","setFiles":["data/exams/2026-mid2-sem1-final/home/core.json"]}
+  ]
+}

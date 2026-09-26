@@ -1,0 +1,31 @@
+self.JIANSTUDY_ASSET_MANIFEST = {
+  "version": "90b640c4fddc",
+  "assets": [
+    "./",
+    "./asset-manifest.js",
+    "./app.js",
+    "./assets/icon-180.png",
+    "./assets/icon-192.png",
+    "./assets/icon-512.png",
+    "./assets/icon.svg",
+    "./assets/logo.svg",
+    "./assets/og-image.png",
+    "./assets/og-image.svg",
+    "./data/catalog/exams.json",
+    "./data/catalog/subjects.json",
+    "./data/exams/2026-mid2-sem1-final/history/core.json",
+    "./data/exams/2026-mid2-sem1-final/home/core.json",
+    "./data/exams/2026-mid2-sem1-final/index.json",
+    "./data/exams/2026-mid2-sem1-final/technology/core.json",
+    "./data/exams/2026-mid2-sem2-final/index.json",
+    "./data/exams/2026-mid2-sem2-midterm/index.json",
+    "./data/exams/2026-mid2-sem2-midterm/science/core.json",
+    "./data/exams/2027-mid3-sem1-final/index.json",
+    "./data/exams/2027-mid3-sem1-midterm/index.json",
+    "./data/exams/2027-mid3-sem2-integrated/index.json",
+    "./favicon.ico",
+    "./index.html",
+    "./manifest.webmanifest",
+    "./styles.css"
+  ]
+};

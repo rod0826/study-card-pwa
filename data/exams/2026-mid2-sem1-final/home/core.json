@@ -1,763 +1,883 @@
 {
+  "schemaVersion": 2,
   "id": "home-mid2-1-final-2026",
+  "examId": "2026-mid2-sem1-final",
+  "subjectId": "home",
   "title": "중 2-1 기말 가정",
-  "subject": "가정",
-  "grade": "중학교 2학년",
-  "exam": "2-1 기말",
   "source": "프로젝트 폴더의 가정 암기노트 및 QnA 카드 PDF",
+  "sourceRefs": [
+    "legacy-import"
+  ],
   "description": "등록된 가정 암기노트와 QnA 카드 PDF 범위 안에서 시험 전 확인용 빈칸 카드로 정리했습니다.",
   "categories": [
-    "가족의 이해와 건강한 가족",
-    "사회 변화와 가족 문화",
-    "대인 관계와 의사소통",
-    "성폭력과 가정 폭력",
-    "생활 자원 관리와 생활 환경",
-    "디지털 생활 환경"
+    {
+      "id": "unit-01",
+      "name": "가족의 이해와 건강한 가족",
+      "order": 10
+    },
+    {
+      "id": "unit-02",
+      "name": "사회 변화와 가족 문화",
+      "order": 20
+    },
+    {
+      "id": "unit-03",
+      "name": "대인 관계와 의사소통",
+      "order": 30
+    },
+    {
+      "id": "unit-04",
+      "name": "성폭력과 가정 폭력",
+      "order": 40
+    },
+    {
+      "id": "unit-05",
+      "name": "생활 자원 관리와 생활 환경",
+      "order": 50
+    },
+    {
+      "id": "unit-06",
+      "name": "디지털 생활 환경",
+      "order": 60
+    }
   ],
   "cards": [
     {
       "id": "hm001",
       "type": "blank",
-      "category": "가족의 이해와 건강한 가족",
       "front": "가족은 혈연만이 아니라 서로 ___을 가지고 함께 생활하는 공동체이다.",
       "answer": "유대감",
-      "hint": "가족의 의미"
+      "hint": "가족의 의미",
+      "categoryId": "unit-01",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm002",
       "type": "blank",
-      "category": "가족의 이해와 건강한 가족",
       "front": "가족은 개인의 ___과 발달을 돕는다.",
       "answer": "성장",
-      "hint": "가족의 중요성"
+      "hint": "가족의 중요성",
+      "categoryId": "unit-01",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm003",
       "type": "blank",
-      "category": "가족의 이해와 건강한 가족",
       "front": "가족은 개인의 기본 ___를 채우는 역할을 한다.",
       "answer": "욕구",
-      "hint": "가족의 중요성"
+      "hint": "가족의 중요성",
+      "categoryId": "unit-01",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm004",
       "type": "blank",
-      "category": "가족의 이해와 건강한 가족",
       "front": "가족은 ___의 기초가 된다.",
       "answer": "사회",
-      "hint": "가족의 중요성"
+      "hint": "가족의 중요성",
+      "categoryId": "unit-01",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm005",
       "type": "blank",
-      "category": "가족의 이해와 건강한 가족",
       "front": "오늘날 가족은 ___인 가구가 증가하고 있다.",
       "answer": "1~2인",
-      "hint": "가족의 변화"
+      "hint": "가족의 변화",
+      "categoryId": "unit-01",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm006",
       "type": "blank",
-      "category": "가족의 이해와 건강한 가족",
       "front": "오늘날 가족은 세대 구성이 ___되고 있다.",
       "answer": "단순화",
-      "hint": "가족의 변화"
+      "hint": "가족의 변화",
+      "categoryId": "unit-01",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm007",
       "type": "blank",
-      "category": "가족의 이해와 건강한 가족",
       "front": "가족 형태에는 확대 가족, 핵가족, 독신 가족, 공동체 가족, 다문화 가족, 입양 가족, 무자녀 가족, 분거 가족, 재혼 가족, ___ 가족이 있다.",
       "answer": "한부모",
-      "hint": "암기노트의 가족 형태 목록"
+      "hint": "암기노트의 가족 형태 목록",
+      "categoryId": "unit-01",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm008",
       "type": "blank",
-      "category": "가족의 이해와 건강한 가족",
       "front": "가족 기능 중 요즘 강조되는 기능에는 자녀 출산, 애정과 정서적 안정, 여가와 휴식, ___ 기능이 있다.",
       "answer": "소비",
-      "hint": "가족 기능의 변화"
+      "hint": "가족 기능의 변화",
+      "categoryId": "unit-01",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm009",
       "type": "blank",
-      "category": "가족의 이해와 건강한 가족",
       "front": "약화된 가족 기능에는 자녀 양육과 사회화, 노부모 부양, ___ 기능이 있다.",
       "answer": "생산",
-      "hint": "약화된 가족 기능"
+      "hint": "약화된 가족 기능",
+      "categoryId": "unit-01",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm010",
       "type": "blank",
-      "category": "가족의 이해와 건강한 가족",
       "front": "가족 가치관은 전통 사회의 ___ 중심 문화가 약해지는 방향으로 변했다.",
       "answer": "가부장",
-      "hint": "가족 가치관의 변화"
+      "hint": "가족 가치관의 변화",
+      "categoryId": "unit-01",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm011",
       "type": "blank",
-      "category": "가족의 이해와 건강한 가족",
       "front": "가족 가치관의 변화로 ___ 의식이 확산되었다.",
       "answer": "양성평등",
-      "hint": "가족 가치관의 변화"
+      "hint": "가족 가치관의 변화",
+      "categoryId": "unit-01",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm012",
       "type": "blank",
-      "category": "가족의 이해와 건강한 가족",
       "front": "변화하는 가족에 대해서는 다양한 가족 형태를 ___하게 받아들여야 한다.",
       "answer": "유연",
-      "hint": "변화하는 가족에 대한 태도"
+      "hint": "변화하는 가족에 대한 태도",
+      "categoryId": "unit-01",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm013",
       "type": "blank",
-      "category": "가족의 이해와 건강한 가족",
       "front": "변화하는 가족에 대해서는 배려하며 ___ 의식을 가져야 한다.",
       "answer": "공동체",
-      "hint": "변화하는 가족에 대한 태도"
+      "hint": "변화하는 가족에 대한 태도",
+      "categoryId": "unit-01",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm014",
       "type": "blank",
-      "category": "사회 변화와 가족 문화",
       "front": "시대 변화에 맞게 새롭게 떠오르는 기준을 ___이라고 한다.",
       "answer": "뉴 노멀",
-      "hint": "사회 변화와 가족 문화"
+      "hint": "사회 변화와 가족 문화",
+      "categoryId": "unit-02",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm015",
       "type": "blank",
-      "category": "사회 변화와 가족 문화",
       "front": "사회 변화의 긍정적 변화로 ___이 쉬워지고 여가 문화가 다양해졌다.",
       "answer": "의사소통",
-      "hint": "긍정적 변화"
+      "hint": "긍정적 변화",
+      "categoryId": "unit-02",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm016",
       "type": "blank",
-      "category": "사회 변화와 가족 문화",
       "front": "사회 변화의 부정적 변화에는 개인화와 ___ 약화가 있다.",
       "answer": "가족 문화",
-      "hint": "부정적 변화"
+      "hint": "부정적 변화",
+      "categoryId": "unit-02",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm017",
       "type": "blank",
-      "category": "사회 변화와 가족 문화",
       "front": "건강한 가족 문화를 위해 여가 시간을 함께하고 서로 ___해야 한다.",
       "answer": "지원",
-      "hint": "실천 방법"
+      "hint": "실천 방법",
+      "categoryId": "unit-02",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm018",
       "type": "blank",
-      "category": "사회 변화와 가족 문화",
       "front": "디지털 생활에서는 사용 ___을 정하고 디지털 리터러시를 익혀야 한다.",
       "answer": "규칙",
-      "hint": "실천 방법"
+      "hint": "실천 방법",
+      "categoryId": "unit-02",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm019",
       "type": "blank",
-      "category": "사회 변화와 가족 문화",
       "front": "건강한 가족 문화를 위해 책임을 공유하고 ___적으로 의사소통해야 한다.",
       "answer": "개방",
-      "hint": "실천 방법"
+      "hint": "실천 방법",
+      "categoryId": "unit-02",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm020",
       "type": "blank",
-      "category": "대인 관계와 의사소통",
       "front": "가족 관계는 사람이 처음 맺는 ___ 관계이다.",
       "answer": "대인",
-      "hint": "대인 관계의 시작"
+      "hint": "대인 관계의 시작",
+      "categoryId": "unit-03",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm021",
       "type": "blank",
-      "category": "대인 관계와 의사소통",
       "front": "원만한 대인 관계에는 현실적이고 ___한 태도가 필요하다.",
       "answer": "유연",
-      "hint": "원만한 대인 관계의 조건"
+      "hint": "원만한 대인 관계의 조건",
+      "categoryId": "unit-03",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm022",
       "type": "blank",
-      "category": "대인 관계와 의사소통",
       "front": "원만한 대인 관계에는 공감과 이해, ___ 해결 노력이 필요하다.",
       "answer": "갈등",
-      "hint": "원만한 대인 관계의 조건"
+      "hint": "원만한 대인 관계의 조건",
+      "categoryId": "unit-03",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm023",
       "type": "blank",
-      "category": "대인 관계와 의사소통",
       "front": "부부 관계에서는 서로의 ___를 이해하는 것이 중요하다.",
       "answer": "차이",
-      "hint": "관계별 핵심"
+      "hint": "관계별 핵심",
+      "categoryId": "unit-03",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm024",
       "type": "blank",
-      "category": "대인 관계와 의사소통",
       "front": "부모 자녀 관계는 사회화, 성장, ___ 제공과 관련된다.",
       "answer": "안정감",
-      "hint": "관계별 핵심"
+      "hint": "관계별 핵심",
+      "categoryId": "unit-03",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm025",
       "type": "blank",
-      "category": "대인 관계와 의사소통",
       "front": "형제 자매 관계에는 선의의 경쟁, 교육적 역할, 보호자 역할, 부모와의 관계 ___이 있다.",
       "answer": "조정",
-      "hint": "관계별 핵심"
+      "hint": "관계별 핵심",
+      "categoryId": "unit-03",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm026",
       "type": "blank",
-      "category": "대인 관계와 의사소통",
       "front": "조부모 손자녀 관계의 핵심은 존경, 애정, ___이다.",
       "answer": "관심",
-      "hint": "관계별 핵심"
+      "hint": "관계별 핵심",
+      "categoryId": "unit-03",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm027",
       "type": "blank",
-      "category": "대인 관계와 의사소통",
       "front": "교사와의 관계에서는 존중과 ___가 중요하다.",
       "answer": "감사",
-      "hint": "관계별 핵심"
+      "hint": "관계별 핵심",
+      "categoryId": "unit-03",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm028",
       "type": "blank",
-      "category": "대인 관계와 의사소통",
       "front": "친구 관계의 핵심은 ___이다.",
       "answer": "이해",
-      "hint": "관계별 핵심"
+      "hint": "관계별 핵심",
+      "categoryId": "unit-03",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm029",
       "type": "blank",
-      "category": "대인 관계와 의사소통",
       "front": "이웃 관계의 핵심은 ___이다.",
       "answer": "배려",
-      "hint": "관계별 핵심"
+      "hint": "관계별 핵심",
+      "categoryId": "unit-03",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm030",
       "type": "blank",
-      "category": "대인 관계와 의사소통",
       "front": "갈등의 원인에는 경쟁, 의사소통 부족, 이해관계 대립, 배려 부족, 세대 차이, ___ 차이가 있다.",
       "answer": "성격",
-      "hint": "갈등 원인"
+      "hint": "갈등 원인",
+      "categoryId": "unit-03",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm031",
       "type": "blank",
-      "category": "대인 관계와 의사소통",
       "front": "갈등의 긍정적 영향에는 이해의 폭 확대, 대처 능력 향상, 집단 내부 ___ 강화가 있다.",
       "answer": "응집력",
-      "hint": "갈등의 긍정적 영향"
+      "hint": "갈등의 긍정적 영향",
+      "categoryId": "unit-03",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm032",
       "type": "blank",
-      "category": "대인 관계와 의사소통",
       "front": "갈등의 부정적 영향에는 스트레스, 관계 악화, 정보 교환 제한, 자아존중감 저하, ___ 발휘 제한이 있다.",
       "answer": "능력",
-      "hint": "갈등의 부정적 영향"
+      "hint": "갈등의 부정적 영향",
+      "categoryId": "unit-03",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm033",
       "type": "blank",
-      "category": "대인 관계와 의사소통",
       "front": "의사소통은 생각과 감정을 말이나 행동으로 주고받는 ___ 작용이다.",
       "answer": "상호",
-      "hint": "의사소통의 의미"
+      "hint": "의사소통의 의미",
+      "categoryId": "unit-03",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm034",
       "type": "blank",
-      "category": "대인 관계와 의사소통",
       "front": "의사소통의 구성 요소는 송신자, 메시지, 수신자, 피드백, ___이다.",
       "answer": "매체",
-      "hint": "의사소통의 구성 요소"
+      "hint": "의사소통의 구성 요소",
+      "categoryId": "unit-03",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm035",
       "type": "blank",
-      "category": "대인 관계와 의사소통",
       "front": "잘 듣기에는 경청, 공감, ___ 듣기가 있다.",
       "answer": "긍정적",
-      "hint": "잘 듣기"
+      "hint": "잘 듣기",
+      "categoryId": "unit-03",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm036",
       "type": "blank",
-      "category": "대인 관계와 의사소통",
       "front": "잘 표현하기에는 나 전달법, 긍정적 표현, 언어적 표현과 ___ 표현 일치가 있다.",
       "answer": "비언어적",
-      "hint": "잘 표현하기"
+      "hint": "잘 표현하기",
+      "categoryId": "unit-03",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm037",
       "type": "blank",
-      "category": "대인 관계와 의사소통",
       "front": "나 전달법은 사실 + 감정 + 영향 + ___ 점으로 표현한다.",
       "answer": "바라는",
-      "hint": "나 전달법 공식"
+      "hint": "나 전달법 공식",
+      "categoryId": "unit-03",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm038",
       "type": "blank",
-      "category": "대인 관계와 의사소통",
       "front": "상대방에게 상처를 주는 표현에는 내 잣대로 평가하기, 비교하는 말, 강요하는 말, 상벌을 당연시하는 말, ___ 않는 말이 있다.",
       "answer": "책임지지",
-      "hint": "상처 주는 표현 5가지"
+      "hint": "상처 주는 표현 5가지",
+      "categoryId": "unit-03",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm039",
       "type": "sequence",
-      "category": "대인 관계와 의사소통",
       "front": "갈등 해결 과정은 갈등 확인 -> 해결 방안 탐색 -> 해결 방안 결정 -> ___ 및 평가이다.",
       "answer": "실행",
-      "hint": "갈등 해결 과정"
+      "hint": "갈등 해결 과정",
+      "categoryId": "unit-03",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm040",
       "type": "blank",
-      "category": "성폭력과 가정 폭력",
       "front": "성폭력은 성적 ___을 침해하는 범죄이다.",
       "answer": "자기 결정권",
-      "hint": "성폭력의 정의"
+      "hint": "성폭력의 정의",
+      "categoryId": "unit-04",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm041",
       "type": "blank",
-      "category": "성폭력과 가정 폭력",
       "front": "성폭력의 원인은 개인적 원인과 ___ 원인으로 나뉜다.",
       "answer": "사회 구조적",
-      "hint": "성폭력의 원인 구분"
+      "hint": "성폭력의 원인 구분",
+      "categoryId": "unit-04",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm042",
       "type": "blank",
-      "category": "성폭력과 가정 폭력",
       "front": "성폭력의 개인적 원인에는 성적 호기심, 비윤리적 성 지식, 성 ___ 감수성 부족이 있다.",
       "answer": "인지",
-      "hint": "개인적 원인"
+      "hint": "개인적 원인",
+      "categoryId": "unit-04",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm043",
       "type": "blank",
-      "category": "성폭력과 가정 폭력",
       "front": "성폭력의 사회 구조적 원인에는 성 차별적 분위기, 미디어의 영향, ___ 미비가 있다.",
       "answer": "법 제도",
-      "hint": "사회 구조적 원인"
+      "hint": "사회 구조적 원인",
+      "categoryId": "unit-04",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm044",
       "type": "blank",
-      "category": "성폭력과 가정 폭력",
       "front": "성폭력은 피해자에게 신체적 고통, 심리적 문제, 사회 ___을 일으킬 수 있다.",
       "answer": "부적응",
-      "hint": "성폭력의 영향"
+      "hint": "성폭력의 영향",
+      "categoryId": "unit-04",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm045",
       "type": "blank",
-      "category": "성폭력과 가정 폭력",
       "front": "성폭력 피해자 가족에게는 분노와 가족 관계의 ___이 생길 수 있다.",
       "answer": "어려움",
-      "hint": "피해자 가족의 영향"
+      "hint": "피해자 가족의 영향",
+      "categoryId": "unit-04",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm046",
       "type": "blank",
-      "category": "성폭력과 가정 폭력",
       "front": "성폭력은 사회에 성 차별적 문화와 안전망 ___을 남길 수 있다.",
       "answer": "불신",
-      "hint": "사회의 영향"
+      "hint": "사회의 영향",
+      "categoryId": "unit-04",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm047",
       "type": "blank",
-      "category": "성폭력과 가정 폭력",
       "front": "성폭력 피해자 지원 기관에는 여성긴급전화 ___과 해바라기센터가 있다.",
       "answer": "1366",
-      "hint": "피해자 지원 기관"
+      "hint": "피해자 지원 기관",
+      "categoryId": "unit-04",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm048",
       "type": "blank",
-      "category": "성폭력과 가정 폭력",
       "front": "가정 폭력은 가족 구성원 사이에서 신체적, 정신적, ___상의 피해를 주는 행위이다.",
       "answer": "재산",
-      "hint": "가정 폭력의 정의"
+      "hint": "가정 폭력의 정의",
+      "categoryId": "unit-04",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm049",
       "type": "blank",
-      "category": "성폭력과 가정 폭력",
       "front": "가정 폭력의 유형에는 신체적 폭력, 정서적 폭력, 언어적 폭력, 성폭력, 경제적 폭력, ___ 및 유기가 있다.",
       "answer": "방임",
-      "hint": "가정 폭력의 유형"
+      "hint": "가정 폭력의 유형",
+      "categoryId": "unit-04",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm050",
       "type": "blank",
-      "category": "성폭력과 가정 폭력",
       "front": "가정 폭력의 특징은 은폐성, 반복성, ___이다.",
       "answer": "지속성",
-      "hint": "가정 폭력의 특징"
+      "hint": "가정 폭력의 특징",
+      "categoryId": "unit-04",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm051",
       "type": "blank",
-      "category": "성폭력과 가정 폭력",
       "front": "가정 폭력은 개인의 신체적·정신적 고통, 가정 기능 장애, 세대 간 폭력의 ___을 일으킬 수 있다.",
       "answer": "대물림",
-      "hint": "가정 폭력의 영향"
+      "hint": "가정 폭력의 영향",
+      "categoryId": "unit-04",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm052",
       "type": "blank",
-      "category": "성폭력과 가정 폭력",
       "front": "가정 폭력에 대처하려면 경찰이나 주변 기관에 도움을 요청하고 피해자 ___ 명령 제도를 활용한다.",
       "answer": "보호",
-      "hint": "대처와 지원"
+      "hint": "대처와 지원",
+      "categoryId": "unit-04",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm053",
       "type": "blank",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "생활 자원의 종류는 인적 자원과 ___ 자원이다.",
       "answer": "물적",
-      "hint": "생활 자원의 종류"
+      "hint": "생활 자원의 종류",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm054",
       "type": "blank",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "인적 자원은 개인이 가진 ___이나 능력이다.",
       "answer": "특성",
-      "hint": "인적 자원"
+      "hint": "인적 자원",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm055",
       "type": "blank",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "물적 자원은 형태가 있고 소유하거나 사용할 수 있으며 ___이 가능하다.",
       "answer": "측정",
-      "hint": "물적 자원"
+      "hint": "물적 자원",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm056",
       "type": "blank",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "생활 자원의 특성은 효용성, 상호 대체성, 관리 가능성, 접근 가능성, ___ 사용 가능성이다.",
       "answer": "대안적",
-      "hint": "생활 자원의 특성"
+      "hint": "생활 자원의 특성",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm057",
       "type": "sequence",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "자원의 이용 흐름은 채취 -> 생산 -> 소비 -> ___이다.",
       "answer": "폐기",
-      "hint": "자원의 이용 흐름"
+      "hint": "자원의 이용 흐름",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm058",
       "type": "sequence",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "생활 자원의 순환은 채취 -> 생산 -> 구매 -> 수리/수선 -> 재사용 -> ___이다.",
       "answer": "재활용",
-      "hint": "생활 자원의 순환"
+      "hint": "생활 자원의 순환",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm059",
       "type": "blank",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "자원 관리의 핵심은 자원을 한 번 쓰고 버리기보다 ___되게 관리하는 것이다.",
       "answer": "순환",
-      "hint": "생활 자원 관리 핵심"
+      "hint": "생활 자원 관리 핵심",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm060",
       "type": "blank",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "천연 섬유 생산에는 ___ 사용이 관련된다.",
       "answer": "농약",
-      "hint": "의생활 생산"
+      "hint": "의생활 생산",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm061",
       "type": "blank",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "합성 섬유 생산에는 석유와 ___ 사용이 관련된다.",
       "answer": "전기",
-      "hint": "의생활 생산"
+      "hint": "의생활 생산",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm062",
       "type": "blank",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "옷감 생산에는 표백제와 ___ 사용이 관련된다.",
       "answer": "염료",
-      "hint": "의생활 생산"
+      "hint": "의생활 생산",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm063",
       "type": "blank",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "합성 섬유를 세탁하면 ___ 플라스틱이 발생할 수 있다.",
       "answer": "미세",
-      "hint": "의생활 소비"
+      "hint": "의생활 소비",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm064",
       "type": "blank",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "의생활 소비에서는 에너지와 세제, ___ 용제가 사용된다.",
       "answer": "유기",
-      "hint": "의생활 소비"
+      "hint": "의생활 소비",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm065",
       "type": "blank",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "의생활 폐기에서는 매립과 소각 시 화학 물질과 ___ 가스가 발생할 수 있다.",
       "answer": "유독",
-      "hint": "의생활 폐기"
+      "hint": "의생활 폐기",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm066",
       "type": "blank",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "의생활 폐기는 대기·토양·___ 오염을 일으킬 수 있다.",
       "answer": "수질",
-      "hint": "의생활 폐기"
+      "hint": "의생활 폐기",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm067",
       "type": "blank",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "식생활 생산에는 벌채와 개간, 물과 에너지, ___ 사용이 관련된다.",
       "answer": "농약",
-      "hint": "식생활 생산"
+      "hint": "식생활 생산",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm068",
       "type": "blank",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "식품 이동 거리가 길수록 연료 사용과 ___가스가 증가한다.",
       "answer": "온실",
-      "hint": "식생활 소비"
+      "hint": "식생활 소비",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm069",
       "type": "blank",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "식생활 소비에서는 음식물 ___가 발생할 수 있다.",
       "answer": "낭비",
-      "hint": "식생활 소비"
+      "hint": "식생활 소비",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm070",
       "type": "blank",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "식생활 폐기에서는 음식물 ___가 발생한다.",
       "answer": "폐수",
-      "hint": "식생활 폐기"
+      "hint": "식생활 폐기",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm071",
       "type": "blank",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "식생활 폐기의 퇴비화와 사료화 과정에서도 ___ 물질이 발생할 가능성이 있다.",
       "answer": "오염",
-      "hint": "식생활 폐기"
+      "hint": "식생활 폐기",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm072",
       "type": "blank",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "주생활 생산의 건축 과정에서는 온실가스와 ___이 발생할 수 있다.",
       "answer": "분진",
-      "hint": "주생활 생산"
+      "hint": "주생활 생산",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm073",
       "type": "blank",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "주생활 생산에는 ___ 연료 사용이 관련된다.",
       "answer": "화석",
-      "hint": "주생활 생산"
+      "hint": "주생활 생산",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm074",
       "type": "blank",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "주생활 소비는 재개발 주기가 짧고 ___ 에너지 사용이 크다.",
       "answer": "냉난방",
-      "hint": "주생활 소비"
+      "hint": "주생활 소비",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm075",
       "type": "blank",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "건물 폐기물은 ___이 어렵고 매립 시 오염이 발생할 수 있다.",
       "answer": "재가공",
-      "hint": "주생활 폐기"
+      "hint": "주생활 폐기",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm076",
       "type": "sequence",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "의식주 자원 선택 과정은 문제 확인 -> 문제 배경과 맥락 이해 -> 기대 목표 세우기 -> 바람직한 대안 탐색 -> 최선의 대안 선택 -> ___ 및 평가이다.",
       "answer": "실천",
-      "hint": "의식주 자원 선택 과정"
+      "hint": "의식주 자원 선택 과정",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm077",
       "type": "blank",
-      "category": "디지털 생활 환경",
       "front": "디지털 생활 환경과 식생활 변화에는 스마트팜, 스마트 팩토리, 온라인 식품 시장, 스마트 유통 관리, 스마트 주방 가전, 3D 식품 프린터, ___ 로봇이 있다.",
       "answer": "푸드",
-      "hint": "식생활 변화"
+      "hint": "식생활 변화",
+      "categoryId": "unit-06",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm078",
       "type": "blank",
-      "category": "디지털 생활 환경",
       "front": "디지털 생활 환경과 의생활 변화에는 3D 프린팅 기술, 스마트 의류, 온라인 의류 시장, 의류 관리 ___이 있다.",
       "answer": "가전제품",
-      "hint": "의생활 변화"
+      "hint": "의생활 변화",
+      "categoryId": "unit-06",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm079",
       "type": "blank",
-      "category": "디지털 생활 환경",
       "front": "디지털 생활 환경과 주생활 변화에는 스마트 홈, 스마트폰 앱, 월패드, 인공지능 스피커, 증강 현실 ___ 배치가 있다.",
       "answer": "가구",
-      "hint": "주생활 변화"
+      "hint": "주생활 변화",
+      "categoryId": "unit-06",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm080",
       "type": "blank",
-      "category": "디지털 생활 환경",
       "front": "디지털 생활 환경의 긍정적 영향에는 생활 편리, 소통 쉬워짐, 정보 접근성 향상, 환경 부담 완화, 에너지 ___ 향상이 있다.",
       "answer": "효율",
-      "hint": "긍정적 영향"
+      "hint": "긍정적 영향",
+      "categoryId": "unit-06",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm081",
       "type": "blank",
-      "category": "디지털 생활 환경",
       "front": "디지털 생활 환경의 부작용에는 정보 격차, 통신 장애, 구매와 유지 관리 비용 증가, 개인정보 유출과 ___ 위험이 있다.",
       "answer": "오용",
-      "hint": "부작용"
+      "hint": "부작용",
+      "categoryId": "unit-06",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm082",
       "type": "blank",
-      "category": "디지털 생활 환경",
       "front": "디지털 생활 환경에서 삶의 질을 높이려면 디지털 ___를 익혀야 한다.",
       "answer": "리터러시",
-      "hint": "삶의 질 향상 방법"
+      "hint": "삶의 질 향상 방법",
+      "categoryId": "unit-06",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm083",
       "type": "blank",
-      "category": "디지털 생활 환경",
       "front": "디지털 생활 환경에서 삶의 질을 높이려면 안전하게 사용하고 개인정보를 ___해야 한다.",
       "answer": "보호",
-      "hint": "삶의 질 향상 방법"
+      "hint": "삶의 질 향상 방법",
+      "categoryId": "unit-06",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm084",
       "type": "blank",
-      "category": "디지털 생활 환경",
       "front": "디지털 생활 환경에서 삶의 질을 높이려면 정기 업데이트를 하고 지나친 ___을 줄여야 한다.",
       "answer": "의존",
-      "hint": "삶의 질 향상 방법"
+      "hint": "삶의 질 향상 방법",
+      "categoryId": "unit-06",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm085",
       "type": "blank",
-      "category": "디지털 생활 환경",
       "front": "디지털 생활 환경에서 삶의 질을 높이려면 통신 장애 ___을 마련해야 한다.",
       "answer": "대비책",
-      "hint": "삶의 질 향상 방법"
+      "hint": "삶의 질 향상 방법",
+      "categoryId": "unit-06",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm086",
       "type": "blank",
-      "category": "가족의 이해와 건강한 가족",
       "front": "가족 변화의 핵심은 1~2인 가구 증가, 핵가족화, 가족 기능의 ___ 강조이다.",
       "answer": "질적",
-      "hint": "초압축 암기"
+      "hint": "초압축 암기",
+      "categoryId": "unit-01",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm087",
       "type": "blank",
-      "category": "대인 관계와 의사소통",
       "front": "대인 관계의 핵심은 이해하고, 공감하고, 배려하고, ___하기이다.",
       "answer": "경청",
-      "hint": "초압축 암기"
+      "hint": "초압축 암기",
+      "categoryId": "unit-03",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm088",
       "type": "blank",
-      "category": "생활 자원 관리와 생활 환경",
       "front": "자원 관리의 핵심은 아껴 쓰고, 고쳐 쓰고, 다시 쓰고, ___ 쓰기이다.",
       "answer": "돌려",
-      "hint": "초압축 암기"
+      "hint": "초압축 암기",
+      "categoryId": "unit-05",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm089",
       "type": "blank",
-      "category": "디지털 생활 환경",
       "front": "디지털 생활은 편리함은 늘고, 정보 격차와 개인정보 ___도 함께 커진다.",
       "answer": "위험",
-      "hint": "초압축 암기"
+      "hint": "초압축 암기",
+      "categoryId": "unit-06",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm090",
       "type": "blank",
-      "category": "가족의 이해와 건강한 가족",
       "front": "가족 핵심 한 줄은 이해, 존중, 배려, ___이다.",
       "answer": "평등",
-      "hint": "초압축 암기 카드"
+      "hint": "초압축 암기 카드",
+      "categoryId": "unit-01",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm091",
       "type": "blank",
-      "category": "대인 관계와 의사소통",
       "front": "의사소통 핵심 한 줄은 경청, 공감, ___이다.",
       "answer": "나 전달법",
-      "hint": "초압축 암기 카드"
+      "hint": "초압축 암기 카드",
+      "categoryId": "unit-03",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm092",
       "type": "blank",
-      "category": "성폭력과 가정 폭력",
       "front": "폭력 대처 핵심 한 줄은 바로 도움 요청, 기록, ___ 제도 활용이다.",
       "answer": "보호",
-      "hint": "초압축 암기 카드"
+      "hint": "초압축 암기 카드",
+      "categoryId": "unit-04",
+      "sourceRef": "legacy-import"
     },
     {
       "id": "hm093",
       "type": "blank",
-      "category": "대인 관계와 의사소통",
       "front": "시험 한 끗은 개념 정의와 특징을 정확한 ___로 외우기이다.",
       "answer": "용어",
-      "hint": "초압축 암기 카드"
+      "hint": "초압축 암기 카드",
+      "categoryId": "unit-03",
+      "sourceRef": "legacy-import"
     }
   ]
 }

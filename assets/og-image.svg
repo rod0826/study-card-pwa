@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">JianStudy 나의 시험 원정대</title>
+  <desc id="desc">시험까지 한 칸씩 전진하는 중학생 학습 카드 앱 공유 이미지</desc>
+  <rect width="1200" height="630" fill="#14213D"/>
+  <circle cx="1118" cy="22" r="260" fill="#22345C"/>
+  <circle cx="1040" cy="570" r="160" fill="#1B2B4E"/>
+  <path d="M60 530c168-105 302-83 435-7 128 73 256 64 406-31 94-60 171-68 254-31" fill="none" stroke="#FFD84D" stroke-width="8" stroke-linecap="round" stroke-dasharray="2 28"/>
+  <g transform="translate(74 65)">
+    <rect width="82" height="82" rx="24" fill="#FFD84D"/>
+    <path d="M41 18v28c0 17-8 25-25 25" fill="none" stroke="#14213D" stroke-width="13" stroke-linecap="round"/>
+    <circle cx="64" cy="63" r="11" fill="#fff" stroke="#14213D" stroke-width="5"/>
+    <path d="M59 63l4 4 7-9" fill="none" stroke="#14213D" stroke-width="4" stroke-linecap="round"/>
+    <text x="108" y="55" fill="#fff" font-family="Outfit, Arial, sans-serif" font-size="46" font-weight="800">JianStudy</text>
+  </g>
+  <text x="74" y="282" fill="#fff" font-family="Pretendard, Arial, sans-serif" font-size="74" font-weight="800" letter-spacing="-4">시험까지,</text>
+  <text x="74" y="374" fill="#FFD84D" font-family="Pretendard, Arial, sans-serif" font-size="82" font-weight="900" letter-spacing="-5">한 칸씩 전진!</text>
+  <text x="78" y="438" fill="#C9D5F0" font-family="Pretendard, Arial, sans-serif" font-size="28" font-weight="500">국어 · 영어 · 수학 · 과학을 짧은 카드 퀘스트로</text>
+  <g transform="translate(900 220) rotate(5)">
+    <rect width="210" height="250" rx="42" fill="#FFD84D"/>
+    <path d="M105 50v87c0 36-20 57-56 57" fill="none" stroke="#14213D" stroke-width="38" stroke-linecap="round"/>
+    <circle cx="164" cy="190" r="30" fill="#fff" stroke="#14213D" stroke-width="9"/>
+    <path d="M151 190l9 10 18-22" fill="none" stroke="#14213D" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,329 +1,118 @@
-const state = {
-  sets: [],
-  currentSet: null,
-  cards: [],
-  queue: [],
-  index: 0,
-  shuffled: true,
-};
+const state = { exams: [], subjects: [], indexes: new Map(), exam: null, selected: new Set(), cards: [], queue: [], index: 0, studyMode: 'all', studyOrder: 'shuffle', session: { correct: 0, hesitant: 0, wrong: 0 }, archiveOpen: false };
+const app = document.querySelector('#app');
+const dialog = document.querySelector('#installDialog');
+const subjectColors = { coral: '#ff8b81', blue: '#8db9ff', mint: '#78dfbf', violet: '#b7a4ff', amber: '#ffd36c', teal: '#70ddd7', pink: '#ffacd0' };
+const progressKey = 'jianstudy:progress:v2';
+const preferenceKey = 'jianstudy:preferences:v1';
 
-const $ = (id) => document.getElementById(id);
+const safe = (value) => String(value ?? '').replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[char]));
+const normalizeAnswer = (value) => String(value ?? '').normalize('NFKC').trim().toLowerCase().replace(/[\s·ㆍ.,!?"'“”‘’()[\]{}:;_-]/g, '');
+const shuffle = (items) => { const copy = [...items]; for (let i = copy.length - 1; i; i -= 1) { const j = Math.floor(Math.random() * (i + 1)); [copy[i], copy[j]] = [copy[j], copy[i]]; } return copy; };
+const subjectById = (id) => state.subjects.find((subject) => subject.id === id);
+const examIndex = (id) => state.indexes.get(id);
+const readJson = async (url) => { const response = await fetch(url, { cache: 'no-store' }); if (!response.ok) throw new Error(`${url} (${response.status})`); return response.json(); };
 
-const els = {
-  installCard: $('installCard'),
-  installButton: $('installButton'),
-  installGuide: $('installGuide'),
-  setupPanel: $('setupPanel'),
-  studyPanel: $('studyPanel'),
-  setSelect: $('setSelect'),
-  setMeta: $('setMeta'),
-  modeSelect: $('modeSelect'),
-  categorySelect: $('categorySelect'),
-  startBtn: $('startBtn'),
-  shuffleBtn: $('shuffleBtn'),
-  backBtn: $('backBtn'),
-  progressBar: $('progressBar'),
-  counter: $('counter'),
-  categoryBadge: $('categoryBadge'),
-  typeBadge: $('typeBadge'),
-  question: $('question'),
-  answerInput: $('answerInput'),
-  hintBox: $('hintBox'),
-  answerBox: $('answerBox'),
-  hintBtn: $('hintBtn'),
-  showAnswerBtn: $('showAnswerBtn'),
-  gradeActions: $('gradeActions'),
-  statCorrect: $('statCorrect'),
-  statHesitant: $('statHesitant'),
-  statWrong: $('statWrong'),
-  statNew: $('statNew'),
-  resetProgressBtn: $('resetProgressBtn'),
-};
-
-function storageKey(setId) {
-  return `study-card-progress:${setId}`;
+function getProgress() { try { return JSON.parse(localStorage.getItem(progressKey) || '{}'); } catch { return {}; } }
+function getPreferences() { try { return JSON.parse(localStorage.getItem(preferenceKey) || '{}'); } catch { return {}; } }
+function saveProgress(card, grade) {
+  const all = getProgress(); const key = `${card.setId}:${card.id}`; const old = all[key] || {};
+  all[key] = { setId: card.setId, cardId: card.id, subjectId: card.subjectId, examId: state.exam.id, grade, reviewedAt: new Date().toISOString(), count: (old.count || 0) + 1, correct: (old.correct || 0) + (grade === 'correct' ? 1 : 0), hesitant: (old.hesitant || 0) + (grade === 'hesitant' ? 1 : 0), wrong: (old.wrong || 0) + (grade === 'wrong' ? 1 : 0) };
+  localStorage.setItem(progressKey, JSON.stringify(all));
 }
-
-function getProgress() {
-  if (!state.currentSet) return {};
-  try {
-    return JSON.parse(localStorage.getItem(storageKey(state.currentSet.id)) || '{}');
-  } catch {
-    return {};
+function migrateProgress() {
+  if (localStorage.getItem('jianstudy:migrated:v2')) return;
+  const all = getProgress();
+  for (const set of ['history-mid2-1-final-2026', 'technology-mid2-1-final-2026', 'home-mid2-1-final-2026']) {
+    try { const old = JSON.parse(localStorage.getItem(`study-card-progress:${set}`) || '{}'); for (const [cardId, record] of Object.entries(old)) all[`${set}:${cardId}`] = { ...record, setId: set, cardId, examId: '2026-mid2-sem1-final' }; } catch { /* malformed old data is left untouched */ }
   }
+  localStorage.setItem(progressKey, JSON.stringify(all)); localStorage.setItem('jianstudy:migrated:v2', '1');
+}
+function savePreference() { const current = getPreferences(); const value = { ...current, lastExamId: state.exam?.id, selections: { ...(current.selections || {}), [state.exam?.id]: [...state.selected] } }; localStorage.setItem(preferenceKey, JSON.stringify(value)); }
+function setDocumentTitle(text) { document.title = text ? `${text} | JianStudy` : 'JianStudy | 나의 시험 원정대'; app.focus({ preventScroll: true }); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+
+function progressForExam(examId) { const valid = new Set((examIndex(examId)?.cardKeys || [])); const records = Object.values(getProgress()).filter((item) => item.examId === examId && valid.has(`${item.setId}:${item.cardId}`)); return new Set(records.map((item) => `${item.setId}:${item.cardId}`)).size; }
+function lastReviewedForExam(examId) { const valid = new Set((examIndex(examId)?.cardKeys || [])); const timestamps = Object.values(getProgress()).filter((item) => item.examId === examId && item.reviewedAt && valid.has(`${item.setId}:${item.cardId}`)).map((item) => Date.parse(item.reviewedAt)).filter(Number.isFinite); return timestamps.length ? new Intl.DateTimeFormat('ko-KR', { month: 'numeric', day: 'numeric' }).format(new Date(Math.max(...timestamps))) : null; }
+function cardCount(examId) { return (examIndex(examId)?.subjects || []).reduce((sum, item) => sum + (item.cardCount || 0), 0); }
+
+function missionMarkup(exam, number) {
+  const index = examIndex(exam.id); const total = cardCount(exam.id); const done = progressForExam(exam.id); const ready = index.subjects.filter((item) => item.setFiles.length).length; const recent = lastReviewedForExam(exam.id);
+  const detail = total ? `${ready}/${index.subjects.length}과목 준비 · 카드 ${total}장${recent ? ` · 최근 ${recent}` : ''}` : `${index.subjects.length}과목 · 시험 범위 자료 준비 중`;
+  return `<button class="mission ${exam.status === 'current' ? 'current' : ''}" data-action="open-exam" data-id="${exam.id}" style="--index:${number - 1}"><span class="mission-node">${String(number).padStart(2, '0')}</span><span class="mission-copy"><small>${safe(exam.label)}</small><strong>${safe(exam.title)}</strong><span>${detail}</span></span><span class="mission-status"><b>${total ? Math.round(done / total * 100) : 0}%</b><span>${total ? `${done}장 학습` : '준비 중'}</span><i class="mission-arrow">→</i></span></button>`;
+}
+function renderHome() {
+  state.exam = null; state.selected.clear(); const active = state.exams.filter((exam) => exam.status !== 'archived'); const archived = state.exams.filter((exam) => exam.status === 'archived');
+  app.innerHTML = `<section class="hero"><div><p class="eyebrow">STUDY QUEST · 2026—2027</p><h1>시험까지,<br><em>한 칸씩 전진!</em></h1></div><aside class="hero-note goal-note" aria-label="나의 목표 학교"><span>MY NEXT SCHOOL</span><strong>인천국제고등학교</strong><small>가슴으로 세계를, 지성으로 미래를</small></aside></section><section class="content-board"><div class="board-head"><div><h2>나의 시험 지도</h2><p>도착할 시험을 고르면 과목 퀘스트가 열려요.</p></div><span class="tiny-label">5 MISSIONS</span></div><div class="mission-map">${active.map((exam, i) => missionMarkup(exam, i + 1)).join('')}</div><button class="archive-toggle" data-action="toggle-archive">${state.archiveOpen ? '이전 시험 접기' : '이전 시험 카드 보기'} ${state.archiveOpen ? '↑' : '↓'}</button><div class="mission-map ${state.archiveOpen ? '' : 'hidden'}" style="margin-top:18px">${archived.map((exam, i) => missionMarkup(exam, i + 1)).join('')}</div></section>`;
+  setDocumentTitle();
 }
 
-function setProgress(cardId, grade) {
+async function openExam(id) {
+  state.exam = state.exams.find((exam) => exam.id === id); if (!state.exam) return;
+  const index = examIndex(id); const preferences = getPreferences(); const saved = preferences.selections?.[id] || [];
+  state.studyMode = ['all', 'new', 'weak', 'wrong'].includes(preferences.studyMode) ? preferences.studyMode : 'all'; state.studyOrder = ['shuffle', 'textbook'].includes(preferences.studyOrder) ? preferences.studyOrder : 'shuffle';
+  const readyIds = index.subjects.filter((item) => item.setFiles.length).map((item) => item.subjectId); state.selected = new Set(saved.filter((subjectId) => readyIds.includes(subjectId)));
+  renderExam();
+}
+function renderExam() {
+  const index = examIndex(state.exam.id); const total = [...state.selected].reduce((sum, id) => sum + (index.subjects.find((item) => item.subjectId === id)?.cardCount || 0), 0);
+  const readyIds = index.subjects.filter((item) => item.setFiles.length).map((item) => item.subjectId); const allSelected = readyIds.length > 0 && readyIds.every((id) => state.selected.has(id));
+  const subjects = index.subjects.map((entry) => { const subject = subjectById(entry.subjectId); const ready = entry.setFiles.length > 0; const selected = state.selected.has(entry.subjectId); return `<button class="subject-card ${selected ? 'selected' : ''}" data-action="toggle-subject" data-id="${subject.id}" ${ready ? `aria-pressed="${selected}"` : 'disabled'} style="--subject-color:${subjectColors[subject.color]}"><span class="subject-symbol">${safe(subject.symbol)}</span>${ready ? '<span class="check" aria-hidden="true"></span>' : ''}<strong>${safe(subject.name)}</strong><small>${ready ? `${entry.cardCount}장 준비 완료` : '시험 범위 자료 준비 중'}</small></button>`; }).join('');
+  app.innerHTML = `<section class="subpage"><button class="back-link" data-action="home">← 시험 지도로</button><div class="content-board"><div class="subpage-head"><div><p class="eyebrow" style="color:var(--blue)">${safe(state.exam.label)}</p><h1 class="view-title">${safe(state.exam.title)}</h1><p>오늘 공부할 과목을 골라 보세요. 여러 과목도 함께 할 수 있어요.</p></div><div class="subject-tools"><span class="tiny-label">${readyIds.length}/${index.subjects.length} READY</span>${readyIds.length > 1 ? `<button class="select-all" data-action="toggle-all">${allSelected ? '선택 해제' : '준비 과목 전체 선택'}</button>` : ''}</div></div><div class="subject-grid">${subjects}</div><div class="study-options"><label>복습 범위<select data-setting="studyMode"><option value="all" ${state.studyMode === 'all' ? 'selected' : ''}>전체 카드</option><option value="new" ${state.studyMode === 'new' ? 'selected' : ''}>새 카드</option><option value="weak" ${state.studyMode === 'weak' ? 'selected' : ''}>취약 카드</option><option value="wrong" ${state.studyMode === 'wrong' ? 'selected' : ''}>오답 카드</option></select></label><label>학습 순서<select data-setting="studyOrder"><option value="shuffle" ${state.studyOrder === 'shuffle' ? 'selected' : ''}>무작위</option><option value="textbook" ${state.studyOrder === 'textbook' ? 'selected' : ''}>교과서 순서</option></select></label></div><div class="selection-bar"><p><strong>${state.selected.size ? `${state.selected.size}과목 선택 · 카드 ${total}장` : readyIds.length ? '공부할 과목을 선택해요' : '아직 학습 카드가 없어요'}</strong><small>${state.selected.size ? '선택한 범위와 순서로 학습을 시작해요.' : readyIds.length ? '자료가 준비된 과목만 선택할 수 있어요.' : '시험 범위 자료를 추가하면 과목이 열려요.'}</small></p><button class="button primary" data-action="start" ${state.selected.size ? '' : 'disabled'}>퀘스트 시작 →</button></div></div></section>`;
+  setDocumentTitle(state.exam.title);
+}
+
+async function startStudy() {
+  const index = examIndex(state.exam.id); const entries = index.subjects.filter((entry) => state.selected.has(entry.subjectId)); state.cards = [];
+  for (const entry of entries) for (const file of entry.setFiles) { const set = await readJson(file); const categories = new Map(set.categories.map((category) => [category.id, category.name])); state.cards.push(...set.cards.map((card) => ({ ...card, setId: set.id, subjectId: entry.subjectId, categoryName: categories.get(card.categoryId) || card.category || '기타' }))); }
   const progress = getProgress();
-  progress[cardId] = {
-    grade,
-    reviewedAt: new Date().toISOString(),
-    count: (progress[cardId]?.count || 0) + 1,
-  };
-  localStorage.setItem(storageKey(state.currentSet.id), JSON.stringify(progress));
+  if (state.studyMode === 'new') state.cards = state.cards.filter((card) => !progress[`${card.setId}:${card.id}`]);
+  if (state.studyMode === 'weak') state.cards = state.cards.filter((card) => ['hesitant', 'wrong'].includes(progress[`${card.setId}:${card.id}`]?.grade));
+  if (state.studyMode === 'wrong') state.cards = state.cards.filter((card) => progress[`${card.setId}:${card.id}`]?.grade === 'wrong');
+  if (!state.cards.length) return renderEmpty();
+  state.queue = state.studyOrder === 'shuffle' ? shuffle(state.cards) : [...state.cards]; state.index = 0; state.session = { correct: 0, hesitant: 0, wrong: 0 }; savePreference(); renderStudy();
 }
-
-function shuffle(arr) {
-  const copy = [...arr];
-  for (let i = copy.length - 1; i > 0; i -= 1) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [copy[i], copy[j]] = [copy[j], copy[i]];
-  }
-  return copy;
+function renderStudy() {
+  const card = state.queue[state.index]; if (!card) return renderResult(); const subject = subjectById(card.subjectId); const progress = state.index / state.queue.length * 100;
+  app.innerHTML = `<section class="study-shell"><div class="study-top"><button class="back-link" data-action="back-exam">← 그만하기</button><div class="progress-track" role="progressbar" aria-label="학습 진행률" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${Math.round(progress)}"><div class="progress-fill" style="width:${progress}%"></div></div><span class="counter">${state.index + 1} / ${state.queue.length}</span></div><div class="study-grid"><article class="flashcard"><div class="card-badges"><span class="pill subject">${safe(subject.name)}</span><span class="pill">${safe(card.categoryName)}</span></div><p class="question" id="cardQuestion">${safe(card.front)}</p><div class="answer-entry"><label class="visually-hidden" for="answerInput">카드 정답</label><input id="answerInput" aria-describedby="cardQuestion" autocomplete="off" placeholder="내 답을 적어 보세요"><button class="button primary" data-action="answer">정답 확인</button></div><div id="hint" class="reveal hint hidden">힌트 · ${safe(card.hint || '힌트 없이 한번 생각해 봐요.')}</div><div id="answer" class="reveal hidden" aria-live="polite"></div><div class="card-actions"><button class="button" data-action="hint" aria-expanded="false" aria-controls="hint">힌트 보기</button></div><div id="grades" class="grade-grid hidden"><button data-action="grade" data-grade="correct">알고 있었어!</button><button data-action="grade" data-grade="hesitant">조금 헷갈려</button><button data-action="grade" data-grade="wrong">다시 볼래</button></div></article><aside class="side-panel"><h3>이번 퀘스트</h3><div class="stat-list"><div><span>알고 있어요</span><b>${state.session.correct}</b></div><div><span>헷갈렸어요</span><b>${state.session.hesitant}</b></div><div><span>다시 볼래요</span><b>${state.session.wrong}</b></div><div><span>남은 카드</span><b>${Math.max(0, state.queue.length - state.index)}</b></div></div></aside></div></section>`;
+  setDocumentTitle(`${subject.name} 카드`); setTimeout(() => document.querySelector('#answerInput')?.focus(), 50);
 }
-
-function normalize(text) {
-  return String(text || '')
-    .trim()
-    .replace(/\s+/g, '')
-    .replace(/[·ㆍ]/g, '')
-    .toLowerCase();
-}
-
-function typeLabel(type) {
-  return type === 'sequence' ? '순서' : type === 'relation' ? '원인·결과' : '빈칸';
-}
-
-async function loadSets() {
-  const res = await fetch('data/sets.json', { cache: 'no-store' });
-  state.sets = await res.json();
-  els.setSelect.innerHTML = state.sets
-    .map((set) => `<option value="${set.id}">${set.title}</option>`)
-    .join('');
-  await loadSelectedSet();
-}
-
-async function loadSelectedSet() {
-  const selected = state.sets.find((set) => set.id === els.setSelect.value) || state.sets[0];
-  if (!selected) return;
-  const res = await fetch(selected.file, { cache: 'no-store' });
-  state.currentSet = await res.json();
-  state.cards = state.currentSet.cards || [];
-
-  els.setMeta.innerHTML = `
-    <strong>${state.currentSet.grade} · ${state.currentSet.exam}</strong><br />
-    ${state.currentSet.description}<br />
-    <span>${state.cards.length}장 · ${state.currentSet.categories.length}개 단원</span>
-  `;
-
-  els.categorySelect.innerHTML = '<option value="all">전체 단원</option>' +
-    state.currentSet.categories.map((cat) => `<option value="${cat}">${cat}</option>`).join('');
-  updateStats();
-}
-
-function filteredCards() {
-  const progress = getProgress();
-  const mode = els.modeSelect.value;
-  const category = els.categorySelect.value;
-
-  return state.cards.filter((card) => {
-    const record = progress[card.id];
-    const categoryOk = category === 'all' || card.category === category;
-    if (!categoryOk) return false;
-    if (mode === 'new') return !record;
-    if (mode === 'wrong') return record?.grade === 'wrong';
-    if (mode === 'weak') return record?.grade === 'wrong' || record?.grade === 'hesitant';
-    return true;
-  });
-}
-
-function startStudy() {
-  const cards = filteredCards();
-  state.queue = state.shuffled ? shuffle(cards) : [...cards];
-  state.index = 0;
-  els.setupPanel.classList.add('hidden');
-  els.studyPanel.classList.remove('hidden');
-  if (!state.queue.length) {
-    els.question.textContent = '조건에 맞는 카드가 없어요. 다른 모드나 단원을 선택해 주세요.';
-    els.categoryBadge.textContent = '완료';
-    els.typeBadge.textContent = '카드 없음';
-    els.answerInput.disabled = true;
-    els.hintBtn.disabled = true;
-    els.showAnswerBtn.disabled = true;
-    els.gradeActions.classList.add('hidden');
-    updateTopbar();
-    return;
-  }
-  els.answerInput.disabled = false;
-  els.hintBtn.disabled = false;
-  els.showAnswerBtn.disabled = false;
-  renderCard();
-}
-
-function currentCard() {
-  return state.queue[state.index];
-}
-
-function renderCard() {
-  const card = currentCard();
-  if (!card) return finishQueue();
-
-  els.categoryBadge.textContent = card.category;
-  els.typeBadge.textContent = typeLabel(card.type);
-  els.question.textContent = card.front;
-  els.answerInput.value = '';
-  els.hintBox.textContent = card.hint || '힌트가 없어요.';
-  els.answerBox.innerHTML = '';
-  els.hintBox.classList.add('hidden');
-  els.answerBox.classList.add('hidden');
-  els.gradeActions.classList.add('hidden');
-  updateTopbar();
-  updateStats();
-  setTimeout(() => els.answerInput.focus(), 50);
-}
-
-function finishQueue() {
-  els.question.textContent = '이번 카드 묶음을 다 봤어요. 틀린 카드만 다시 보면 더 좋아요.';
-  els.categoryBadge.textContent = '완료';
-  els.typeBadge.textContent = '복습 끝';
-  els.answerInput.value = '';
-  els.answerInput.disabled = true;
-  els.hintBox.classList.add('hidden');
-  els.answerBox.classList.add('hidden');
-  els.gradeActions.classList.add('hidden');
-  els.hintBtn.disabled = true;
-  els.showAnswerBtn.disabled = true;
-  updateTopbar();
-  updateStats();
-}
-
-function showHint() {
-  els.hintBox.classList.toggle('hidden');
-}
-
 function showAnswer() {
-  const card = currentCard();
-  if (!card) return;
-  const mine = els.answerInput.value.trim();
-  const exact = normalize(mine) && normalize(mine) === normalize(card.answer);
-  els.answerBox.innerHTML = `정답: <strong>${card.answer}</strong>${mine ? `<br />내 답: ${mine}${exact ? ' <span class="auto-good">✓</span>' : ''}` : ''}`;
-  els.answerBox.classList.remove('hidden');
-  els.gradeActions.classList.remove('hidden');
+  const card = state.queue[state.index]; const input = document.querySelector('#answerInput'); const mine = input.value.trim();
+  const accepted = [card.answer, ...(card.acceptedAnswers || [])].map(normalizeAnswer); const isCorrect = Boolean(mine) && accepted.includes(normalizeAnswer(mine));
+  const answerBox = document.querySelector('#answer'); input.disabled = true; document.querySelector('[data-action="answer"]').disabled = true;
+  answerBox.innerHTML = isCorrect ? `정답이에요! <strong>${safe(card.answer)}</strong>` : `정답 · <strong>${safe(card.answer)}</strong>${mine ? `<br><small>내 답 · ${safe(mine)}</small>` : ''}`;
+  answerBox.classList.toggle('correct', isCorrect); answerBox.classList.remove('hidden');
+  if (isCorrect) grade('correct'); else document.querySelector('#grades').classList.remove('hidden');
 }
-
-function gradeCurrent(grade) {
-  const card = currentCard();
-  if (!card) return;
-  setProgress(card.id, grade);
-
-  if (grade === 'wrong') {
-    state.queue.splice(Math.min(state.index + 4, state.queue.length), 0, card);
-  } else if (grade === 'hesitant') {
-    state.queue.splice(Math.min(state.index + 8, state.queue.length), 0, card);
-  }
-
+function celebrateCorrect() {
+  const messages = ['좋아, 정확했어!', '한 칸 더 전진!', '기억에 제대로 남았어!', '멋져, 이건 완전히 내 것!'];
+  const celebration = document.createElement('div');
+  celebration.className = 'celebration'; celebration.setAttribute('role', 'status'); celebration.setAttribute('aria-live', 'polite');
+  celebration.innerHTML = `<div class="celebration-burst" aria-hidden="true">${Array.from({ length: 10 }, (_, index) => `<i style="--i:${index}"></i>`).join('')}</div><span>✓</span><strong>${messages[Math.floor(Math.random() * messages.length)]}</strong>`;
+  document.body.append(celebration); setTimeout(() => celebration.remove(), 720);
+}
+function grade(gradeValue) {
+  const card = state.queue[state.index]; saveProgress(card, gradeValue); state.session[gradeValue] += 1;
+  if (gradeValue === 'wrong') state.queue.splice(Math.min(state.index + 4, state.queue.length), 0, card);
+  if (gradeValue === 'hesitant') state.queue.splice(Math.min(state.index + 8, state.queue.length), 0, card);
   state.index += 1;
-  renderCard();
+  if (gradeValue === 'correct') { document.querySelectorAll('#grades button').forEach((button) => { button.disabled = true; }); celebrateCorrect(); setTimeout(renderStudy, 650); }
+  else renderStudy();
 }
+function renderEmpty() { const filtered = state.cards.length === 0 && state.studyMode !== 'all'; app.innerHTML = `<section class="subpage"><div class="empty-state"><span class="big-icon">!</span><h2>${filtered ? '조건에 맞는 카드가 없어요' : '카드를 준비하고 있어요'}</h2><p>${filtered ? '다른 복습 범위를 선택해서 다시 시작해 보세요.' : '시험 범위 자료가 들어오면 이 과목의 퀘스트가 열려요.<br>다른 시험이나 준비된 과목을 먼저 골라 보세요.'}</p><button class="button primary" data-action="back-exam">학습 설정으로</button></div></section>`; }
+function renderResult() { const first = state.session.correct + state.session.hesitant + state.session.wrong; app.innerHTML = `<section class="subpage"><div class="result"><span class="big-icon">★</span><p class="eyebrow" style="color:var(--blue)">QUEST COMPLETE</p><h2>오늘도 한 칸 전진!</h2><p>${first}번 생각하고 답했어요. 헷갈린 카드는 다음 퀘스트에서 다시 만나면 돼요.</p><div class="result-stats"><div><b>${state.session.correct}</b><span>알고 있어요</span></div><div><b>${state.session.hesitant}</b><span>헷갈려요</span></div><div><b>${state.session.wrong}</b><span>다시 볼래요</span></div></div><button class="button primary" data-action="restart">한 번 더 도전</button> <button class="button" data-action="home">시험 지도로</button></div></section>`; setDocumentTitle('퀘스트 완료'); }
 
-function updateTopbar() {
-  const total = state.queue.length || 0;
-  const current = total ? Math.min(state.index + 1, total) : 0;
-  els.counter.textContent = `${current} / ${total}`;
-  els.progressBar.style.width = total ? `${Math.min(100, (state.index / total) * 100)}%` : '0%';
-}
-
-function updateStats() {
-  const progress = getProgress();
-  let correct = 0, hesitant = 0, wrong = 0, fresh = 0;
-  for (const card of state.cards) {
-    const grade = progress[card.id]?.grade;
-    if (grade === 'correct') correct += 1;
-    else if (grade === 'hesitant') hesitant += 1;
-    else if (grade === 'wrong') wrong += 1;
-    else fresh += 1;
-  }
-  els.statCorrect.textContent = correct;
-  els.statHesitant.textContent = hesitant;
-  els.statWrong.textContent = wrong;
-  els.statNew.textContent = fresh;
-}
-
-function resetProgress() {
-  if (!state.currentSet) return;
-  if (confirm('이 세트의 맞음/틀림 기록을 모두 지울까요?')) {
-    localStorage.removeItem(storageKey(state.currentSet.id));
-    updateStats();
-    renderCard();
-  }
-}
-
-function goBack() {
-  els.studyPanel.classList.add('hidden');
-  els.setupPanel.classList.remove('hidden');
-  updateStats();
-}
-
-function isStandaloneApp() {
-  return window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
-}
-
-function hideInstallCard() {
-  els.installCard?.classList.add('hidden');
-}
-
-function setupInstallGuide() {
-  let installPrompt = null;
-
-  if (isStandaloneApp()) {
-    hideInstallCard();
-    return;
-  }
-
-  window.matchMedia('(display-mode: standalone)').addEventListener?.('change', (event) => {
-    if (event.matches) hideInstallCard();
-  });
-
-  window.addEventListener('appinstalled', hideInstallCard);
-
-  window.addEventListener('beforeinstallprompt', (event) => {
-    event.preventDefault();
-    installPrompt = event;
-    if (els.installButton) els.installButton.textContent = '웹앱 설치';
-  });
-
-  els.installButton?.addEventListener('click', async () => {
-    if (installPrompt) {
-      installPrompt.prompt();
-      const choice = await installPrompt.userChoice.catch(() => null);
-      installPrompt = null;
-      if (choice?.outcome === 'accepted') {
-        hideInstallCard();
-        return;
-      }
-      els.installButton.textContent = '설치 방법 보기';
-      return;
-    }
-    els.installGuide?.classList.toggle('hidden');
-  });
-}
-
-setupInstallGuide();
-
-els.setSelect.addEventListener('change', loadSelectedSet);
-els.startBtn.addEventListener('click', startStudy);
-els.shuffleBtn.addEventListener('click', () => {
-  state.shuffled = !state.shuffled;
-  els.shuffleBtn.textContent = state.shuffled ? '섞기 켜짐' : '순서대로';
+app.addEventListener('click', (event) => {
+  const target = event.target.closest('[data-action]'); if (!target) return; const action = target.dataset.action;
+  if (action === 'home') renderHome(); else if (action === 'open-exam') openExam(target.dataset.id); else if (action === 'toggle-archive') { state.archiveOpen = !state.archiveOpen; renderHome(); } else if (action === 'toggle-subject') { state.selected.has(target.dataset.id) ? state.selected.delete(target.dataset.id) : state.selected.add(target.dataset.id); savePreference(); renderExam(); } else if (action === 'toggle-all') { const readyIds = examIndex(state.exam.id).subjects.filter((item) => item.setFiles.length).map((item) => item.subjectId); const allSelected = readyIds.every((id) => state.selected.has(id)); state.selected = new Set(allSelected ? [] : readyIds); savePreference(); renderExam(); } else if (action === 'start' || action === 'restart') startStudy(); else if (action === 'back-exam') renderExam(); else if (action === 'answer') showAnswer(); else if (action === 'hint') { const hint = document.querySelector('#hint'); hint?.classList.toggle('hidden'); target.setAttribute('aria-expanded', String(!hint?.classList.contains('hidden'))); target.textContent = hint?.classList.contains('hidden') ? '힌트 보기' : '힌트 접기'; } else if (action === 'grade') grade(target.dataset.grade);
 });
-els.backBtn.addEventListener('click', goBack);
-els.hintBtn.addEventListener('click', showHint);
-els.showAnswerBtn.addEventListener('click', showAnswer);
-els.answerInput.addEventListener('keydown', (event) => {
-  if (event.key === 'Enter') showAnswer();
-});
-els.gradeActions.addEventListener('click', (event) => {
-  const button = event.target.closest('button[data-grade]');
-  if (button) gradeCurrent(button.dataset.grade);
-});
-els.resetProgressBtn.addEventListener('click', resetProgress);
+document.addEventListener('click', (event) => { const target = event.target.closest('[data-action]'); const action = target?.dataset.action; if (action === 'home' && !target.closest('#app')) renderHome(); if (action === 'install') dialog.showModal(); if (action === 'close-install') dialog.close(); });
+app.addEventListener('change', (event) => { const setting = event.target.dataset.setting; if (!setting) return; state[setting] = event.target.value; const current = getPreferences(); localStorage.setItem(preferenceKey, JSON.stringify({ ...current, [setting]: event.target.value })); });
+document.addEventListener('keydown', (event) => { if (event.key === 'Enter' && document.activeElement?.id === 'answerInput') showAnswer(); });
 
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('sw.js').catch(() => {});
-  });
+async function init() {
+  migrateProgress(); [state.exams, state.subjects] = await Promise.all([readJson('data/catalog/exams.json'), readJson('data/catalog/subjects.json')]);
+  const indexes = await Promise.all(state.exams.map((exam) => readJson(exam.indexFile))); for (const index of indexes) { index.cardKeys = []; for (const entry of index.subjects) { entry.cardCount = 0; for (const file of entry.setFiles) { const set = await readJson(file); entry.cardCount += set.cards.length; index.cardKeys.push(...set.cards.map((card) => `${set.id}:${card.id}`)); } } state.indexes.set(index.examId, index); }
+  renderHome();
+  if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
 }
-
-loadSets().catch((error) => {
-  els.setMeta.textContent = `카드 데이터를 불러오지 못했어요: ${error.message}`;
-});
+init().catch((error) => { app.innerHTML = `<div class="empty-state"><span class="big-icon">!</span><h2>앱을 열지 못했어요</h2><p>${safe(error.message)}<br>인터넷 연결을 확인하고 새로고침해 주세요.</p><button class="button primary" onclick="location.reload()">다시 열기</button></div>`; });

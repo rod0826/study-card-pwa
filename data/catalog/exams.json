@@ -1,0 +1,74 @@
+[
+  {
+    "id": "2026-mid2-sem2-midterm",
+    "schoolYear": 2026,
+    "grade": 2,
+    "semester": 2,
+    "kind": "midterm",
+    "title": "2학년 2학기 중간",
+    "label": "NEXT MISSION",
+    "status": "current",
+    "subjectIds": ["korean", "science"],
+    "indexFile": "data/exams/2026-mid2-sem2-midterm/index.json"
+  },
+  {
+    "id": "2026-mid2-sem2-final",
+    "schoolYear": 2026,
+    "grade": 2,
+    "semester": 2,
+    "kind": "final",
+    "title": "2학년 2학기 기말",
+    "label": "MISSION 02",
+    "status": "upcoming",
+    "subjectIds": ["korean", "english", "math", "science"],
+    "indexFile": "data/exams/2026-mid2-sem2-final/index.json"
+  },
+  {
+    "id": "2027-mid3-sem1-midterm",
+    "schoolYear": 2027,
+    "grade": 3,
+    "semester": 1,
+    "kind": "midterm",
+    "title": "3학년 1학기 중간",
+    "label": "MISSION 03",
+    "status": "upcoming",
+    "subjectIds": ["korean", "english", "math", "science"],
+    "indexFile": "data/exams/2027-mid3-sem1-midterm/index.json"
+  },
+  {
+    "id": "2027-mid3-sem1-final",
+    "schoolYear": 2027,
+    "grade": 3,
+    "semester": 1,
+    "kind": "final",
+    "title": "3학년 1학기 기말",
+    "label": "MISSION 04",
+    "status": "upcoming",
+    "subjectIds": ["korean", "english", "math", "science"],
+    "indexFile": "data/exams/2027-mid3-sem1-final/index.json"
+  },
+  {
+    "id": "2027-mid3-sem2-integrated",
+    "schoolYear": 2027,
+    "grade": 3,
+    "semester": 2,
+    "kind": "integrated",
+    "title": "3학년 2학기 통합",
+    "label": "FINAL MISSION",
+    "status": "upcoming",
+    "subjectIds": ["korean", "english", "math", "science"],
+    "indexFile": "data/exams/2027-mid3-sem2-integrated/index.json"
+  },
+  {
+    "id": "2026-mid2-sem1-final",
+    "schoolYear": 2026,
+    "grade": 2,
+    "semester": 1,
+    "kind": "final",
+    "title": "2학년 1학기 기말",
+    "label": "PAST MISSION",
+    "status": "archived",
+    "subjectIds": ["history", "technology", "home"],
+    "indexFile": "data/exams/2026-mid2-sem1-final/index.json"
+  }
+]

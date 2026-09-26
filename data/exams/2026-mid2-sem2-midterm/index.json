@@ -1,0 +1,17 @@
+{
+  "examId": "2026-mid2-sem2-midterm",
+  "subjects": [
+    {
+      "subjectId": "korean",
+      "status": "empty",
+      "setFiles": []
+    },
+    {
+      "subjectId": "science",
+      "status": "reviewed",
+      "setFiles": [
+        "data/exams/2026-mid2-sem2-midterm/science/core.json"
+      ]
+    }
+  ]
+}
