@@ -1,5 +1,5 @@
 self.JIANSTUDY_ASSET_MANIFEST = {
-  "version": "90b640c4fddc",
+  "version": "d4d649ada8f3",
   "assets": [
     "./",
     "./asset-manifest.js",
