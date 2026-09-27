@@ -1,0 +1,2025 @@
+{
+  "schemaVersion": 2,
+  "id": "korean-mid2-2-midterm-2026",
+  "examId": "2026-mid2-sem2-midterm",
+  "subjectId": "korean",
+  "title": "중 2-2 중간 국어 · 스캔 학습지",
+  "source": "2026-09-27 제공한 국어 학습지 스캔 10장",
+  "sourceRefs": [
+    "IMG_3470",
+    "IMG_3471",
+    "IMG_3472",
+    "IMG_3473",
+    "IMG_3474",
+    "IMG_3475",
+    "IMG_3476",
+    "IMG_3477",
+    "IMG_3478",
+    "IMG_3479"
+  ],
+  "description": "문학의 사회·문화적 상황, 수난이대, 읽기 과정과 월드컵 글, 갈등 조정, 시조 추가 학습을 스캔 10장에 맞춰 구성했습니다.",
+  "categories": [
+    {
+      "id": "literary-context",
+      "name": "문학 작품과 사회·문화적 상황",
+      "order": 0
+    },
+    {
+      "id": "sunan-overview",
+      "name": "「수난이대」의 구성과 배경",
+      "order": 10
+    },
+    {
+      "id": "sunan-meaning",
+      "name": "「수난이대」의 인물과 소재",
+      "order": 20
+    },
+    {
+      "id": "reading",
+      "name": "똑똑하게 글 읽기",
+      "order": 30
+    },
+    {
+      "id": "worldcup-article",
+      "name": "「세계사를 바꾼 월드컵」의 글 구조",
+      "order": 40
+    },
+    {
+      "id": "worldcup-history",
+      "name": "월드컵의 확대와 의미",
+      "order": 50
+    },
+    {
+      "id": "conflict",
+      "name": "진솔하게 표현하며 갈등 조정하기",
+      "order": 60
+    },
+    {
+      "id": "conflict-expression",
+      "name": "갈등을 악화시키는 표현",
+      "order": 70
+    },
+    {
+      "id": "sijo-a",
+      "name": "원천석의 시조",
+      "order": 80
+    },
+    {
+      "id": "sijo-b",
+      "name": "성삼문의 시조",
+      "order": 90
+    },
+    {
+      "id": "sijo-c",
+      "name": "이개의 시조",
+      "order": 100
+    },
+    {
+      "id": "sijo-d",
+      "name": "원호의 시조와 역사적 배경",
+      "order": 110
+    }
+  ],
+  "cards": [
+    {
+      "id": "kor001",
+      "type": "qa",
+      "front": "문학 작품에 반영되는 시대의 생각·제도·관습·생활상 등을 무엇이라 하는가?",
+      "answer": "사회·문화적 상황",
+      "hint": "작품이 만들어진 시대를 살펴봐요.",
+      "categoryId": "literary-context",
+      "sourceRef": "IMG_3470",
+      "sourceLocation": "문학 작품과 사회·문화적 상황"
+    },
+    {
+      "id": "kor002",
+      "type": "qa",
+      "front": "문학 작품의 사회·문화적 상황은 작품의 무엇을 드러내는 데 중요한가?",
+      "answer": "주제",
+      "hint": "작품이 만들어진 시대를 살펴봐요.",
+      "categoryId": "literary-context",
+      "sourceRef": "IMG_3470",
+      "sourceLocation": "문학 작품과 사회·문화적 상황"
+    },
+    {
+      "id": "kor003",
+      "type": "qa",
+      "front": "문학 작품의 사회·문화적 상황은 작가의 무엇을 드러내는 데 중요한가?",
+      "answer": "창작 의도",
+      "hint": "작품이 만들어진 시대를 살펴봐요.",
+      "categoryId": "literary-context",
+      "sourceRef": "IMG_3470",
+      "sourceLocation": "문학 작품과 사회·문화적 상황"
+    },
+    {
+      "id": "kor004",
+      "type": "qa",
+      "front": "작품의 사회·문화적 상황을 파악하려면 작품의 어떤 배경을 확인할 수 있는가?",
+      "answer": "시간적 배경",
+      "hint": "작품이 만들어진 시대를 살펴봐요.",
+      "categoryId": "literary-context",
+      "sourceRef": "IMG_3470",
+      "sourceLocation": "문학 작품과 사회·문화적 상황"
+    },
+    {
+      "id": "kor005",
+      "type": "qa",
+      "front": "시간적 배경과 함께 작품의 시대를 파악하는 단서는?",
+      "answer": "창작 시기",
+      "hint": "작품이 만들어진 시대를 살펴봐요.",
+      "categoryId": "literary-context",
+      "sourceRef": "IMG_3470",
+      "sourceLocation": "문학 작품과 사회·문화적 상황"
+    },
+    {
+      "id": "kor006",
+      "type": "qa",
+      "front": "작품 속 주요 소재가 무엇에 쓰였는지 조사하면 사회·문화적 상황을 알 수 있는가?",
+      "answer": "그 소재가 쓰였던 시대",
+      "hint": "작품이 만들어진 시대를 살펴봐요.",
+      "categoryId": "literary-context",
+      "sourceRef": "IMG_3470",
+      "sourceLocation": "문학 작품과 사회·문화적 상황"
+    },
+    {
+      "id": "kor007",
+      "type": "qa",
+      "front": "인물의 대화에서 사회·문화적 상황을 알 수 있는 단서 중 하나는?",
+      "answer": "대화에 쓰인 단어",
+      "hint": "작품이 만들어진 시대를 살펴봐요.",
+      "categoryId": "literary-context",
+      "sourceRef": "IMG_3470",
+      "sourceLocation": "문학 작품과 사회·문화적 상황"
+    },
+    {
+      "id": "kor008",
+      "type": "qa",
+      "front": "인물의 행동과 관계 외에 사회·문화적 상황을 파악할 때 살펴볼 것은?",
+      "answer": "작품 속 사건",
+      "hint": "작품이 만들어진 시대를 살펴봐요.",
+      "categoryId": "literary-context",
+      "sourceRef": "IMG_3470",
+      "sourceLocation": "문학 작품과 사회·문화적 상황"
+    },
+    {
+      "id": "kor009",
+      "type": "qa",
+      "front": "사회·문화적 상황을 바탕으로 감상할 때, 그 상황이 누구의 행동이나 생각에 미친 영향을 파악하는가?",
+      "answer": "등장인물",
+      "hint": "작품이 만들어진 시대를 살펴봐요.",
+      "categoryId": "literary-context",
+      "sourceRef": "IMG_3470",
+      "sourceLocation": "문학 작품과 사회·문화적 상황"
+    },
+    {
+      "id": "kor010",
+      "type": "qa",
+      "front": "과거와 현재의 사회·문화적 상황을 비교할 때 정리하는 것은?",
+      "answer": "차이",
+      "hint": "작품이 만들어진 시대를 살펴봐요.",
+      "categoryId": "literary-context",
+      "sourceRef": "IMG_3470",
+      "sourceLocation": "문학 작품과 사회·문화적 상황"
+    },
+    {
+      "id": "kor011",
+      "type": "qa",
+      "front": "현재의 관점에서 작품의 무엇을 다시 살펴볼 수 있는가?",
+      "answer": "주제와 의미",
+      "hint": "작품이 만들어진 시대를 살펴봐요.",
+      "categoryId": "literary-context",
+      "sourceRef": "IMG_3470",
+      "sourceLocation": "문학 작품과 사회·문화적 상황"
+    },
+    {
+      "id": "kor012",
+      "type": "qa",
+      "front": "「수난이대」의 갈래는?",
+      "answer": "현대 소설",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor013",
+      "type": "qa",
+      "front": "「수난이대」의 길이에 따른 갈래는?",
+      "answer": "단편 소설",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor014",
+      "type": "qa",
+      "front": "「수난이대」는 전쟁 이후의 상처를 다루는 어떤 소설인가?",
+      "answer": "전후 소설",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor015",
+      "type": "qa",
+      "front": "「수난이대」의 시간적 배경은 언제부터 언제까지인가?",
+      "answer": "일제 강점기부터 한국 전쟁 직후까지",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor016",
+      "type": "qa",
+      "front": "「수난이대」의 국내 공간적 배경은?",
+      "answer": "경상도 어느 마을",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor017",
+      "type": "qa",
+      "front": "「수난이대」에서 만도가 징용으로 끌려갔던 해외 공간은?",
+      "answer": "남양 군도의 어느 섬",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor018",
+      "type": "qa",
+      "front": "「수난이대」에 혼용된 두 시점 중 하나는?",
+      "answer": "전지적 작가 시점",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor019",
+      "type": "qa",
+      "front": "「수난이대」에 혼용된 두 시점 중 다른 하나는?",
+      "answer": "3인칭 관찰자 시점",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor020",
+      "type": "qa",
+      "front": "「수난이대」의 제재는 전쟁과 무엇인가?",
+      "answer": "전쟁의 상처",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor021",
+      "type": "qa",
+      "front": "「수난이대」의 주제는 우리 민족의 수난과 무엇인가?",
+      "answer": "이를 극복하려는 의지",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor022",
+      "type": "qa",
+      "front": "「수난이대」에서 현재와 과거를 교차해 보여 주는 구성은?",
+      "answer": "역순행 구성",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor023",
+      "type": "qa",
+      "front": "「수난이대」에서 사투리와 비속어를 쓰는 효과 중 하나는?",
+      "answer": "사실감과 현장감을 높인다",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor024",
+      "type": "qa",
+      "front": "「수난이대」에서 사투리와 비속어는 무엇을 보여 주는가?",
+      "answer": "등장인물의 성격",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor025",
+      "type": "qa",
+      "front": "「수난이대」에서 몇 대에 걸친 비극으로 민족의 수난사를 드러내는가?",
+      "answer": "2대",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor026",
+      "type": "qa",
+      "front": "진수가 돌아온다는 소식에 만도가 마중 나간 곳은?",
+      "answer": "정거장",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor027",
+      "type": "qa",
+      "front": "진수를 기다리며 만도가 떠올린 과거 사건은?",
+      "answer": "징용으로 한쪽 팔을 잃은 일",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor028",
+      "type": "qa",
+      "front": "진수가 전쟁에서 잃고 돌아온 신체 부위는?",
+      "answer": "한쪽 다리",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor029",
+      "type": "qa",
+      "front": "만도가 진수의 사연을 듣고 한 일은?",
+      "answer": "아들을 위로했다",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor030",
+      "type": "qa",
+      "front": "만도와 진수가 힘을 합쳐 건넌 것은?",
+      "answer": "외나무다리",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor031",
+      "type": "qa",
+      "front": "결말에서 만도 부자를 내려다보는 것은?",
+      "answer": "용머리재",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor032",
+      "type": "qa",
+      "front": "만도가 징용에 끌려간 시대는?",
+      "answer": "일제 강점기",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor033",
+      "type": "qa",
+      "front": "만도가 징용으로 끌려가 한 일은?",
+      "answer": "강제 노동",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor034",
+      "type": "qa",
+      "front": "만도가 징용 중 한쪽 팔을 잃은 계기가 된 전쟁 상황은?",
+      "answer": "비행기 폭격",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor035",
+      "type": "qa",
+      "front": "진수가 참전한 전쟁은?",
+      "answer": "한국 전쟁",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor036",
+      "type": "qa",
+      "front": "한국 전쟁에 참전했다 다친 채 돌아온 진수와 같은 사람을 무엇이라 하는가?",
+      "answer": "상이 군인",
+      "hint": "작품 개관과 사건 순서를 떠올려요.",
+      "categoryId": "sunan-overview",
+      "sourceRef": "IMG_3471",
+      "sourceLocation": "「수난이대」의 구성과 배경"
+    },
+    {
+      "id": "kor037",
+      "type": "qa",
+      "front": "외나무다리에서 굴러떨어졌던 일을 떠올리며 웃는 인물은?",
+      "answer": "만도",
+      "hint": "인물의 태도와 소재의 뜻을 구별해요.",
+      "categoryId": "sunan-meaning",
+      "sourceRef": "IMG_3472",
+      "sourceLocation": "「수난이대」의 인물과 소재"
+    },
+    {
+      "id": "kor038",
+      "type": "qa",
+      "front": "만도가 어려운 상황을 받아들이는 태도는?",
+      "answer": "긍정적이고 낙천적이다",
+      "hint": "인물의 태도와 소재의 뜻을 구별해요.",
+      "categoryId": "sunan-meaning",
+      "sourceRef": "IMG_3472",
+      "sourceLocation": "「수난이대」의 인물과 소재"
+    },
+    {
+      "id": "kor039",
+      "type": "qa",
+      "front": "만도가 아들에게 제시한 것은?",
+      "answer": "살아갈 방도",
+      "hint": "인물의 태도와 소재의 뜻을 구별해요.",
+      "categoryId": "sunan-meaning",
+      "sourceRef": "IMG_3472",
+      "sourceLocation": "「수난이대」의 인물과 소재"
+    },
+    {
+      "id": "kor040",
+      "type": "qa",
+      "front": "다리를 잃은 뒤 자신감을 잃고 앞날을 막막하게 여긴 인물은?",
+      "answer": "진수",
+      "hint": "인물의 태도와 소재의 뜻을 구별해요.",
+      "categoryId": "sunan-meaning",
+      "sourceRef": "IMG_3472",
+      "sourceLocation": "「수난이대」의 인물과 소재"
+    },
+    {
+      "id": "kor041",
+      "type": "qa",
+      "front": "진수가 아버지의 말을 받아들이는 모습이 보여 주는 것은?",
+      "answer": "자신의 처지를 수용함",
+      "hint": "인물의 태도와 소재의 뜻을 구별해요.",
+      "categoryId": "sunan-meaning",
+      "sourceRef": "IMG_3472",
+      "sourceLocation": "「수난이대」의 인물과 소재"
+    },
+    {
+      "id": "kor042",
+      "type": "qa",
+      "front": "「수난이대」에서 진수에 대한 만도의 사랑을 나타내는 음식 중 하나는?",
+      "answer": "고등어",
+      "hint": "인물의 태도와 소재의 뜻을 구별해요.",
+      "categoryId": "sunan-meaning",
+      "sourceRef": "IMG_3472",
+      "sourceLocation": "「수난이대」의 인물과 소재"
+    },
+    {
+      "id": "kor043",
+      "type": "qa",
+      "front": "고등어가 부각하는 만도의 신체적 처지는?",
+      "answer": "한쪽 팔밖에 없다",
+      "hint": "인물의 태도와 소재의 뜻을 구별해요.",
+      "categoryId": "sunan-meaning",
+      "sourceRef": "IMG_3472",
+      "sourceLocation": "「수난이대」의 인물과 소재"
+    },
+    {
+      "id": "kor044",
+      "type": "qa",
+      "front": "고등어는 만도 부자에게 어떤 계기를 마련하는가?",
+      "answer": "협력하는 계기",
+      "hint": "인물의 태도와 소재의 뜻을 구별해요.",
+      "categoryId": "sunan-meaning",
+      "sourceRef": "IMG_3472",
+      "sourceLocation": "「수난이대」의 인물과 소재"
+    },
+    {
+      "id": "kor045",
+      "type": "qa",
+      "front": "만도의 과거 회상을 일으키는 공간은?",
+      "answer": "정거장 대합실",
+      "hint": "인물의 태도와 소재의 뜻을 구별해요.",
+      "categoryId": "sunan-meaning",
+      "sourceRef": "IMG_3472",
+      "sourceLocation": "「수난이대」의 인물과 소재"
+    },
+    {
+      "id": "kor046",
+      "type": "qa",
+      "front": "만도에게 마음의 위안을 주고 부자 사이 갈등이 누그러지는 공간은?",
+      "answer": "주막",
+      "hint": "인물의 태도와 소재의 뜻을 구별해요.",
+      "categoryId": "sunan-meaning",
+      "sourceRef": "IMG_3472",
+      "sourceLocation": "「수난이대」의 인물과 소재"
+    },
+    {
+      "id": "kor047",
+      "type": "qa",
+      "front": "진수에 대한 만도의 사랑을 보여 주는 주막 음식은?",
+      "answer": "국수",
+      "hint": "인물의 태도와 소재의 뜻을 구별해요.",
+      "categoryId": "sunan-meaning",
+      "sourceRef": "IMG_3472",
+      "sourceLocation": "「수난이대」의 인물과 소재"
+    },
+    {
+      "id": "kor048",
+      "type": "qa",
+      "front": "외나무다리는 만도 부자에게 닥친 무엇을 상징하는가?",
+      "answer": "시련",
+      "hint": "인물의 태도와 소재의 뜻을 구별해요.",
+      "categoryId": "sunan-meaning",
+      "sourceRef": "IMG_3472",
+      "sourceLocation": "「수난이대」의 인물과 소재"
+    },
+    {
+      "id": "kor049",
+      "type": "qa",
+      "front": "외나무다리를 함께 건너는 행위는 무엇을 통한 수난 극복을 보여 주는가?",
+      "answer": "화합과 협동",
+      "hint": "인물의 태도와 소재의 뜻을 구별해요.",
+      "categoryId": "sunan-meaning",
+      "sourceRef": "IMG_3472",
+      "sourceLocation": "「수난이대」의 인물과 소재"
+    },
+    {
+      "id": "kor050",
+      "type": "qa",
+      "front": "용머리재가 상징하는 것은 부자가 앞으로 넘어야 할 무엇인가?",
+      "answer": "시련과 고난",
+      "hint": "인물의 태도와 소재의 뜻을 구별해요.",
+      "categoryId": "sunan-meaning",
+      "sourceRef": "IMG_3472",
+      "sourceLocation": "「수난이대」의 인물과 소재"
+    },
+    {
+      "id": "kor051",
+      "type": "qa",
+      "front": "부자의 수난과 극복을 지켜보며 응원하려는 작가의 감정이 투영된 소재는?",
+      "answer": "용머리재",
+      "hint": "인물의 태도와 소재의 뜻을 구별해요.",
+      "categoryId": "sunan-meaning",
+      "sourceRef": "IMG_3472",
+      "sourceLocation": "「수난이대」의 인물과 소재"
+    },
+    {
+      "id": "kor052",
+      "type": "qa",
+      "front": "「수난이대」의 창작 의도와 관련한 두 역사적 상황 중 만도의 시대는?",
+      "answer": "일제 강점기",
+      "hint": "인물의 태도와 소재의 뜻을 구별해요.",
+      "categoryId": "sunan-meaning",
+      "sourceRef": "IMG_3472",
+      "sourceLocation": "「수난이대」의 인물과 소재"
+    },
+    {
+      "id": "kor053",
+      "type": "qa",
+      "front": "「수난이대」의 창작 의도와 관련한 두 역사적 상황 중 진수의 시대는?",
+      "answer": "한국 전쟁",
+      "hint": "인물의 태도와 소재의 뜻을 구별해요.",
+      "categoryId": "sunan-meaning",
+      "sourceRef": "IMG_3472",
+      "sourceLocation": "「수난이대」의 인물과 소재"
+    },
+    {
+      "id": "kor054",
+      "type": "qa",
+      "front": "「수난이대」가 창작 당시 독자에게 전한 것은?",
+      "answer": "수난을 함께 극복할 수 있다는 희망과 용기",
+      "hint": "인물의 태도와 소재의 뜻을 구별해요.",
+      "categoryId": "sunan-meaning",
+      "sourceRef": "IMG_3472",
+      "sourceLocation": "「수난이대」의 인물과 소재"
+    },
+    {
+      "id": "kor055",
+      "type": "qa",
+      "front": "「수난이대」가 오늘날 세대 갈등에 관해 주는 깨달음은?",
+      "answer": "서로 돕고 협력하면 극복할 수 있다",
+      "hint": "인물의 태도와 소재의 뜻을 구별해요.",
+      "categoryId": "sunan-meaning",
+      "sourceRef": "IMG_3472",
+      "sourceLocation": "「수난이대」의 인물과 소재"
+    },
+    {
+      "id": "kor056",
+      "type": "qa",
+      "front": "읽을 글을 고를 때 자신의 독서 상황과 함께 고려할 것은?",
+      "answer": "독서 수준",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor057",
+      "type": "qa",
+      "front": "독서 상황에 속하는 요소로 글을 읽으려는 까닭은?",
+      "answer": "독서 목적",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor058",
+      "type": "qa",
+      "front": "독서 상황에 속하는 시간 관련 요소는?",
+      "answer": "독서 시기나 시간",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor059",
+      "type": "qa",
+      "front": "독서 상황에 속하는 장소 관련 요소는?",
+      "answer": "독서 공간",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor060",
+      "type": "qa",
+      "front": "독서 상황에 속하는 읽는 법 관련 요소는?",
+      "answer": "독서 방식이나 방법",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor061",
+      "type": "qa",
+      "front": "독서 수준에 속하는 글 내용에 대한 마음은?",
+      "answer": "관심이나 흥미",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor062",
+      "type": "qa",
+      "front": "독서 수준에 속하는 이미 알고 있는 지식은?",
+      "answer": "배경지식",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor063",
+      "type": "qa",
+      "front": "독서 수준을 판단할 때 살펴볼 글 내용의 두 측면은?",
+      "answer": "범위와 깊이",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor064",
+      "type": "qa",
+      "front": "독서 수준을 판단할 때 살펴볼 표현의 난도는?",
+      "answer": "단어와 문장의 수준",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor065",
+      "type": "qa",
+      "front": "읽기 전에 먼저 확인할 것은?",
+      "answer": "글을 읽는 목적",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor066",
+      "type": "qa",
+      "front": "읽기 전에 필요한 내용을 찾으려면 무엇을 살펴보는가?",
+      "answer": "차례",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor067",
+      "type": "qa",
+      "front": "읽기 전에 제목과 소제목을 살펴보는 까닭은?",
+      "answer": "글의 내용을 예측하기 위해",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor068",
+      "type": "qa",
+      "front": "읽는 중에 읽기 전 예측에 대해 할 일은?",
+      "answer": "예측이 맞는지 확인한다",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor069",
+      "type": "qa",
+      "front": "읽는 중에 앞으로 전개될 내용에 대해 할 일은?",
+      "answer": "예측한다",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor070",
+      "type": "qa",
+      "front": "읽는 중에 중요한 내용은 어떻게 남길 수 있는가?",
+      "answer": "메모하거나 표시한다",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor071",
+      "type": "qa",
+      "front": "읽는 중에 모르는 단어를 발견하면 어떻게 하는가?",
+      "answer": "뜻을 찾아본다",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor072",
+      "type": "qa",
+      "front": "읽는 중에 글 내용과 관련하여 스스로 할 수 있는 활동은?",
+      "answer": "질문하고 답을 찾는다",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor073",
+      "type": "qa",
+      "front": "읽는 중에 자신의 생각과 비교할 대상은?",
+      "answer": "글의 내용",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor074",
+      "type": "qa",
+      "front": "읽는 중에 문단마다 파악할 것은?",
+      "answer": "중심 내용",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor075",
+      "type": "qa",
+      "front": "읽은 후 목적에 맞게 정리할 것은?",
+      "answer": "필요한 내용",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor076",
+      "type": "qa",
+      "front": "읽은 후 글 전체에서 정리할 것은?",
+      "answer": "주제나 주요 내용",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor077",
+      "type": "qa",
+      "front": "읽은 후 관심이 남는 내용에 대해 할 일은?",
+      "answer": "더 찾아본다",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor078",
+      "type": "qa",
+      "front": "읽은 후 자신의 읽기 활동에 대해 할 일은?",
+      "answer": "점검한다",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor079",
+      "type": "qa",
+      "front": "읽기 과정을 점검하고 조정하면 내용 이해는 어떻게 되는가?",
+      "answer": "깊어진다",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor080",
+      "type": "qa",
+      "front": "읽기 과정을 점검하고 조정하면 기억에는 어떤 효과가 있는가?",
+      "answer": "오래 기억할 수 있다",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor081",
+      "type": "qa",
+      "front": "읽기를 효율적으로 하면 읽기 자체에 무엇을 느낄 수 있는가?",
+      "answer": "재미",
+      "hint": "독서 상황·수준과 읽기 단계를 구별해요.",
+      "categoryId": "reading",
+      "sourceRef": "IMG_3473",
+      "sourceLocation": "똑똑하게 글 읽기"
+    },
+    {
+      "id": "kor082",
+      "type": "qa",
+      "front": "「세계사를 바꾼 월드컵」의 갈래는?",
+      "answer": "중수필",
+      "hint": "제재 개관과 연표를 떠올려요.",
+      "categoryId": "worldcup-article",
+      "sourceRef": "IMG_3474",
+      "sourceLocation": "「세계사를 바꾼 월드컵」의 글 구조"
+    },
+    {
+      "id": "kor083",
+      "type": "qa",
+      "front": "「세계사를 바꾼 월드컵」의 제재는?",
+      "answer": "월드컵",
+      "hint": "제재 개관과 연표를 떠올려요.",
+      "categoryId": "worldcup-article",
+      "sourceRef": "IMG_3474",
+      "sourceLocation": "「세계사를 바꾼 월드컵」의 글 구조"
+    },
+    {
+      "id": "kor084",
+      "type": "qa",
+      "front": "「세계사를 바꾼 월드컵」의 주제는 월드컵의 유래·역사와 무엇인가?",
+      "answer": "최초의 진정한 월드컵",
+      "hint": "제재 개관과 연표를 떠올려요.",
+      "categoryId": "worldcup-article",
+      "sourceRef": "IMG_3474",
+      "sourceLocation": "「세계사를 바꾼 월드컵」의 글 구조"
+    },
+    {
+      "id": "kor085",
+      "type": "qa",
+      "front": "글 도입부에서 독자의 흥미를 유발하는 문장 형식은?",
+      "answer": "의문문",
+      "hint": "제재 개관과 연표를 떠올려요.",
+      "categoryId": "worldcup-article",
+      "sourceRef": "IMG_3474",
+      "sourceLocation": "「세계사를 바꾼 월드컵」의 글 구조"
+    },
+    {
+      "id": "kor086",
+      "type": "qa",
+      "front": "이 글에서 중심 내용을 안내하는 장치는?",
+      "answer": "소제목",
+      "hint": "제재 개관과 연표를 떠올려요.",
+      "categoryId": "worldcup-article",
+      "sourceRef": "IMG_3474",
+      "sourceLocation": "「세계사를 바꾼 월드컵」의 글 구조"
+    },
+    {
+      "id": "kor087",
+      "type": "qa",
+      "front": "월드컵의 발전 과정을 보여 주는 서술 순서는?",
+      "answer": "역사적 흐름",
+      "hint": "제재 개관과 연표를 떠올려요.",
+      "categoryId": "worldcup-article",
+      "sourceRef": "IMG_3474",
+      "sourceLocation": "「세계사를 바꾼 월드컵」의 글 구조"
+    },
+    {
+      "id": "kor088",
+      "type": "qa",
+      "front": "진정한 월드컵에 관한 글쓴이의 견해를 뒷받침하는 것은?",
+      "answer": "사실",
+      "hint": "제재 개관과 연표를 떠올려요.",
+      "categoryId": "worldcup-article",
+      "sourceRef": "IMG_3474",
+      "sourceLocation": "「세계사를 바꾼 월드컵」의 글 구조"
+    },
+    {
+      "id": "kor089",
+      "type": "qa",
+      "front": "이 글의 처음 부분이 안내하는 두 내용 중 하나는?",
+      "answer": "월드컵의 시작",
+      "hint": "제재 개관과 연표를 떠올려요.",
+      "categoryId": "worldcup-article",
+      "sourceRef": "IMG_3474",
+      "sourceLocation": "「세계사를 바꾼 월드컵」의 글 구조"
+    },
+    {
+      "id": "kor090",
+      "type": "qa",
+      "front": "이 글의 가운데 부분에서 첫 월드컵이 개최된 나라는?",
+      "answer": "우루과이",
+      "hint": "제재 개관과 연표를 떠올려요.",
+      "categoryId": "worldcup-article",
+      "sourceRef": "IMG_3474",
+      "sourceLocation": "「세계사를 바꾼 월드컵」의 글 구조"
+    },
+    {
+      "id": "kor091",
+      "type": "qa",
+      "front": "이 글의 끝에서 떠올리는 월드컵 창설자는?",
+      "answer": "쥘 리메",
+      "hint": "제재 개관과 연표를 떠올려요.",
+      "categoryId": "worldcup-article",
+      "sourceRef": "IMG_3474",
+      "sourceLocation": "「세계사를 바꾼 월드컵」의 글 구조"
+    },
+    {
+      "id": "kor092",
+      "type": "qa",
+      "front": "쥘 리메가 월드컵으로 이루고자 한 국가 간 관계는?",
+      "answer": "화합과 이해",
+      "hint": "제재 개관과 연표를 떠올려요.",
+      "categoryId": "worldcup-article",
+      "sourceRef": "IMG_3474",
+      "sourceLocation": "「세계사를 바꾼 월드컵」의 글 구조"
+    },
+    {
+      "id": "kor093",
+      "type": "qa",
+      "front": "1897년 쥘 리메가 파리에서 친구들과 조직한 스포츠 클럽은?",
+      "answer": "레드 스타",
+      "hint": "제재 개관과 연표를 떠올려요.",
+      "categoryId": "worldcup-article",
+      "sourceRef": "IMG_3474",
+      "sourceLocation": "「세계사를 바꾼 월드컵」의 글 구조"
+    },
+    {
+      "id": "kor094",
+      "type": "qa",
+      "front": "레드 스타가 회원을 받을 때 따지지 않은 것은?",
+      "answer": "신분과 계급",
+      "hint": "제재 개관과 연표를 떠올려요.",
+      "categoryId": "worldcup-article",
+      "sourceRef": "IMG_3474",
+      "sourceLocation": "「세계사를 바꾼 월드컵」의 글 구조"
+    },
+    {
+      "id": "kor095",
+      "type": "qa",
+      "front": "쥘 리메가 처음 축구와 연이 닿은 계기는?",
+      "answer": "레드 스타 활동",
+      "hint": "제재 개관과 연표를 떠올려요.",
+      "categoryId": "worldcup-article",
+      "sourceRef": "IMG_3474",
+      "sourceLocation": "「세계사를 바꾼 월드컵」의 글 구조"
+    },
+    {
+      "id": "kor096",
+      "type": "qa",
+      "front": "1904년 파리에서 창설된 국제 축구 단체는?",
+      "answer": "국제 축구 연맹",
+      "hint": "제재 개관과 연표를 떠올려요.",
+      "categoryId": "worldcup-article",
+      "sourceRef": "IMG_3474",
+      "sourceLocation": "「세계사를 바꾼 월드컵」의 글 구조"
+    },
+    {
+      "id": "kor097",
+      "type": "qa",
+      "front": "국제 축구 연맹의 영어 약칭은?",
+      "answer": "FIFA",
+      "hint": "제재 개관과 연표를 떠올려요.",
+      "categoryId": "worldcup-article",
+      "sourceRef": "IMG_3474",
+      "sourceLocation": "「세계사를 바꾼 월드컵」의 글 구조"
+    },
+    {
+      "id": "kor098",
+      "type": "qa",
+      "front": "쥘 리메가 1910년에 창설한 것은?",
+      "answer": "프랑스 최초의 축구 국가 리그",
+      "hint": "제재 개관과 연표를 떠올려요.",
+      "categoryId": "worldcup-article",
+      "sourceRef": "IMG_3474",
+      "sourceLocation": "「세계사를 바꾼 월드컵」의 글 구조"
+    },
+    {
+      "id": "kor099",
+      "type": "qa",
+      "front": "쥘 리메가 1919년에 초대 회장이 된 단체는?",
+      "answer": "프랑스 축구 연맹",
+      "hint": "제재 개관과 연표를 떠올려요.",
+      "categoryId": "worldcup-article",
+      "sourceRef": "IMG_3474",
+      "sourceLocation": "「세계사를 바꾼 월드컵」의 글 구조"
+    },
+    {
+      "id": "kor100",
+      "type": "qa",
+      "front": "쥘 리메가 1921년에 맡은 FIFA의 직책은?",
+      "answer": "제3대 회장",
+      "hint": "제재 개관과 연표를 떠올려요.",
+      "categoryId": "worldcup-article",
+      "sourceRef": "IMG_3474",
+      "sourceLocation": "「세계사를 바꾼 월드컵」의 글 구조"
+    },
+    {
+      "id": "kor101",
+      "type": "qa",
+      "front": "쥘 리메가 월드컵을 기획한 목적은?",
+      "answer": "축구를 통한 국제 친선과 화합",
+      "hint": "제재 개관과 연표를 떠올려요.",
+      "categoryId": "worldcup-article",
+      "sourceRef": "IMG_3474",
+      "sourceLocation": "「세계사를 바꾼 월드컵」의 글 구조"
+    },
+    {
+      "id": "kor102",
+      "type": "qa",
+      "front": "첫 번째 월드컵이 개최된 해는?",
+      "answer": "1930년",
+      "hint": "제재 개관과 연표를 떠올려요.",
+      "categoryId": "worldcup-article",
+      "sourceRef": "IMG_3474",
+      "sourceLocation": "「세계사를 바꾼 월드컵」의 글 구조"
+    },
+    {
+      "id": "kor103",
+      "type": "qa",
+      "front": "첫 번째 월드컵이 개최된 나라는?",
+      "answer": "우루과이",
+      "hint": "제재 개관과 연표를 떠올려요.",
+      "categoryId": "worldcup-article",
+      "sourceRef": "IMG_3474",
+      "sourceLocation": "「세계사를 바꾼 월드컵」의 글 구조"
+    },
+    {
+      "id": "kor104",
+      "type": "qa",
+      "front": "1930년 첫 월드컵에 참가한 국가는 몇 개였는가?",
+      "answer": "13개국",
+      "hint": "1930·1982·2002년을 구별해요.",
+      "categoryId": "worldcup-history",
+      "sourceRef": "IMG_3475",
+      "sourceLocation": "월드컵의 확대와 의미"
+    },
+    {
+      "id": "kor105",
+      "type": "qa",
+      "front": "1930년 첫 월드컵에 참가국이 적었던 주된 이동 관련 이유는?",
+      "answer": "장거리 이동의 어려움",
+      "hint": "1930·1982·2002년을 구별해요.",
+      "categoryId": "worldcup-history",
+      "sourceRef": "IMG_3475",
+      "sourceLocation": "월드컵의 확대와 의미"
+    },
+    {
+      "id": "kor106",
+      "type": "qa",
+      "front": "첫 월드컵에서 쥘 리메의 고국인데도 불참 여론이 거셌던 나라는?",
+      "answer": "프랑스",
+      "hint": "1930·1982·2002년을 구별해요.",
+      "categoryId": "worldcup-history",
+      "sourceRef": "IMG_3475",
+      "sourceLocation": "월드컵의 확대와 의미"
+    },
+    {
+      "id": "kor107",
+      "type": "qa",
+      "front": "1930년 첫 월드컵에서 참가국이 적어 이루기 어려웠던 목표는?",
+      "answer": "국제 친선과 화합",
+      "hint": "1930·1982·2002년을 구별해요.",
+      "categoryId": "worldcup-history",
+      "sourceRef": "IMG_3475",
+      "sourceLocation": "월드컵의 확대와 의미"
+    },
+    {
+      "id": "kor108",
+      "type": "qa",
+      "front": "1982년 이전 월드컵에서 중심이 된 두 대륙은?",
+      "answer": "유럽과 남미",
+      "hint": "1930·1982·2002년을 구별해요.",
+      "categoryId": "worldcup-history",
+      "sourceRef": "IMG_3475",
+      "sourceLocation": "월드컵의 확대와 의미"
+    },
+    {
+      "id": "kor109",
+      "type": "qa",
+      "front": "1982년 이전 본선 진출권이 매우 적었던 대륙 중 하나는?",
+      "answer": "아시아",
+      "hint": "1930·1982·2002년을 구별해요.",
+      "categoryId": "worldcup-history",
+      "sourceRef": "IMG_3475",
+      "sourceLocation": "월드컵의 확대와 의미"
+    },
+    {
+      "id": "kor110",
+      "type": "qa",
+      "front": "1982년 이전 본선 진출권이 매우 적었던 또 다른 대륙은?",
+      "answer": "아프리카",
+      "hint": "1930·1982·2002년을 구별해요.",
+      "categoryId": "worldcup-history",
+      "sourceRef": "IMG_3475",
+      "sourceLocation": "월드컵의 확대와 의미"
+    },
+    {
+      "id": "kor111",
+      "type": "qa",
+      "front": "1982년 스페인 월드컵의 본선 참가 팀 수는?",
+      "answer": "24개 팀",
+      "hint": "1930·1982·2002년을 구별해요.",
+      "categoryId": "worldcup-history",
+      "sourceRef": "IMG_3475",
+      "sourceLocation": "월드컵의 확대와 의미"
+    },
+    {
+      "id": "kor112",
+      "type": "qa",
+      "front": "1982년 대회에서 아시아·오세아니아에 배정된 본선 진출권은?",
+      "answer": "2장",
+      "hint": "1930·1982·2002년을 구별해요.",
+      "categoryId": "worldcup-history",
+      "sourceRef": "IMG_3475",
+      "sourceLocation": "월드컵의 확대와 의미"
+    },
+    {
+      "id": "kor113",
+      "type": "qa",
+      "front": "1982년 대회에서 아프리카에 배정된 본선 진출권은?",
+      "answer": "2장",
+      "hint": "1930·1982·2002년을 구별해요.",
+      "categoryId": "worldcup-history",
+      "sourceRef": "IMG_3475",
+      "sourceLocation": "월드컵의 확대와 의미"
+    },
+    {
+      "id": "kor114",
+      "type": "qa",
+      "front": "1982년 월드컵은 최초로 텔레비전 시청자 수가 얼마를 넘었는가?",
+      "answer": "100억 명",
+      "hint": "1930·1982·2002년을 구별해요.",
+      "categoryId": "worldcup-history",
+      "sourceRef": "IMG_3475",
+      "sourceLocation": "월드컵의 확대와 의미"
+    },
+    {
+      "id": "kor115",
+      "type": "qa",
+      "front": "1982년 스페인 월드컵이 진정한 월드컵으로 평가되는 까닭 중 본선 규모의 변화는?",
+      "answer": "본선 진출국이 확대되었다",
+      "hint": "1930·1982·2002년을 구별해요.",
+      "categoryId": "worldcup-history",
+      "sourceRef": "IMG_3475",
+      "sourceLocation": "월드컵의 확대와 의미"
+    },
+    {
+      "id": "kor116",
+      "type": "qa",
+      "front": "1982년 스페인 월드컵이 진정한 월드컵으로 평가되는 까닭 중 중계 관련 변화는?",
+      "answer": "해외 중계가 전 세계적으로 자리 잡았다",
+      "hint": "1930·1982·2002년을 구별해요.",
+      "categoryId": "worldcup-history",
+      "sourceRef": "IMG_3475",
+      "sourceLocation": "월드컵의 확대와 의미"
+    },
+    {
+      "id": "kor117",
+      "type": "qa",
+      "front": "1982년 이전에 아시아·오세아니아 대륙에 배정된 본선 진출권은?",
+      "answer": "1장",
+      "hint": "1930·1982·2002년을 구별해요.",
+      "categoryId": "worldcup-history",
+      "sourceRef": "IMG_3475",
+      "sourceLocation": "월드컵의 확대와 의미"
+    },
+    {
+      "id": "kor118",
+      "type": "qa",
+      "front": "1982년 이전에 아프리카 대륙에 배정된 본선 진출권은?",
+      "answer": "1장",
+      "hint": "1930·1982·2002년을 구별해요.",
+      "categoryId": "worldcup-history",
+      "sourceRef": "IMG_3475",
+      "sourceLocation": "월드컵의 확대와 의미"
+    },
+    {
+      "id": "kor119",
+      "type": "qa",
+      "front": "1982년 스페인 월드컵에서 본선 진출권이 늘어난 두 지역 중 하나는?",
+      "answer": "아프리카",
+      "hint": "1930·1982·2002년을 구별해요.",
+      "categoryId": "worldcup-history",
+      "sourceRef": "IMG_3475",
+      "sourceLocation": "월드컵의 확대와 의미"
+    },
+    {
+      "id": "kor120",
+      "type": "qa",
+      "front": "글쓴이가 2002년 한일 월드컵을 진정한 월드컵의 시작으로 본 까닭은 8강 진출국의 무엇이 고르기 때문인가?",
+      "answer": "대륙별 분포",
+      "hint": "1930·1982·2002년을 구별해요.",
+      "categoryId": "worldcup-history",
+      "sourceRef": "IMG_3475",
+      "sourceLocation": "월드컵의 확대와 의미"
+    },
+    {
+      "id": "kor121",
+      "type": "qa",
+      "front": "2002년 한일 월드컵에서 일부 유럽·남미 강국이 일찌감치 탈락한 단계는?",
+      "answer": "조별 예선",
+      "hint": "1930·1982·2002년을 구별해요.",
+      "categoryId": "worldcup-history",
+      "sourceRef": "IMG_3475",
+      "sourceLocation": "월드컵의 확대와 의미"
+    },
+    {
+      "id": "kor122",
+      "type": "qa",
+      "front": "2002년 한일 월드컵은 대륙별 경기력의 무엇을 극복했다고 보는가?",
+      "answer": "편차",
+      "hint": "1930·1982·2002년을 구별해요.",
+      "categoryId": "worldcup-history",
+      "sourceRef": "IMG_3475",
+      "sourceLocation": "월드컵의 확대와 의미"
+    },
+    {
+      "id": "kor123",
+      "type": "qa",
+      "front": "갈등은 서로의 생각·감정과 무엇이 달라서 발생하는가?",
+      "answer": "기대",
+      "hint": "원인 분석과 대화 방법을 떠올려요.",
+      "categoryId": "conflict",
+      "sourceRef": "IMG_3476",
+      "sourceLocation": "진솔하게 표현하며 갈등 조정하기"
+    },
+    {
+      "id": "kor124",
+      "type": "qa",
+      "front": "갈등의 원인을 분석하려면 먼저 누구의 생각·감정·기대를 파악해야 하는가?",
+      "answer": "자신과 상대",
+      "hint": "원인 분석과 대화 방법을 떠올려요.",
+      "categoryId": "conflict",
+      "sourceRef": "IMG_3476",
+      "sourceLocation": "진솔하게 표현하며 갈등 조정하기"
+    },
+    {
+      "id": "kor125",
+      "type": "qa",
+      "front": "갈등의 원인을 분석할 때 파악한 생각·감정·기대에서 찾는 것은?",
+      "answer": "차이",
+      "hint": "원인 분석과 대화 방법을 떠올려요.",
+      "categoryId": "conflict",
+      "sourceRef": "IMG_3476",
+      "sourceLocation": "진솔하게 표현하며 갈등 조정하기"
+    },
+    {
+      "id": "kor126",
+      "type": "qa",
+      "front": "갈등 상황에서 서로의 생각과 감정을 어떻게 표현해야 하는가?",
+      "answer": "진솔하게",
+      "hint": "원인 분석과 대화 방법을 떠올려요.",
+      "categoryId": "conflict",
+      "sourceRef": "IMG_3476",
+      "sourceLocation": "진솔하게 표현하며 갈등 조정하기"
+    },
+    {
+      "id": "kor127",
+      "type": "qa",
+      "front": "갈등 상황에서 대화를 피하면 서로의 무엇을 알기 어려운가?",
+      "answer": "감정과 생각",
+      "hint": "원인 분석과 대화 방법을 떠올려요.",
+      "categoryId": "conflict",
+      "sourceRef": "IMG_3476",
+      "sourceLocation": "진솔하게 표현하며 갈등 조정하기"
+    },
+    {
+      "id": "kor128",
+      "type": "qa",
+      "front": "갈등 상황에서 대화를 피할 때 갈등은 어떻게 될 수 있는가?",
+      "answer": "더 커질 수 있다",
+      "hint": "원인 분석과 대화 방법을 떠올려요.",
+      "categoryId": "conflict",
+      "sourceRef": "IMG_3476",
+      "sourceLocation": "진솔하게 표현하며 갈등 조정하기"
+    },
+    {
+      "id": "kor129",
+      "type": "qa",
+      "front": "진솔하게 대화하면 갈등의 무엇을 파악할 수 있는가?",
+      "answer": "원인",
+      "hint": "원인 분석과 대화 방법을 떠올려요.",
+      "categoryId": "conflict",
+      "sourceRef": "IMG_3476",
+      "sourceLocation": "진솔하게 표현하며 갈등 조정하기"
+    },
+    {
+      "id": "kor130",
+      "type": "qa",
+      "front": "진솔하게 대화하면 서로 무엇을 기대하는지 파악할 수 있는가?",
+      "answer": "기대하는 바",
+      "hint": "원인 분석과 대화 방법을 떠올려요.",
+      "categoryId": "conflict",
+      "sourceRef": "IMG_3476",
+      "sourceLocation": "진솔하게 표현하며 갈등 조정하기"
+    },
+    {
+      "id": "kor131",
+      "type": "qa",
+      "front": "갈등 조정 대화에서는 사건에 대한 무엇을 피해야 하는가?",
+      "answer": "주관적 해석",
+      "hint": "원인 분석과 대화 방법을 떠올려요.",
+      "categoryId": "conflict",
+      "sourceRef": "IMG_3476",
+      "sourceLocation": "진솔하게 표현하며 갈등 조정하기"
+    },
+    {
+      "id": "kor132",
+      "type": "qa",
+      "front": "갈등 조정 대화에서 사건을 어떻게 전달해야 하는가?",
+      "answer": "객관적으로",
+      "hint": "원인 분석과 대화 방법을 떠올려요.",
+      "categoryId": "conflict",
+      "sourceRef": "IMG_3476",
+      "sourceLocation": "진솔하게 표현하며 갈등 조정하기"
+    },
+    {
+      "id": "kor133",
+      "type": "qa",
+      "front": "갈등 조정 대화에서 자신의 감정과 기대는 어떻게 표현하는가?",
+      "answer": "진솔하게",
+      "hint": "원인 분석과 대화 방법을 떠올려요.",
+      "categoryId": "conflict",
+      "sourceRef": "IMG_3476",
+      "sourceLocation": "진솔하게 표현하며 갈등 조정하기"
+    },
+    {
+      "id": "kor134",
+      "type": "qa",
+      "front": "갈등 조정 대화에서 상대에게 바라는 것은 어떻게 요청하는가?",
+      "answer": "구체적으로",
+      "hint": "원인 분석과 대화 방법을 떠올려요.",
+      "categoryId": "conflict",
+      "sourceRef": "IMG_3476",
+      "sourceLocation": "진솔하게 표현하며 갈등 조정하기"
+    },
+    {
+      "id": "kor135",
+      "type": "qa",
+      "front": "약속에 늦은 상대에게 상황을 바꾸도록 요청할 때 요구할 수 있는 행동은?",
+      "answer": "늦으면 미리 말해 주기",
+      "hint": "원인 분석과 대화 방법을 떠올려요.",
+      "categoryId": "conflict",
+      "sourceRef": "IMG_3476",
+      "sourceLocation": "진솔하게 표현하며 갈등 조정하기"
+    },
+    {
+      "id": "kor136",
+      "type": "qa",
+      "front": "상대에게 '제대로 하는 게 하나도 없다'고 하는 말은 어떤 표현인가?",
+      "answer": "비난과 공격",
+      "hint": "표현의 종류와 바람직한 대안을 구별해요.",
+      "categoryId": "conflict-expression",
+      "sourceRef": "IMG_3477",
+      "sourceLocation": "갈등을 악화시키는 표현"
+    },
+    {
+      "id": "kor137",
+      "type": "qa",
+      "front": "상대에게 '항상 나를 무시한다'고 하는 말은 어떤 표현인가?",
+      "answer": "일반화하거나 과장하는 표현",
+      "hint": "표현의 종류와 바람직한 대안을 구별해요.",
+      "categoryId": "conflict-expression",
+      "sourceRef": "IMG_3477",
+      "sourceLocation": "갈등을 악화시키는 표현"
+    },
+    {
+      "id": "kor138",
+      "type": "qa",
+      "front": "실수를 두고 '정말 대단하다'고 빈정대는 말은 어떤 표현인가?",
+      "answer": "비꼬거나 조롱하는 표현",
+      "hint": "표현의 종류와 바람직한 대안을 구별해요.",
+      "categoryId": "conflict-expression",
+      "sourceRef": "IMG_3477",
+      "sourceLocation": "갈등을 악화시키는 표현"
+    },
+    {
+      "id": "kor139",
+      "type": "qa",
+      "front": "'네가 하라는 대로 했는데 이렇게 됐다'는 말은 어떤 표현인가?",
+      "answer": "상대에게 잘못을 돌리는 표현",
+      "hint": "표현의 종류와 바람직한 대안을 구별해요.",
+      "categoryId": "conflict-expression",
+      "sourceRef": "IMG_3477",
+      "sourceLocation": "갈등을 악화시키는 표현"
+    },
+    {
+      "id": "kor140",
+      "type": "qa",
+      "front": "'다 그럴 만한 이유가 있었다'며 자기 잘못을 덮는 것은?",
+      "answer": "합리화",
+      "hint": "표현의 종류와 바람직한 대안을 구별해요.",
+      "categoryId": "conflict-expression",
+      "sourceRef": "IMG_3477",
+      "sourceLocation": "갈등을 악화시키는 표현"
+    },
+    {
+      "id": "kor141",
+      "type": "qa",
+      "front": "갈등 상황에서 자기 잘못에 대한 책임을 벗어나려는 태도는?",
+      "answer": "책임 회피",
+      "hint": "표현의 종류와 바람직한 대안을 구별해요.",
+      "categoryId": "conflict-expression",
+      "sourceRef": "IMG_3477",
+      "sourceLocation": "갈등을 악화시키는 표현"
+    },
+    {
+      "id": "kor142",
+      "type": "qa",
+      "front": "갈등 상황에서 피해야 하는 표현과 함께 사용할 바람직한 표현은?",
+      "answer": "상대를 존중하는 표현",
+      "hint": "표현의 종류와 바람직한 대안을 구별해요.",
+      "categoryId": "conflict-expression",
+      "sourceRef": "IMG_3477",
+      "sourceLocation": "갈등을 악화시키는 표현"
+    },
+    {
+      "id": "kor143",
+      "type": "qa",
+      "front": "상대의 감정과 의견에 필요한 태도는?",
+      "answer": "존중",
+      "hint": "표현의 종류와 바람직한 대안을 구별해요.",
+      "categoryId": "conflict-expression",
+      "sourceRef": "IMG_3477",
+      "sourceLocation": "갈등을 악화시키는 표현"
+    },
+    {
+      "id": "kor144",
+      "type": "qa",
+      "front": "'너도 열심히 연습했구나'는 상대의 무엇을 인정하는 표현인가?",
+      "answer": "노력",
+      "hint": "표현의 종류와 바람직한 대안을 구별해요.",
+      "categoryId": "conflict-expression",
+      "sourceRef": "IMG_3477",
+      "sourceLocation": "갈등을 악화시키는 표현"
+    },
+    {
+      "id": "kor145",
+      "type": "qa",
+      "front": "함께 해결책을 묻는 대화는 갈등을 어떻게 하려는 태도인가?",
+      "answer": "조정하려는 태도",
+      "hint": "표현의 종류와 바람직한 대안을 구별해요.",
+      "categoryId": "conflict-expression",
+      "sourceRef": "IMG_3477",
+      "sourceLocation": "갈등을 악화시키는 표현"
+    },
+    {
+      "id": "kor146",
+      "type": "qa",
+      "front": "원천석의 '눈 맞아 휘어진 대'의 갈래는?",
+      "answer": "평시조",
+      "hint": "대나무·눈·충절의 관계를 떠올려요.",
+      "categoryId": "sijo-a",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "원천석의 시조"
+    },
+    {
+      "id": "kor147",
+      "type": "qa",
+      "front": "원천석의 '눈 맞아 휘어진 대'는 길이에 따라 어떤 시조인가?",
+      "answer": "단시조",
+      "hint": "대나무·눈·충절의 관계를 떠올려요.",
+      "categoryId": "sijo-a",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "원천석의 시조"
+    },
+    {
+      "id": "kor148",
+      "type": "qa",
+      "front": "원천석 시조의 중심 주제는?",
+      "answer": "고려 왕조에 대한 충절",
+      "hint": "대나무·눈·충절의 관계를 떠올려요.",
+      "categoryId": "sijo-a",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "원천석의 시조"
+    },
+    {
+      "id": "kor149",
+      "type": "qa",
+      "front": "원천석 시조에서 절개를 강조하는 표현법은?",
+      "answer": "설의법",
+      "hint": "대나무·눈·충절의 관계를 떠올려요.",
+      "categoryId": "sijo-a",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "원천석의 시조"
+    },
+    {
+      "id": "kor150",
+      "type": "qa",
+      "front": "원천석 시조에서 고려에 대한 절개를 지키는 신하를 상징하는 것은?",
+      "answer": "대나무",
+      "hint": "대나무·눈·충절의 관계를 떠올려요.",
+      "categoryId": "sijo-a",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "원천석의 시조"
+    },
+    {
+      "id": "kor151",
+      "type": "qa",
+      "front": "원천석 시조의 '눈'이 상징하는 것은?",
+      "answer": "새 왕조에 협력하기를 강요하는 세력",
+      "hint": "대나무·눈·충절의 관계를 떠올려요.",
+      "categoryId": "sijo-a",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "원천석의 시조"
+    },
+    {
+      "id": "kor152",
+      "type": "qa",
+      "front": "원천석 시조의 '휘어진 대'가 드러내는 것은?",
+      "answer": "압박 속에서 견디는 고충",
+      "hint": "대나무·눈·충절의 관계를 떠올려요.",
+      "categoryId": "sijo-a",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "원천석의 시조"
+    },
+    {
+      "id": "kor153",
+      "type": "qa",
+      "front": "원천석 시조에서 '눈'과 대조되는 시어는?",
+      "answer": "대",
+      "hint": "대나무·눈·충절의 관계를 떠올려요.",
+      "categoryId": "sijo-a",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "원천석의 시조"
+    },
+    {
+      "id": "kor154",
+      "type": "qa",
+      "front": "원천석 시조의 화자는 어떤 왕조에 충절을 지키는가?",
+      "answer": "고려",
+      "hint": "대나무·눈·충절의 관계를 떠올려요.",
+      "categoryId": "sijo-a",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "원천석의 시조"
+    },
+    {
+      "id": "kor155",
+      "type": "qa",
+      "front": "원천석 시조의 역사적 상황은 고려 멸망 이후 새 왕조에 어떻게 하려는 상황인가?",
+      "answer": "협력하지 않으려는 상황",
+      "hint": "대나무·눈·충절의 관계를 떠올려요.",
+      "categoryId": "sijo-a",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "원천석의 시조"
+    },
+    {
+      "id": "kor156",
+      "type": "qa",
+      "front": "원천석 시조 화자의 태도는 억압에 굴하지 않는 어떤 태도인가?",
+      "answer": "의지적인 태도",
+      "hint": "대나무·눈·충절의 관계를 떠올려요.",
+      "categoryId": "sijo-a",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "원천석의 시조"
+    },
+    {
+      "id": "kor157",
+      "type": "qa",
+      "front": "원천석 시조에서 '세한고절'은 한겨울 추위에도 지키는 무엇인가?",
+      "answer": "절개",
+      "hint": "대나무·눈·충절의 관계를 떠올려요.",
+      "categoryId": "sijo-a",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "원천석의 시조"
+    },
+    {
+      "id": "kor158",
+      "type": "qa",
+      "front": "원천석이 조선 건국 뒤 선택한 삶은?",
+      "answer": "재야에 은거했다",
+      "hint": "대나무·눈·충절의 관계를 떠올려요.",
+      "categoryId": "sijo-a",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "원천석의 시조"
+    },
+    {
+      "id": "kor159",
+      "type": "qa",
+      "front": "성삼문의 '이 몸이 죽어서'의 갈래는?",
+      "answer": "평시조",
+      "hint": "소나무·백설·지조의 관계를 떠올려요.",
+      "categoryId": "sijo-b",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "성삼문의 시조"
+    },
+    {
+      "id": "kor160",
+      "type": "qa",
+      "front": "성삼문 시조의 주제는 죽어서도 변할 수 없는 무엇인가?",
+      "answer": "굳은 절개",
+      "hint": "소나무·백설·지조의 관계를 떠올려요.",
+      "categoryId": "sijo-b",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "성삼문의 시조"
+    },
+    {
+      "id": "kor161",
+      "type": "qa",
+      "front": "성삼문 시조에서 충절을 상징하는 나무는?",
+      "answer": "소나무",
+      "hint": "소나무·백설·지조의 관계를 떠올려요.",
+      "categoryId": "sijo-b",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "성삼문의 시조"
+    },
+    {
+      "id": "kor162",
+      "type": "qa",
+      "front": "성삼문 시조에서 화자가 되고자 하는 소나무는?",
+      "answer": "낙락장송",
+      "hint": "소나무·백설·지조의 관계를 떠올려요.",
+      "categoryId": "sijo-b",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "성삼문의 시조"
+    },
+    {
+      "id": "kor163",
+      "type": "qa",
+      "front": "성삼문 시조에서 세상을 어지럽히는 세력을 상징하는 시어는?",
+      "answer": "백설",
+      "hint": "소나무·백설·지조의 관계를 떠올려요.",
+      "categoryId": "sijo-b",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "성삼문의 시조"
+    },
+    {
+      "id": "kor164",
+      "type": "qa",
+      "front": "성삼문 시조의 화자는 어떤 사람인가?",
+      "answer": "임금에 대한 지조를 지키는 충신",
+      "hint": "소나무·백설·지조의 관계를 떠올려요.",
+      "categoryId": "sijo-b",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "성삼문의 시조"
+    },
+    {
+      "id": "kor165",
+      "type": "qa",
+      "front": "성삼문 시조의 '임금'은 누구인가?",
+      "answer": "단종",
+      "hint": "소나무·백설·지조의 관계를 떠올려요.",
+      "categoryId": "sijo-b",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "성삼문의 시조"
+    },
+    {
+      "id": "kor166",
+      "type": "qa",
+      "front": "성삼문 시조의 사회·문화적 상황에서 세력을 넓힌 인물은?",
+      "answer": "세조",
+      "hint": "소나무·백설·지조의 관계를 떠올려요.",
+      "categoryId": "sijo-b",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "성삼문의 시조"
+    },
+    {
+      "id": "kor167",
+      "type": "qa",
+      "front": "성삼문 시조 화자의 태도는 무엇을 다짐하는가?",
+      "answer": "굳은 절개",
+      "hint": "소나무·백설·지조의 관계를 떠올려요.",
+      "categoryId": "sijo-b",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "성삼문의 시조"
+    },
+    {
+      "id": "kor168",
+      "type": "qa",
+      "front": "성삼문 시조에서 '독야청청'은 무엇을 뜻하는가?",
+      "answer": "홀로 절개를 지킴",
+      "hint": "소나무·백설·지조의 관계를 떠올려요.",
+      "categoryId": "sijo-b",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "성삼문의 시조"
+    },
+    {
+      "id": "kor169",
+      "type": "qa",
+      "front": "성삼문 시조에서 '만건곤'은 어느 범위를 말하는가?",
+      "answer": "하늘과 땅에 가득함",
+      "hint": "소나무·백설·지조의 관계를 떠올려요.",
+      "categoryId": "sijo-b",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "성삼문의 시조"
+    },
+    {
+      "id": "kor170",
+      "type": "qa",
+      "front": "이개의 '방 안에 켜 있는 촛불'의 갈래는?",
+      "answer": "평시조",
+      "hint": "촛불과 화자의 동일시를 떠올려요.",
+      "categoryId": "sijo-c",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "이개의 시조"
+    },
+    {
+      "id": "kor171",
+      "type": "qa",
+      "front": "이개 시조의 주제는 임과 이별한 어떤 감정인가?",
+      "answer": "슬픔",
+      "hint": "촛불과 화자의 동일시를 떠올려요.",
+      "categoryId": "sijo-c",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "이개의 시조"
+    },
+    {
+      "id": "kor172",
+      "type": "qa",
+      "front": "이개 시조에서 '임'은 누구인가?",
+      "answer": "단종",
+      "hint": "촛불과 화자의 동일시를 떠올려요.",
+      "categoryId": "sijo-c",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "이개의 시조"
+    },
+    {
+      "id": "kor173",
+      "type": "qa",
+      "front": "이개 시조에서 화자의 감정이 이입된 대상은?",
+      "answer": "촛불",
+      "hint": "촛불과 화자의 동일시를 떠올려요.",
+      "categoryId": "sijo-c",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "이개의 시조"
+    },
+    {
+      "id": "kor174",
+      "type": "qa",
+      "front": "이개 시조에서 화자와 동일시되는 대상은?",
+      "answer": "촛불",
+      "hint": "촛불과 화자의 동일시를 떠올려요.",
+      "categoryId": "sijo-c",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "이개의 시조"
+    },
+    {
+      "id": "kor175",
+      "type": "qa",
+      "front": "이개 시조에서 촛불이 겉으로 흘리는 눈물에 해당하는 것은?",
+      "answer": "촛농",
+      "hint": "촛불과 화자의 동일시를 떠올려요.",
+      "categoryId": "sijo-c",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "이개의 시조"
+    },
+    {
+      "id": "kor176",
+      "type": "qa",
+      "front": "이개 시조의 '속 타는' 모습은 누구의 애타는 마음을 비유하는가?",
+      "answer": "화자",
+      "hint": "촛불과 화자의 동일시를 떠올려요.",
+      "categoryId": "sijo-c",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "이개의 시조"
+    },
+    {
+      "id": "kor177",
+      "type": "qa",
+      "front": "이개 시조가 창작된 배경은 세조의 무엇 이후인가?",
+      "answer": "왕위 찬탈",
+      "hint": "촛불과 화자의 동일시를 떠올려요.",
+      "categoryId": "sijo-c",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "이개의 시조"
+    },
+    {
+      "id": "kor178",
+      "type": "qa",
+      "front": "이개 시조에서 화자가 지키는 마음은 단종에 대한 무엇인가?",
+      "answer": "충정",
+      "hint": "촛불과 화자의 동일시를 떠올려요.",
+      "categoryId": "sijo-c",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "이개의 시조"
+    },
+    {
+      "id": "kor179",
+      "type": "qa",
+      "front": "이개 시조에서 화자는 슬픔을 촛불에 옮겨 표현하는 어떤 방식을 쓰는가?",
+      "answer": "감정 이입",
+      "hint": "촛불과 화자의 동일시를 떠올려요.",
+      "categoryId": "sijo-c",
+      "sourceRef": "IMG_3478",
+      "sourceLocation": "이개의 시조"
+    },
+    {
+      "id": "kor180",
+      "type": "qa",
+      "front": "원호의 '간밤에 울던 여울'의 갈래는?",
+      "answer": "평시조",
+      "hint": "여울물과 단종의 유배를 떠올려요.",
+      "categoryId": "sijo-d",
+      "sourceRef": "IMG_3479",
+      "sourceLocation": "원호의 시조와 역사적 배경"
+    },
+    {
+      "id": "kor181",
+      "type": "qa",
+      "front": "원호 시조의 주제는 임과 이별한 어떤 감정인가?",
+      "answer": "슬픔",
+      "hint": "여울물과 단종의 유배를 떠올려요.",
+      "categoryId": "sijo-d",
+      "sourceRef": "IMG_3479",
+      "sourceLocation": "원호의 시조와 역사적 배경"
+    },
+    {
+      "id": "kor182",
+      "type": "qa",
+      "front": "원호 시조에서 화자의 심정이 의탁된 자연물은?",
+      "answer": "여울물",
+      "hint": "여울물과 단종의 유배를 떠올려요.",
+      "categoryId": "sijo-d",
+      "sourceRef": "IMG_3479",
+      "sourceLocation": "원호의 시조와 역사적 배경"
+    },
+    {
+      "id": "kor183",
+      "type": "qa",
+      "front": "원호 시조에서 '임'은 누구인가?",
+      "answer": "단종",
+      "hint": "여울물과 단종의 유배를 떠올려요.",
+      "categoryId": "sijo-d",
+      "sourceRef": "IMG_3479",
+      "sourceLocation": "원호의 시조와 역사적 배경"
+    },
+    {
+      "id": "kor184",
+      "type": "qa",
+      "front": "원호 시조의 창작 배경에서 단종은 어디로 유배되었는가?",
+      "answer": "영월",
+      "hint": "여울물과 단종의 유배를 떠올려요.",
+      "categoryId": "sijo-d",
+      "sourceRef": "IMG_3479",
+      "sourceLocation": "원호의 시조와 역사적 배경"
+    },
+    {
+      "id": "kor185",
+      "type": "qa",
+      "front": "원호 시조에서 여울물을 거슬러 되돌리고 싶은 까닭은?",
+      "answer": "단종에게 충절과 그리움을 전하고 싶어서",
+      "hint": "여울물과 단종의 유배를 떠올려요.",
+      "categoryId": "sijo-d",
+      "sourceRef": "IMG_3479",
+      "sourceLocation": "원호의 시조와 역사적 배경"
+    },
+    {
+      "id": "kor186",
+      "type": "qa",
+      "front": "원호 시조에서 흐르는 여울물은 누구를 향한 마음을 대신 전하는가?",
+      "answer": "단종",
+      "hint": "여울물과 단종의 유배를 떠올려요.",
+      "categoryId": "sijo-d",
+      "sourceRef": "IMG_3479",
+      "sourceLocation": "원호의 시조와 역사적 배경"
+    },
+    {
+      "id": "kor187",
+      "type": "qa",
+      "front": "단종의 숙부로 왕위 찬탈을 추진한 인물은?",
+      "answer": "수양대군",
+      "hint": "여울물과 단종의 유배를 떠올려요.",
+      "categoryId": "sijo-d",
+      "sourceRef": "IMG_3479",
+      "sourceLocation": "원호의 시조와 역사적 배경"
+    },
+    {
+      "id": "kor188",
+      "type": "qa",
+      "front": "수양대군이 반대파 중신을 제거하고 실권을 얻은 사건은?",
+      "answer": "계유정난",
+      "hint": "여울물과 단종의 유배를 떠올려요.",
+      "categoryId": "sijo-d",
+      "sourceRef": "IMG_3479",
+      "sourceLocation": "원호의 시조와 역사적 배경"
+    },
+    {
+      "id": "kor189",
+      "type": "qa",
+      "front": "계유정난 때 반대파 중신 중 두 인물은 김종서와 누구인가?",
+      "answer": "황보인",
+      "hint": "여울물과 단종의 유배를 떠올려요.",
+      "categoryId": "sijo-d",
+      "sourceRef": "IMG_3479",
+      "sourceLocation": "원호의 시조와 역사적 배경"
+    },
+    {
+      "id": "kor190",
+      "type": "qa",
+      "front": "수양대군에게 맞서다 죽임당한 성삼문·이개 등이 속한 집단은?",
+      "answer": "사육신",
+      "hint": "여울물과 단종의 유배를 떠올려요.",
+      "categoryId": "sijo-d",
+      "sourceRef": "IMG_3479",
+      "sourceLocation": "원호의 시조와 역사적 배경"
+    },
+    {
+      "id": "kor191",
+      "type": "qa",
+      "front": "원호·김시습처럼 항거하고 절의를 지킨 사람들은 무엇이라 불리는가?",
+      "answer": "생육신",
+      "hint": "여울물과 단종의 유배를 떠올려요.",
+      "categoryId": "sijo-d",
+      "sourceRef": "IMG_3479",
+      "sourceLocation": "원호의 시조와 역사적 배경"
+    },
+    {
+      "id": "kor192",
+      "type": "qa",
+      "front": "원호는 사육신과 생육신 중 어디에 속하는가?",
+      "answer": "생육신",
+      "hint": "여울물과 단종의 유배를 떠올려요.",
+      "categoryId": "sijo-d",
+      "sourceRef": "IMG_3479",
+      "sourceLocation": "원호의 시조와 역사적 배경"
+    },
+    {
+      "id": "kor193",
+      "type": "qa",
+      "front": "성삼문은 사육신과 생육신 중 어디에 속하는가?",
+      "answer": "사육신",
+      "hint": "여울물과 단종의 유배를 떠올려요.",
+      "categoryId": "sijo-d",
+      "sourceRef": "IMG_3479",
+      "sourceLocation": "원호의 시조와 역사적 배경"
+    },
+    {
+      "id": "kor194",
+      "type": "qa",
+      "front": "이개는 사육신과 생육신 중 어디에 속하는가?",
+      "answer": "사육신",
+      "hint": "여울물과 단종의 유배를 떠올려요.",
+      "categoryId": "sijo-d",
+      "sourceRef": "IMG_3479",
+      "sourceLocation": "원호의 시조와 역사적 배경"
+    }
+  ]
+}

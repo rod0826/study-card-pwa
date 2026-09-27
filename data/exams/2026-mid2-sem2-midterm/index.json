@@ -3,8 +3,10 @@
   "subjects": [
     {
       "subjectId": "korean",
-      "status": "empty",
-      "setFiles": []
+      "status": "reviewed",
+      "setFiles": [
+        "data/exams/2026-mid2-sem2-midterm/korean/core.json"
+      ]
     },
     {
       "subjectId": "science",

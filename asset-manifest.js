@@ -1,5 +1,5 @@
 self.JIANSTUDY_ASSET_MANIFEST = {
-  "version": "99224f1506f2",
+  "version": "bfa6461eb239",
   "assets": [
     "./",
     "./asset-manifest.js",
@@ -19,6 +19,7 @@ self.JIANSTUDY_ASSET_MANIFEST = {
     "./data/exams/2026-mid2-sem1-final/technology/core.json",
     "./data/exams/2026-mid2-sem2-final/index.json",
     "./data/exams/2026-mid2-sem2-midterm/index.json",
+    "./data/exams/2026-mid2-sem2-midterm/korean/core.json",
     "./data/exams/2026-mid2-sem2-midterm/science/core.json",
     "./data/exams/2027-mid3-sem1-final/index.json",
     "./data/exams/2027-mid3-sem1-midterm/index.json",
