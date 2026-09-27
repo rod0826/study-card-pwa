@@ -18,12 +18,13 @@
 - 스캔 원본과 검토 기록은 공개 저장소 밖의 `../source-materials/2026-mid2-sem2-midterm/korean/`에 보관합니다.
 - 데이터 검사(771장), 오프라인 자산 목록 검사(27개), JavaScript 문법 검사를 통과했습니다.
 - 로컬 Chrome에서 국어 194장 표시, 첫 카드 진입과 정답 확인을 확인했습니다.
-- 공개 사이트: `https://rod0826.github.io/study-card-pwa/`
+- 공개 사이트: `https://rod0826.github.io/study-card-pwa/` (배포 커밋 `624657a`).
 
-## 앱 설치 안내 표시
+## 2026-09-27 앱 설치 안내 표시 변경 및 공개 배포
 
 - 일반 브라우저에서는 우상단 앱 설치 안내 버튼을 표시합니다.
 - 설치된 PWA의 독립 실행 화면에서는 버튼을 숨깁니다. iPhone 홈 화면 앱은 Safari의 `navigator.standalone` 값도 확인합니다.
+- 390px 모바일 브라우저에서 버튼과 안내창을 확인했습니다. 설치된 PWA의 실기기 화면은 확인하지 못했습니다. GitHub Pages 배포 커밋: `f36f0ef`.
 
 ## 2026-09-26 과학 카드 추가
 
@@ -219,8 +220,8 @@ scripts/            데이터 검사 도구
 
 ## 다음 작업
 
-1. 국어 정리 자료가 제공되면 중2 2학기 중간고사 국어 카드를 추가합니다. 과학 추가 자료도 같은 시험·과목에 이어 붙입니다.
-2. 사진·스캔·PDF를 `../source-materials/2026-mid2-sem2-midterm/<과목 ID>/`에 넣습니다.
+1. 중2 2학기 기말고사 시험 범위와 과목이 확정되면 자료를 받습니다. 현재 과목 목록은 준비용이며 실제 시험 범위에 맞춰 확인합니다.
+2. 사진·스캔·PDF를 `../source-materials/2026-mid2-sem2-final/<과목 ID>/`에 넣습니다.
 3. `docs/CONTENT_WORKFLOW.md` 원칙에 따라 카드를 생성합니다.
 4. `node scripts/validate-data.mjs`로 검사합니다.
 5. `node scripts/generate-asset-manifest.mjs`로 오프라인 자산 목록을 갱신합니다.
