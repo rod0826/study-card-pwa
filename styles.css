@@ -44,3 +44,7 @@ html{scroll-behavior:smooth}body{word-break:keep-all;background:radial-gradient(
 
 @media(max-width:760px){.sky{height:400px}.save-state[data-error]{display:inline-flex;align-items:center;color:#ffe1a6;font-size:11px}.save-state[data-error] i{background:#ff9189}.hero{min-height:310px;padding:28px 10px}.hero .goal-note{display:grid;justify-self:start;max-width:none;width:min(310px,100%);padding:14px 16px;transform:none}.celebration{top:40%;min-width:0;width:calc(100% - 40px);justify-content:center;padding:16px}.celebration>strong{font-size:16px}footer{align-items:flex-end;gap:20px}footer p{text-align:right;line-height:1.5}}
 @media(prefers-reduced-motion:reduce){.celebration{animation:none}.celebration-burst{display:none}}
+
+/* The install guide is only useful in a browser tab. */
+.header-actions [data-action=install][hidden]{display:none}
+@media(display-mode:standalone){.header-actions [data-action=install]{display:none}}

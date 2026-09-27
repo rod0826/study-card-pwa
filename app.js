@@ -1,6 +1,7 @@
 const state = { exams: [], subjects: [], indexes: new Map(), exam: null, selected: new Set(), cards: [], queue: [], index: 0, studyMode: 'all', studyOrder: 'shuffle', session: { correct: 0, hesitant: 0, wrong: 0 }, archiveOpen: false };
 const app = document.querySelector('#app');
 const dialog = document.querySelector('#installDialog');
+if (navigator.standalone === true) document.querySelector('[data-action="install"]').hidden = true;
 const subjectColors = { coral: '#ff8b81', blue: '#8db9ff', mint: '#78dfbf', violet: '#b7a4ff', amber: '#ffd36c', teal: '#70ddd7', pink: '#ffacd0' };
 const progressKey = 'jianstudy:progress:v2';
 const preferenceKey = 'jianstudy:preferences:v1';
