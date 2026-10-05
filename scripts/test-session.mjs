@@ -12,7 +12,7 @@ const setup = `state.exams = [{id:'2026-mid2-sem2-midterm',title:'시험'}]; sta
 const a = boot(); a.run(setup); await a.run('startStudy()');
 a.run("grade('wrong')");
 const expected = a.run('state.queue[state.index].id');
-assert.equal(JSON.parse(a.storage.get('jianstudy:progress:v2'))['korean-mid2-2-midterm-2026:kor001'].grade, 'wrong');
+assert.equal(JSON.parse(a.storage.get('jianstudy:progress:v2'))[a.run('cardKey(state.cards[0])')].grade, 'wrong');
 const b = boot(a.storage); b.run(setup);
 assert.equal(await b.run("resumeStudy('2026-mid2-sem2-midterm')"), true);
 assert.equal(b.run('state.queue[state.index].id'), expected);
@@ -35,7 +35,9 @@ const f = boot(e.storage); await f.run('init()');
 assert.equal(f.run('state.index'),1); assert.equal(f.run('state.session.correct'),1); assert.equal(f.run('state.studying'),true);
 for (const subject of ['korean','science']) {
  const data = JSON.parse(fs.readFileSync(`data/exams/2026-mid2-sem2-midterm/${subject}/core.json`));
- assert.equal(data.cards.length,70); assert.equal(new Set(data.cards.map(c => c.id)).size,70);
+ assert.equal(data.cards.length,50); assert.equal(new Set(data.cards.map(c => c.id)).size,50);
+ const previousIds = new Set([...fs.readFileSync('docs/CORE_70_REVIEW.md', 'utf8').matchAll(/`((?:kor|sci)\d{3})`/g)].map(match => match[1]));
+ assert.equal(data.cards.filter(card => previousIds.has(card.id)).length,0, `${subject}: previous 70 questions must be excluded`);
  assert.deepEqual(new Set(data.cards.map(c => c.categoryId)),new Set(data.categories.map(c => c.id)));
 }
 // Malformed or unavailable storage must not prevent a fresh study session.
