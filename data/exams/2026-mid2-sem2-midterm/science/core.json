@@ -3,13 +3,13 @@
   "id": "science-mid2-2-midterm-2026",
   "examId": "2026-mid2-sem2-midterm",
   "subjectId": "science",
-  "title": "중 2-2 중간 과학 · 정리 노트",
+  "title": "중 2-2 중간 과학 · 핵심 70문항",
   "source": "2026-09-26 제공한 손글씨 정리 노트 사진 3장(001·002는 같은 쪽)",
   "sourceRefs": [
     "note-01",
     "note-03"
   ],
-  "description": "서로 다른 노트 2쪽에서 확인한 개념·실험·그래프·비교표·이동 경로를 219장으로 구성했습니다. photo 001·002는 note-01, photo 003은 note-03입니다. 불명확하거나 충돌하는 표현은 검토 기록에 남겼으며, 질문의 조건을 분명히 했습니다.",
+  "description": "제공된 자료의 모든 단원을 포함하고 반복·세부 문항을 줄인 핵심 70문항입니다.",
   "categories": [
     {
       "id": "photosynthesis",
@@ -99,29 +99,6 @@
       ]
     },
     {
-      "id": "sci004",
-      "type": "qa",
-      "front": "광합성의 두 원료 중 뿌리에서 흡수하는 것은?",
-      "answer": "물",
-      "hint": "액체인 원료",
-      "categoryId": "photosynthesis",
-      "sourceRef": "note-01",
-      "sourceLocation": "상단 광합성·실험·그래프 및 중단 양분 이동"
-    },
-    {
-      "id": "sci005",
-      "type": "qa",
-      "front": "광합성에 필요한 에너지는?",
-      "answer": "빛에너지",
-      "hint": "빛에서 얻어요.",
-      "categoryId": "photosynthesis",
-      "sourceRef": "note-01",
-      "sourceLocation": "상단 광합성·실험·그래프 및 중단 양분 이동",
-      "acceptedAnswers": [
-        "빛 에너지"
-      ]
-    },
-    {
       "id": "sci006",
       "type": "qa",
       "front": "광합성으로 처음 만들어지는 양분은?",
@@ -159,64 +136,6 @@
       ]
     },
     {
-      "id": "sci009",
-      "type": "blank",
-      "front": "광합성 반응을 완성하자. 이산화 탄소 + ___ → 포도당 + 산소",
-      "answer": "물",
-      "hint": "뿌리에서 흡수하는 원료",
-      "categoryId": "photosynthesis",
-      "sourceRef": "note-01",
-      "sourceLocation": "상단 광합성·실험·그래프 및 중단 양분 이동"
-    },
-    {
-      "id": "sci010",
-      "type": "blank",
-      "front": "광합성 반응을 완성하자. 이산화 탄소 + 물 → ___ + 산소",
-      "answer": "포도당",
-      "hint": "만들어진 양분",
-      "categoryId": "photosynthesis",
-      "sourceRef": "note-01",
-      "sourceLocation": "상단 광합성·실험·그래프 및 중단 양분 이동"
-    },
-    {
-      "id": "sci011",
-      "type": "qa",
-      "front": "노트의 헬몬트 실험 정리에서 식물의 생장에 필요하다고 적은 물질은?",
-      "answer": "물",
-      "hint": "흙 자체를 먹어서 자라는지 생각해 봐요.",
-      "categoryId": "photosynthesis",
-      "sourceRef": "note-01",
-      "sourceLocation": "상단 광합성·실험·그래프 및 중단 양분 이동"
-    },
-    {
-      "id": "sci012",
-      "type": "qa",
-      "front": "노트의 광합성 실험에서 전등을 켜자 이산화 탄소 농도는 어떻게 변했는가?",
-      "answer": "감소한다",
-      "hint": "광합성의 원료로 쓰여요.",
-      "categoryId": "photosynthesis",
-      "sourceRef": "note-01",
-      "sourceLocation": "상단 광합성·실험·그래프 및 중단 양분 이동",
-      "acceptedAnswers": [
-        "감소",
-        "낮아진다",
-        "줄어든다"
-      ]
-    },
-    {
-      "id": "sci013",
-      "type": "qa",
-      "front": "전등을 켠 실험에서 이산화 탄소 농도가 낮아진 까닭은?",
-      "answer": "광합성에 이산화 탄소가 사용되기 때문",
-      "hint": "반응의 원료를 떠올려요.",
-      "categoryId": "photosynthesis",
-      "sourceRef": "note-01",
-      "sourceLocation": "상단 광합성·실험·그래프 및 중단 양분 이동",
-      "acceptedAnswers": [
-        "광합성의 원료로 사용되기 때문"
-      ]
-    },
-    {
       "id": "sci014",
       "type": "qa",
       "front": "검정말의 녹말 검출 실험에서 잎을 탈색할 때 쓰는 물질은?",
@@ -225,33 +144,6 @@
       "categoryId": "photosynthesis",
       "sourceRef": "note-01",
       "sourceLocation": "상단 광합성·실험·그래프 및 중단 양분 이동"
-    },
-    {
-      "id": "sci015",
-      "type": "qa",
-      "front": "탈색한 검정말에 녹말 검출 용액을 떨어뜨려 청람색이 나타났다. 확인된 물질은?",
-      "answer": "녹말",
-      "hint": "광합성 산물의 저장 형태",
-      "categoryId": "photosynthesis",
-      "sourceRef": "note-01",
-      "sourceLocation": "상단 광합성·실험·그래프 및 중단 양분 이동",
-      "acceptedAnswers": [
-        "전분"
-      ]
-    },
-    {
-      "id": "sci016",
-      "type": "qa",
-      "front": "노트에서는 일정 시간 동안 어떤 기체의 농도 변화를 광합성량을 알아보는 지표로 사용했는가?",
-      "answer": "산소",
-      "hint": "광합성으로 만들어지는 기체",
-      "categoryId": "photosynthesis",
-      "sourceRef": "note-01",
-      "sourceLocation": "상단 광합성·실험·그래프 및 중단 양분 이동",
-      "acceptedAnswers": [
-        "O2",
-        "O₂"
-      ]
     },
     {
       "id": "sci017",
@@ -284,50 +176,6 @@
       ]
     },
     {
-      "id": "sci019",
-      "type": "qa",
-      "front": "다른 조건이 같을 때 이산화 탄소 농도가 낮은 구간에서 농도를 높이면 광합성량은?",
-      "answer": "증가한다",
-      "hint": "원료가 늘어나는 구간",
-      "categoryId": "photosynthesis",
-      "sourceRef": "note-01",
-      "sourceLocation": "상단 광합성·실험·그래프 및 중단 양분 이동",
-      "acceptedAnswers": [
-        "증가",
-        "많아진다",
-        "늘어난다"
-      ]
-    },
-    {
-      "id": "sci020",
-      "type": "qa",
-      "front": "이산화 탄소 농도가 충분히 높아진 뒤 노트의 광합성량 그래프는 어떻게 되는가?",
-      "answer": "거의 일정해진다",
-      "hint": "그래프가 계속 올라가지는 않아요.",
-      "categoryId": "photosynthesis",
-      "sourceRef": "note-01",
-      "sourceLocation": "상단 광합성·실험·그래프 및 중단 양분 이동",
-      "acceptedAnswers": [
-        "일정해진다",
-        "일정하다",
-        "일정"
-      ]
-    },
-    {
-      "id": "sci021",
-      "type": "qa",
-      "front": "노트의 온도 그래프에서 낮은 온도부터 적정 온도까지 온도를 올리면 광합성량은?",
-      "answer": "증가한다",
-      "hint": "봉우리까지 올라가는 부분",
-      "categoryId": "photosynthesis",
-      "sourceRef": "note-01",
-      "sourceLocation": "상단 광합성·실험·그래프 및 중단 양분 이동",
-      "acceptedAnswers": [
-        "증가",
-        "늘어난다"
-      ]
-    },
-    {
       "id": "sci022",
       "type": "qa",
       "front": "노트의 온도 그래프에서 적정 온도를 지나 더 높아지면 광합성량은?",
@@ -340,26 +188,6 @@
         "감소",
         "줄어든다"
       ]
-    },
-    {
-      "id": "sci023",
-      "type": "qa",
-      "front": "빛의 세기·이산화 탄소 농도·온도 중 광합성량 그래프가 증가하다가 감소하는 것은?",
-      "answer": "온도",
-      "hint": "봉우리 모양 그래프",
-      "categoryId": "photosynthesis",
-      "sourceRef": "note-01",
-      "sourceLocation": "상단 광합성·실험·그래프 및 중단 양분 이동"
-    },
-    {
-      "id": "sci024",
-      "type": "blank",
-      "front": "노트의 그래프에서 광합성량에 영향을 주는 세 조건은 빛의 세기, 이산화 탄소 농도, ___이다.",
-      "answer": "온도",
-      "hint": "따뜻하거나 차가운 정도",
-      "categoryId": "photosynthesis",
-      "sourceRef": "note-01",
-      "sourceLocation": "상단 광합성·실험·그래프 및 중단 양분 이동"
     },
     {
       "id": "sci025",
@@ -383,62 +211,6 @@
       "categoryId": "photosynthesis",
       "sourceRef": "note-01",
       "sourceLocation": "상단 광합성·실험·그래프 및 중단 양분 이동"
-    },
-    {
-      "id": "sci027",
-      "type": "qa",
-      "front": "노트에서 딸기에 저장되는 양분으로 연결한 것은?",
-      "answer": "포도당",
-      "hint": "광합성으로 만들어지는 당",
-      "categoryId": "photosynthesis",
-      "sourceRef": "note-01",
-      "sourceLocation": "상단 광합성·실험·그래프 및 중단 양분 이동"
-    },
-    {
-      "id": "sci028",
-      "type": "qa",
-      "front": "노트에서 사탕수수에 저장되는 양분으로 연결한 것은?",
-      "answer": "설탕",
-      "hint": "양분의 주요 운반 형태와 같아요.",
-      "categoryId": "photosynthesis",
-      "sourceRef": "note-01",
-      "sourceLocation": "상단 광합성·실험·그래프 및 중단 양분 이동",
-      "acceptedAnswers": [
-        "자당"
-      ]
-    },
-    {
-      "id": "sci029",
-      "type": "qa",
-      "front": "노트에서 콩에 저장되는 양분으로 연결한 것은?",
-      "answer": "단백질",
-      "hint": "아미노산으로 소화되는 영양소",
-      "categoryId": "photosynthesis",
-      "sourceRef": "note-01",
-      "sourceLocation": "상단 광합성·실험·그래프 및 중단 양분 이동"
-    },
-    {
-      "id": "sci030",
-      "type": "qa",
-      "front": "노트에서 깨에 저장되는 양분으로 연결한 것은?",
-      "answer": "지방",
-      "hint": "수단 Ⅲ 용액으로 검출해요.",
-      "categoryId": "photosynthesis",
-      "sourceRef": "note-01",
-      "sourceLocation": "상단 광합성·실험·그래프 및 중단 양분 이동"
-    },
-    {
-      "id": "sci031",
-      "type": "qa",
-      "front": "노트에서 감자에 저장되는 양분으로 연결한 것은?",
-      "answer": "녹말",
-      "hint": "청람색 검출 반응",
-      "categoryId": "photosynthesis",
-      "sourceRef": "note-01",
-      "sourceLocation": "상단 광합성·실험·그래프 및 중단 양분 이동",
-      "acceptedAnswers": [
-        "전분"
-      ]
     },
     {
       "id": "sci032",
@@ -468,30 +240,6 @@
       ]
     },
     {
-      "id": "sci034",
-      "type": "qa",
-      "front": "호흡에서 산소와 함께 분해되는 양분은?",
-      "answer": "포도당",
-      "hint": "광합성으로 만든 양분",
-      "categoryId": "plant-respiration",
-      "sourceRef": "note-01",
-      "sourceLocation": "중단 호흡과 광합성 비교"
-    },
-    {
-      "id": "sci035",
-      "type": "qa",
-      "front": "호흡에서 포도당과 반응하는 기체는?",
-      "answer": "산소",
-      "hint": "호흡할 때 소비해요.",
-      "categoryId": "plant-respiration",
-      "sourceRef": "note-01",
-      "sourceLocation": "중단 호흡과 광합성 비교",
-      "acceptedAnswers": [
-        "O2",
-        "O₂"
-      ]
-    },
-    {
       "id": "sci036",
       "type": "qa",
       "front": "호흡으로 생기는 두 물질 중 기체는?",
@@ -517,19 +265,6 @@
       "sourceLocation": "중단 호흡과 광합성 비교"
     },
     {
-      "id": "sci038",
-      "type": "qa",
-      "front": "식물이 호흡을 해서 얻는 것은?",
-      "answer": "에너지",
-      "hint": "생명 활동에 필요해요.",
-      "categoryId": "plant-respiration",
-      "sourceRef": "note-01",
-      "sourceLocation": "중단 호흡과 광합성 비교",
-      "acceptedAnswers": [
-        "생명 활동에 필요한 에너지"
-      ]
-    },
-    {
       "id": "sci039",
       "type": "qa",
       "front": "식물의 호흡은 낮과 밤 중 언제 일어나는가?",
@@ -543,65 +278,6 @@
         "낮과 밤",
         "밤과 낮",
         "낮에도 밤에도"
-      ]
-    },
-    {
-      "id": "sci040",
-      "type": "qa",
-      "front": "식물의 광합성이 일어나려면 빛이 필요한가?",
-      "answer": "필요하다",
-      "hint": "광합성의 에너지원을 떠올려요.",
-      "categoryId": "plant-respiration",
-      "sourceRef": "note-01",
-      "sourceLocation": "중단 호흡과 광합성 비교",
-      "acceptedAnswers": [
-        "필요",
-        "예",
-        "네"
-      ]
-    },
-    {
-      "id": "sci041",
-      "type": "qa",
-      "front": "빛이 없는 상태의 식물 주변에서 산소 농도는 어떻게 변하는가?",
-      "answer": "감소한다",
-      "hint": "호흡에 쓰여요.",
-      "categoryId": "plant-respiration",
-      "sourceRef": "note-01",
-      "sourceLocation": "중단 호흡과 광합성 비교",
-      "acceptedAnswers": [
-        "감소",
-        "낮아진다",
-        "줄어든다"
-      ]
-    },
-    {
-      "id": "sci042",
-      "type": "qa",
-      "front": "빛이 없는 상태의 식물 주변에서 이산화 탄소 농도는 어떻게 변하는가?",
-      "answer": "증가한다",
-      "hint": "호흡으로 나와요.",
-      "categoryId": "plant-respiration",
-      "sourceRef": "note-01",
-      "sourceLocation": "중단 호흡과 광합성 비교",
-      "acceptedAnswers": [
-        "증가",
-        "높아진다",
-        "늘어난다"
-      ]
-    },
-    {
-      "id": "sci043",
-      "type": "qa",
-      "front": "빛이 없을 때도 식물 주변 기체의 농도가 달라지는 까닭은?",
-      "answer": "호흡이 일어나기 때문",
-      "hint": "빛 없이도 계속되는 작용",
-      "categoryId": "plant-respiration",
-      "sourceRef": "note-01",
-      "sourceLocation": "중단 호흡과 광합성 비교",
-      "acceptedAnswers": [
-        "호흡하기 때문",
-        "호흡"
       ]
     },
     {
@@ -620,92 +296,11 @@
       ]
     },
     {
-      "id": "sci045",
-      "type": "qa",
-      "front": "광합성이 호흡보다 활발할 때 식물은 전체적으로 어떤 기체를 내보내는가?",
-      "answer": "산소",
-      "hint": "광합성의 기체 생성물",
-      "categoryId": "plant-respiration",
-      "sourceRef": "note-01",
-      "sourceLocation": "중단 호흡과 광합성 비교",
-      "acceptedAnswers": [
-        "O2",
-        "O₂"
-      ]
-    },
-    {
-      "id": "sci046",
-      "type": "qa",
-      "front": "광합성과 호흡 중 빛에너지를 이용해 양분을 만드는 작용은?",
-      "answer": "광합성",
-      "hint": "양분을 합성해요.",
-      "categoryId": "plant-respiration",
-      "sourceRef": "note-01",
-      "sourceLocation": "중단 호흡과 광합성 비교"
-    },
-    {
-      "id": "sci047",
-      "type": "qa",
-      "front": "광합성과 호흡 중 양분을 분해해 생명 활동에 필요한 에너지를 얻는 작용은?",
-      "answer": "호흡",
-      "hint": "양분에 저장된 에너지를 얻어요.",
-      "categoryId": "plant-respiration",
-      "sourceRef": "note-01",
-      "sourceLocation": "중단 호흡과 광합성 비교",
-      "acceptedAnswers": [
-        "세포 호흡",
-        "세포호흡"
-      ]
-    },
-    {
-      "id": "sci048",
-      "type": "blank",
-      "front": "광합성과 호흡에서 포도당의 역할을 비교하자. 광합성에서는 만들어지고 호흡에서는 ___된다.",
-      "answer": "분해",
-      "hint": "양분에서 에너지를 얻어요.",
-      "categoryId": "plant-respiration",
-      "sourceRef": "note-01",
-      "sourceLocation": "중단 호흡과 광합성 비교",
-      "acceptedAnswers": [
-        "분해된다"
-      ]
-    },
-    {
-      "id": "sci049",
-      "type": "blank",
-      "front": "광합성과 호흡에서 산소의 역할을 비교하자. 광합성에서는 만들어지고 호흡에서는 ___된다.",
-      "answer": "사용",
-      "hint": "포도당과 반응해요.",
-      "categoryId": "plant-respiration",
-      "sourceRef": "note-01",
-      "sourceLocation": "중단 호흡과 광합성 비교",
-      "acceptedAnswers": [
-        "소비",
-        "사용된다",
-        "소비된다"
-      ]
-    },
-    {
       "id": "sci050",
       "type": "qa",
-      "front": "녹말을 검출하는 용액은?",
-      "answer": "아이오딘 아이오딘화 칼륨 용액",
-      "hint": "노트의 청람색 반응",
-      "categoryId": "nutrient-tests",
-      "sourceRef": "note-01",
-      "sourceLocation": "중하단 검출 반응 및 맨 아래 침 실험 표",
-      "acceptedAnswers": [
-        "아이오딘-아이오딘화 칼륨 용액",
-        "아이오딘 용액",
-        "요오드 용액"
-      ]
-    },
-    {
-      "id": "sci051",
-      "type": "qa",
-      "front": "녹말에 아이오딘 아이오딘화 칼륨 용액을 넣으면 나타나는 색은?",
-      "answer": "청람색",
-      "hint": "푸른빛을 띠는 짙은 색",
+      "front": "녹말 검출에 사용하는 용액과 양성 반응의 색은?",
+      "answer": "아이오딘 아이오딘화 칼륨 용액, 청람색",
+      "hint": "시약과 색을 함께 떠올려요.",
       "categoryId": "nutrient-tests",
       "sourceRef": "note-01",
       "sourceLocation": "중하단 검출 반응 및 맨 아래 침 실험 표"
@@ -713,22 +308,9 @@
     {
       "id": "sci052",
       "type": "qa",
-      "front": "포도당 등의 당을 검출할 때 노트에서 사용한 용액은?",
-      "answer": "베네딕트 용액",
-      "hint": "황적색 반응을 나타내요.",
-      "categoryId": "nutrient-tests",
-      "sourceRef": "note-01",
-      "sourceLocation": "중하단 검출 반응 및 맨 아래 침 실험 표",
-      "acceptedAnswers": [
-        "베네딕트"
-      ]
-    },
-    {
-      "id": "sci053",
-      "type": "qa",
-      "front": "베네딕트 반응에서 당이 검출되었을 때 노트에 적힌 색은?",
-      "answer": "황적색",
-      "hint": "노란빛과 붉은빛이 섞인 색",
+      "front": "당 검출에 사용하는 용액과 노트에 적힌 양성 반응의 색은?",
+      "answer": "베네딕트 용액, 황적색",
+      "hint": "시약과 색을 함께 떠올려요.",
       "categoryId": "nutrient-tests",
       "sourceRef": "note-01",
       "sourceLocation": "중하단 검출 반응 및 맨 아래 침 실험 표"
@@ -736,158 +318,22 @@
     {
       "id": "sci054",
       "type": "qa",
-      "front": "단백질 검출에 쓰는 두 용액 중 농도 5%로 적힌 것은?",
-      "answer": "수산화 나트륨 수용액",
-      "hint": "다른 하나는 황산 구리 수용액",
+      "front": "단백질 검출에 사용하는 두 용액과 양성 반응의 색은?",
+      "answer": "수산화 나트륨 수용액과 황산 구리 수용액, 보라색",
+      "hint": "두 시약을 함께 사용해요.",
       "categoryId": "nutrient-tests",
       "sourceRef": "note-01",
-      "sourceLocation": "중하단 검출 반응 및 맨 아래 침 실험 표",
-      "acceptedAnswers": [
-        "수산화나트륨",
-        "수산화나트륨 수용액"
-      ]
-    },
-    {
-      "id": "sci055",
-      "type": "qa",
-      "front": "단백질 검출에 쓰는 두 용액 중 농도 1%로 적힌 것은?",
-      "answer": "황산 구리 수용액",
-      "hint": "다른 하나는 수산화 나트륨 수용액",
-      "categoryId": "nutrient-tests",
-      "sourceRef": "note-01",
-      "sourceLocation": "중하단 검출 반응 및 맨 아래 침 실험 표",
-      "acceptedAnswers": [
-        "황산구리",
-        "황산구리 수용액"
-      ]
-    },
-    {
-      "id": "sci056",
-      "type": "qa",
-      "front": "단백질에 수산화 나트륨 수용액과 황산 구리 수용액을 넣었을 때 나타나는 색은?",
-      "answer": "보라색",
-      "hint": "단백질의 검출 반응",
-      "categoryId": "nutrient-tests",
-      "sourceRef": "note-01",
-      "sourceLocation": "중하단 검출 반응 및 맨 아래 침 실험 표",
-      "acceptedAnswers": [
-        "보라"
-      ]
+      "sourceLocation": "중하단 검출 반응 및 맨 아래 침 실험 표"
     },
     {
       "id": "sci057",
       "type": "qa",
-      "front": "지방 검출에 사용하는 용액은?",
-      "answer": "수단 Ⅲ 용액",
-      "hint": "로마 숫자 3이 붙어요.",
-      "categoryId": "nutrient-tests",
-      "sourceRef": "note-01",
-      "sourceLocation": "중하단 검출 반응 및 맨 아래 침 실험 표",
-      "acceptedAnswers": [
-        "수단 III 용액",
-        "수단3용액",
-        "수단 Ⅲ",
-        "수단III",
-        "수단3"
-      ]
-    },
-    {
-      "id": "sci058",
-      "type": "qa",
-      "front": "지방에 수단 Ⅲ 용액을 넣었을 때 나타나는 색은?",
-      "answer": "선홍색",
-      "hint": "밝고 선명한 붉은색",
+      "front": "지방 검출에 사용하는 용액과 양성 반응의 색은?",
+      "answer": "수단 Ⅲ 용액, 선홍색",
+      "hint": "시약과 색을 함께 떠올려요.",
       "categoryId": "nutrient-tests",
       "sourceRef": "note-01",
       "sourceLocation": "중하단 검출 반응 및 맨 아래 침 실험 표"
-    },
-    {
-      "id": "sci059",
-      "type": "qa",
-      "front": "수산화 나트륨 수용액과 황산 구리 수용액을 넣어 보라색이 되었다. 검출된 영양소는?",
-      "answer": "단백질",
-      "hint": "콩에 저장되는 영양소",
-      "categoryId": "nutrient-tests",
-      "sourceRef": "note-01",
-      "sourceLocation": "중하단 검출 반응 및 맨 아래 침 실험 표"
-    },
-    {
-      "id": "sci060",
-      "type": "qa",
-      "front": "수단 Ⅲ 용액을 넣어 선홍색이 되었다. 검출된 영양소는?",
-      "answer": "지방",
-      "hint": "깨에 저장되는 영양소",
-      "categoryId": "nutrient-tests",
-      "sourceRef": "note-01",
-      "sourceLocation": "중하단 검출 반응 및 맨 아래 침 실험 표"
-    },
-    {
-      "id": "sci061",
-      "type": "qa",
-      "front": "노트의 침 실험에서 녹말에 증류수를 넣은 쪽은 녹말 검출 반응이 나타나는가?",
-      "answer": "나타난다",
-      "hint": "표에서 녹말 검출은 ○예요.",
-      "categoryId": "nutrient-tests",
-      "sourceRef": "note-01",
-      "sourceLocation": "중하단 검출 반응 및 맨 아래 침 실험 표",
-      "acceptedAnswers": [
-        "예",
-        "나타남",
-        "양성",
-        "O",
-        "○"
-      ]
-    },
-    {
-      "id": "sci062",
-      "type": "qa",
-      "front": "노트의 침 실험에서 녹말에 증류수를 넣은 쪽은 당 검출 반응이 나타나는가?",
-      "answer": "나타나지 않는다",
-      "hint": "표에서 당 검출은 ×예요.",
-      "categoryId": "nutrient-tests",
-      "sourceRef": "note-01",
-      "sourceLocation": "중하단 검출 반응 및 맨 아래 침 실험 표",
-      "acceptedAnswers": [
-        "아니요",
-        "나타나지 않음",
-        "음성",
-        "X",
-        "×"
-      ]
-    },
-    {
-      "id": "sci063",
-      "type": "qa",
-      "front": "노트의 침 실험에서 녹말에 침을 넣고 반응시킨 쪽은 녹말 검출 반응이 나타나는가?",
-      "answer": "나타나지 않는다",
-      "hint": "침을 넣은 쪽의 녹말 검출은 ×예요.",
-      "categoryId": "nutrient-tests",
-      "sourceRef": "note-01",
-      "sourceLocation": "중하단 검출 반응 및 맨 아래 침 실험 표",
-      "acceptedAnswers": [
-        "아니요",
-        "나타나지 않음",
-        "음성",
-        "X",
-        "×"
-      ]
-    },
-    {
-      "id": "sci064",
-      "type": "qa",
-      "front": "노트의 침 실험에서 녹말에 침을 넣고 반응시킨 쪽은 당 검출 반응이 나타나는가?",
-      "answer": "나타난다",
-      "hint": "침을 넣은 쪽의 당 검출은 ○예요.",
-      "categoryId": "nutrient-tests",
-      "sourceRef": "note-01",
-      "sourceLocation": "중하단 검출 반응 및 맨 아래 침 실험 표",
-      "acceptedAnswers": [
-        "예",
-        "나타남",
-        "양성",
-        "O",
-        "○"
-      ]
     },
     {
       "id": "sci065",
@@ -923,153 +369,11 @@
       "sourceLocation": "하단 소화관과 소화샘"
     },
     {
-      "id": "sci068",
-      "type": "qa",
-      "front": "영양소의 소화와 흡수를 담당하는 기관계는?",
-      "answer": "소화계",
-      "hint": "입·위·작은창자 등이 속해요.",
-      "categoryId": "digestive-organs",
-      "sourceRef": "note-01",
-      "sourceLocation": "하단 소화관과 소화샘"
-    },
-    {
-      "id": "sci069",
-      "type": "qa",
-      "front": "입에서 음식물을 잘게 부수는 부분은?",
-      "answer": "이",
-      "hint": "씹을 때 사용하는 단단한 부분",
-      "categoryId": "digestive-organs",
-      "sourceRef": "note-01",
-      "sourceLocation": "하단 소화관과 소화샘",
-      "acceptedAnswers": [
-        "치아"
-      ]
-    },
-    {
-      "id": "sci070",
-      "type": "qa",
-      "front": "입에서 음식물을 침과 섞는 데 이용하는 부분은?",
-      "answer": "혀",
-      "hint": "입안에서 움직이는 부분",
-      "categoryId": "digestive-organs",
-      "sourceRef": "note-01",
-      "sourceLocation": "하단 소화관과 소화샘"
-    },
-    {
-      "id": "sci071",
-      "type": "qa",
-      "front": "침을 만들어 입으로 분비하는 소화샘은?",
-      "answer": "침샘",
-      "hint": "입 주변의 소화샘",
-      "categoryId": "digestive-organs",
-      "sourceRef": "note-01",
-      "sourceLocation": "하단 소화관과 소화샘"
-    },
-    {
-      "id": "sci072",
-      "type": "qa",
-      "front": "입과 위를 연결하여 음식물을 위로 내려보내는 소화관은?",
-      "answer": "식도",
-      "hint": "입 → ___ → 위",
-      "categoryId": "digestive-organs",
-      "sourceRef": "note-01",
-      "sourceLocation": "하단 소화관과 소화샘"
-    },
-    {
-      "id": "sci073",
-      "type": "qa",
-      "front": "음식물을 일시적으로 저장하는 주머니 모양의 소화관은?",
-      "answer": "위",
-      "hint": "식도 다음에 있어요.",
-      "categoryId": "digestive-organs",
-      "sourceRef": "note-01",
-      "sourceLocation": "하단 소화관과 소화샘"
-    },
-    {
-      "id": "sci074",
-      "type": "qa",
-      "front": "위에서 분비하는 소화액은?",
-      "answer": "위액",
-      "hint": "기관 이름에 '액'을 붙여요.",
-      "categoryId": "digestive-organs",
-      "sourceRef": "note-01",
-      "sourceLocation": "하단 소화관과 소화샘"
-    },
-    {
-      "id": "sci075",
-      "type": "qa",
-      "front": "노트에서 위액에 들어 있다고 표시한 산은?",
-      "answer": "염산",
-      "hint": "위액의 산성 성분",
-      "categoryId": "digestive-organs",
-      "sourceRef": "note-01",
-      "sourceLocation": "하단 소화관과 소화샘"
-    },
-    {
       "id": "sci076",
       "type": "qa",
       "front": "위에서 넘어온 음식물을 소화하고 소화된 영양소를 흡수하는 길고 가는 소화관은?",
       "answer": "작은창자",
       "hint": "위와 큰창자 사이",
-      "categoryId": "digestive-organs",
-      "sourceRef": "note-01",
-      "sourceLocation": "하단 소화관과 소화샘",
-      "acceptedAnswers": [
-        "소장"
-      ]
-    },
-    {
-      "id": "sci077",
-      "type": "blank",
-      "front": "소화관의 순서를 완성하자. 입 → 식도 → 위 → ___ → 큰창자 → 항문",
-      "answer": "작은창자",
-      "hint": "영양소를 주로 흡수하는 곳",
-      "categoryId": "digestive-organs",
-      "sourceRef": "note-01",
-      "sourceLocation": "하단 소화관과 소화샘",
-      "acceptedAnswers": [
-        "소장"
-      ]
-    },
-    {
-      "id": "sci078",
-      "type": "blank",
-      "front": "소화관의 순서를 완성하자. 입 → 식도 → ___ → 작은창자 → 큰창자 → 항문",
-      "answer": "위",
-      "hint": "음식물을 일시적으로 저장해요.",
-      "categoryId": "digestive-organs",
-      "sourceRef": "note-01",
-      "sourceLocation": "하단 소화관과 소화샘"
-    },
-    {
-      "id": "sci079",
-      "type": "qa",
-      "front": "쓸개즙을 만드는 기관은?",
-      "answer": "간",
-      "hint": "쓸개즙을 저장하는 기관과 구별해요.",
-      "categoryId": "digestive-organs",
-      "sourceRef": "note-01",
-      "sourceLocation": "하단 소화관과 소화샘"
-    },
-    {
-      "id": "sci080",
-      "type": "qa",
-      "front": "간에서 만든 쓸개즙을 저장하는 기관은?",
-      "answer": "쓸개",
-      "hint": "만드는 곳은 간이에요.",
-      "categoryId": "digestive-organs",
-      "sourceRef": "note-01",
-      "sourceLocation": "하단 소화관과 소화샘",
-      "acceptedAnswers": [
-        "담낭"
-      ]
-    },
-    {
-      "id": "sci081",
-      "type": "qa",
-      "front": "쓸개에 저장된 쓸개즙은 어느 소화관으로 보내지는가?",
-      "answer": "작은창자",
-      "hint": "지방이 소화되는 곳",
       "categoryId": "digestive-organs",
       "sourceRef": "note-01",
       "sourceLocation": "하단 소화관과 소화샘",
@@ -1088,19 +392,6 @@
       "sourceLocation": "하단 소화관과 소화샘",
       "acceptedAnswers": [
         "췌장"
-      ]
-    },
-    {
-      "id": "sci083",
-      "type": "qa",
-      "front": "이자에서 만든 이자액이 분비되는 소화관은?",
-      "answer": "작은창자",
-      "hint": "여러 영양소가 소화되는 곳",
-      "categoryId": "digestive-organs",
-      "sourceRef": "note-01",
-      "sourceLocation": "하단 소화관과 소화샘",
-      "acceptedAnswers": [
-        "소장"
       ]
     },
     {
@@ -1131,43 +422,6 @@
       ]
     },
     {
-      "id": "sci086",
-      "type": "qa",
-      "front": "노트에서 큰창자의 주요 흡수 대상으로 명확히 표시한 물질은?",
-      "answer": "물",
-      "hint": "소화되지 않은 나머지 물질은 항문으로 가요.",
-      "categoryId": "digestive-organs",
-      "sourceRef": "note-03",
-      "sourceLocation": "상단 큰창자: 거의 소화 ×, 물 흡수",
-      "acceptedAnswers": [
-        "수분"
-      ]
-    },
-    {
-      "id": "sci087",
-      "type": "qa",
-      "front": "003번 노트에 따르면 큰창자에서는 소화가 활발하게 일어나는가?",
-      "answer": "거의 일어나지 않는다",
-      "hint": "'거의 소화 ×'라고 적혀 있어요.",
-      "categoryId": "digestive-organs",
-      "sourceRef": "note-03",
-      "sourceLocation": "상단 큰창자: 거의 소화 ×, 물 흡수",
-      "acceptedAnswers": [
-        "거의 안 일어난다",
-        "아니요"
-      ]
-    },
-    {
-      "id": "sci088",
-      "type": "qa",
-      "front": "소화관에 남은 물질을 몸 밖으로 내보내는 마지막 부분은?",
-      "answer": "항문",
-      "hint": "큰창자 다음의 출구",
-      "categoryId": "digestive-organs",
-      "sourceRef": "note-01",
-      "sourceLocation": "하단 소화관과 소화샘"
-    },
-    {
       "id": "sci089",
       "type": "qa",
       "front": "입에서 녹말 소화에 작용하는 소화 효소는?",
@@ -1178,32 +432,6 @@
       "sourceLocation": "상단 영양소별 소화 표 및 작은창자 흡수",
       "acceptedAnswers": [
         "아밀라아제"
-      ]
-    },
-    {
-      "id": "sci090",
-      "type": "qa",
-      "front": "노트의 소화 표에서 아밀레이스가 작용하는 영양소는?",
-      "answer": "녹말",
-      "hint": "탄수화물의 한 종류",
-      "categoryId": "digestion-absorption",
-      "sourceRef": "note-03",
-      "sourceLocation": "상단 영양소별 소화 표 및 작은창자 흡수",
-      "acceptedAnswers": [
-        "전분"
-      ]
-    },
-    {
-      "id": "sci091",
-      "type": "blank",
-      "front": "노트의 녹말 소화 표에 효소가 적힌 두 소화관은 입과 ___이다.",
-      "answer": "작은창자",
-      "hint": "위의 칸에는 효소가 적혀 있지 않아요.",
-      "categoryId": "digestion-absorption",
-      "sourceRef": "note-03",
-      "sourceLocation": "상단 영양소별 소화 표 및 작은창자 흡수",
-      "acceptedAnswers": [
-        "소장"
       ]
     },
     {
@@ -1222,16 +450,6 @@
       "front": "위에서 단백질 소화에 작용하는 효소는?",
       "answer": "펩신",
       "hint": "위액에 들어 있는 효소",
-      "categoryId": "digestion-absorption",
-      "sourceRef": "note-03",
-      "sourceLocation": "상단 영양소별 소화 표 및 작은창자 흡수"
-    },
-    {
-      "id": "sci094",
-      "type": "qa",
-      "front": "펩신의 소화 대상은?",
-      "answer": "단백질",
-      "hint": "콩에 저장되는 영양소",
       "categoryId": "digestion-absorption",
       "sourceRef": "note-03",
       "sourceLocation": "상단 영양소별 소화 표 및 작은창자 흡수"
@@ -1271,16 +489,6 @@
       ]
     },
     {
-      "id": "sci098",
-      "type": "qa",
-      "front": "라이페이스가 소화하는 영양소는?",
-      "answer": "지방",
-      "hint": "깨에 저장되는 영양소",
-      "categoryId": "digestion-absorption",
-      "sourceRef": "note-03",
-      "sourceLocation": "상단 영양소별 소화 표 및 작은창자 흡수"
-    },
-    {
       "id": "sci099",
       "type": "blank",
       "front": "노트의 지방 소화 산물은 지방산과 ___이다.",
@@ -1294,16 +502,6 @@
       ]
     },
     {
-      "id": "sci100",
-      "type": "blank",
-      "front": "노트의 지방 소화 산물은 모노글리세리드와 ___이다.",
-      "answer": "지방산",
-      "hint": "지방이 분해되어 나오는 물질",
-      "categoryId": "digestion-absorption",
-      "sourceRef": "note-03",
-      "sourceLocation": "상단 영양소별 소화 표 및 작은창자 흡수"
-    },
-    {
       "id": "sci101",
       "type": "qa",
       "front": "쓸개즙은 소화 효소인가?",
@@ -1315,80 +513,6 @@
       "acceptedAnswers": [
         "아니요",
         "소화 효소가 아니다"
-      ]
-    },
-    {
-      "id": "sci102",
-      "type": "qa",
-      "front": "노트에서 쓸개즙을 함께 표시한 영양소의 소화는?",
-      "answer": "지방의 소화",
-      "hint": "라이페이스와 같은 열에 있어요.",
-      "categoryId": "digestion-absorption",
-      "sourceRef": "note-03",
-      "sourceLocation": "상단 영양소별 소화 표 및 작은창자 흡수",
-      "acceptedAnswers": [
-        "지방"
-      ]
-    },
-    {
-      "id": "sci103",
-      "type": "qa",
-      "front": "노트의 소화 표에서 녹말·단백질·지방의 소화가 모두 표시된 소화관은?",
-      "answer": "작은창자",
-      "hint": "세 영양소의 표를 가로로 읽어요.",
-      "categoryId": "digestion-absorption",
-      "sourceRef": "note-03",
-      "sourceLocation": "상단 영양소별 소화 표 및 작은창자 흡수",
-      "acceptedAnswers": [
-        "소장"
-      ]
-    },
-    {
-      "id": "sci104",
-      "type": "qa",
-      "front": "녹말·단백질·지방 중 위의 펩신이 작용하는 것은?",
-      "answer": "단백질",
-      "hint": "위의 행에 적힌 효소를 생각해요.",
-      "categoryId": "digestion-absorption",
-      "sourceRef": "note-03",
-      "sourceLocation": "상단 영양소별 소화 표 및 작은창자 흡수"
-    },
-    {
-      "id": "sci105",
-      "type": "qa",
-      "front": "소화된 영양소를 주로 흡수하는 기관은?",
-      "answer": "작은창자",
-      "hint": "주름과 융털이 발달했어요.",
-      "categoryId": "digestion-absorption",
-      "sourceRef": "note-03",
-      "sourceLocation": "상단 영양소별 소화 표 및 작은창자 흡수",
-      "acceptedAnswers": [
-        "소장"
-      ]
-    },
-    {
-      "id": "sci106",
-      "type": "qa",
-      "front": "작은창자 안쪽의 주름에 나 있는 작은 돌기들은?",
-      "answer": "융털",
-      "hint": "영양소와 접촉하는 면적을 넓혀요.",
-      "categoryId": "digestion-absorption",
-      "sourceRef": "note-03",
-      "sourceLocation": "상단 영양소별 소화 표 및 작은창자 흡수"
-    },
-    {
-      "id": "sci107",
-      "type": "qa",
-      "front": "작은창자에 주름과 융털이 많으면 영양소와 닿는 표면적은?",
-      "answer": "넓어진다",
-      "hint": "접히고 돌출된 구조를 펼쳐 생각해요.",
-      "categoryId": "digestion-absorption",
-      "sourceRef": "note-03",
-      "sourceLocation": "상단 영양소별 소화 표 및 작은창자 흡수",
-      "acceptedAnswers": [
-        "증가한다",
-        "증가",
-        "커진다"
       ]
     },
     {
@@ -1416,109 +540,11 @@
       "sourceLocation": "상단 영양소별 소화 표 및 작은창자 흡수"
     },
     {
-      "id": "sci110",
-      "type": "blank",
-      "front": "융털에서 흡수된 영양소가 들어가는 두 통로는 암죽관과 ___이다.",
-      "answer": "모세혈관",
-      "hint": "아주 가는 혈관",
-      "categoryId": "digestion-absorption",
-      "sourceRef": "note-03",
-      "sourceLocation": "상단 영양소별 소화 표 및 작은창자 흡수"
-    },
-    {
-      "id": "sci111",
-      "type": "qa",
-      "front": "흡수된 영양소를 온몸의 세포로 운반하는 것은?",
-      "answer": "혈액",
-      "hint": "순환계가 운반해요.",
-      "categoryId": "digestion-absorption",
-      "sourceRef": "note-03",
-      "sourceLocation": "상단 영양소별 소화 표 및 작은창자 흡수",
-      "acceptedAnswers": [
-        "피"
-      ]
-    },
-    {
-      "id": "sci112",
-      "type": "qa",
-      "front": "음식물의 큰 영양소가 작은 영양소로 되는 것은 '소화'와 '흡수' 중 무엇인가?",
-      "answer": "소화",
-      "hint": "물질이 분해되는 과정",
-      "categoryId": "digestion-absorption",
-      "sourceRef": "note-03",
-      "sourceLocation": "상단 영양소별 소화 표 및 작은창자 흡수"
-    },
-    {
-      "id": "sci113",
-      "type": "qa",
-      "front": "소화된 영양소가 작은창자에서 몸 안으로 들어오는 것은 '소화'와 '흡수' 중 무엇인가?",
-      "answer": "흡수",
-      "hint": "분해된 영양소를 받아들이는 과정",
-      "categoryId": "digestion-absorption",
-      "sourceRef": "note-03",
-      "sourceLocation": "상단 영양소별 소화 표 및 작은창자 흡수"
-    },
-    {
-      "id": "sci114",
-      "type": "qa",
-      "front": "몸속에서 물질을 운반하는 기능을 담당하는 기관계는?",
-      "answer": "순환계",
-      "hint": "심장과 혈관이 속해요.",
-      "categoryId": "circulation",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 순환계·판막·동맥·정맥·모세혈관"
-    },
-    {
-      "id": "sci115",
-      "type": "blank",
-      "front": "노트에서 심장의 방을 구분한 두 종류는 심방과 ___이다.",
-      "answer": "심실",
-      "hint": "혈액의 순환 경로에 네 개의 방이 나와요.",
-      "categoryId": "circulation",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 순환계·판막·동맥·정맥·모세혈관"
-    },
-    {
-      "id": "sci116",
-      "type": "blank",
-      "front": "혈관의 세 종류는 동맥, 정맥, ___이다.",
-      "answer": "모세혈관",
-      "hint": "물질 교환이 일어나는 가는 혈관",
-      "categoryId": "circulation",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 순환계·판막·동맥·정맥·모세혈관"
-    },
-    {
       "id": "sci117",
       "type": "qa",
       "front": "심방과 심실 사이 등에 있어 혈액이 거꾸로 흐르는 것을 막는 구조는?",
       "answer": "판막",
       "hint": "한 방향 흐름을 유지해요.",
-      "categoryId": "circulation",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 순환계·판막·동맥·정맥·모세혈관"
-    },
-    {
-      "id": "sci118",
-      "type": "qa",
-      "front": "심장의 판막이 하는 일은?",
-      "answer": "혈액의 역류를 막는다",
-      "hint": "혈액이 뒤로 돌아가지 않게 해요.",
-      "categoryId": "circulation",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 순환계·판막·동맥·정맥·모세혈관",
-      "acceptedAnswers": [
-        "역류 방지",
-        "혈액 역류 방지",
-        "역류를 막는다"
-      ]
-    },
-    {
-      "id": "sci119",
-      "type": "blank",
-      "front": "노트에서 심장의 판막 위치로 적은 곳은 심방과 심실 사이, 그리고 심실과 ___ 사이이다.",
-      "answer": "동맥",
-      "hint": "심장에서 혈액이 나가는 혈관",
       "categoryId": "circulation",
       "sourceRef": "note-03",
       "sourceLocation": "중단 순환계·판막·동맥·정맥·모세혈관"
@@ -1554,47 +580,6 @@
       "sourceLocation": "중단 순환계·판막·동맥·정맥·모세혈관"
     },
     {
-      "id": "sci123",
-      "type": "qa",
-      "front": "노트에서 동맥의 혈압은 정맥에 비해 높다고 했는가, 낮다고 했는가?",
-      "answer": "높다",
-      "hint": "두껍고 탄력 있는 혈관 벽과 연결해요.",
-      "categoryId": "circulation",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 순환계·판막·동맥·정맥·모세혈관",
-      "acceptedAnswers": [
-        "높음",
-        "높습니다"
-      ]
-    },
-    {
-      "id": "sci124",
-      "type": "qa",
-      "front": "동맥과 비교하면 정맥의 혈관 벽은 더 두꺼운가, 얇은가?",
-      "answer": "얇다",
-      "hint": "동맥과 정맥의 구조 비교",
-      "categoryId": "circulation",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 순환계·판막·동맥·정맥·모세혈관",
-      "acceptedAnswers": [
-        "얇음"
-      ]
-    },
-    {
-      "id": "sci125",
-      "type": "qa",
-      "front": "동맥과 비교하면 정맥의 탄력성은 더 큰가, 작은가?",
-      "answer": "작다",
-      "hint": "노트에서 아래쪽 화살표로 표시했어요.",
-      "categoryId": "circulation",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 순환계·판막·동맥·정맥·모세혈관",
-      "acceptedAnswers": [
-        "작음",
-        "낮다"
-      ]
-    },
-    {
       "id": "sci126",
       "type": "qa",
       "front": "정맥에서 혈액이 거꾸로 흐르는 것을 막아 주는 구조는?",
@@ -1603,31 +588,6 @@
       "categoryId": "circulation",
       "sourceRef": "note-03",
       "sourceLocation": "중단 순환계·판막·동맥·정맥·모세혈관"
-    },
-    {
-      "id": "sci127",
-      "type": "qa",
-      "front": "그물처럼 퍼져 있고 벽이 한 층의 세포로 이루어진 혈관은?",
-      "answer": "모세혈관",
-      "hint": "세포 가까이에서 물질을 교환해요.",
-      "categoryId": "circulation",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 순환계·판막·동맥·정맥·모세혈관"
-    },
-    {
-      "id": "sci128",
-      "type": "qa",
-      "front": "모세혈관의 벽은 몇 층의 세포로 이루어져 있는가?",
-      "answer": "한 층",
-      "hint": "매우 얇은 벽",
-      "categoryId": "circulation",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 순환계·판막·동맥·정맥·모세혈관",
-      "acceptedAnswers": [
-        "1층",
-        "한층",
-        "1"
-      ]
     },
     {
       "id": "sci129",
@@ -1643,51 +603,11 @@
       ]
     },
     {
-      "id": "sci130",
-      "type": "qa",
-      "front": "온몸의 모세혈관에서 혈액은 세포에 산소와 무엇을 공급하는가?",
-      "answer": "영양소",
-      "hint": "소화계에서 흡수된 물질",
-      "categoryId": "circulation",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 순환계·판막·동맥·정맥·모세혈관"
-    },
-    {
-      "id": "sci131",
-      "type": "qa",
-      "front": "온몸의 모세혈관에서 혈액은 세포로부터 이산화 탄소와 무엇을 받는가?",
-      "answer": "노폐물",
-      "hint": "세포의 활동으로 생긴 불필요한 물질",
-      "categoryId": "circulation",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 순환계·판막·동맥·정맥·모세혈관"
-    },
-    {
       "id": "sci132",
       "type": "qa",
       "front": "혈액의 액체 성분은?",
       "answer": "혈장",
       "hint": "혈구를 제외한 액체 부분",
-      "categoryId": "blood",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 혈장·혈구·헤모글로빈"
-    },
-    {
-      "id": "sci133",
-      "type": "qa",
-      "front": "혈액에서 적혈구·백혈구·혈소판을 묶어 부르는 말은?",
-      "answer": "혈구",
-      "hint": "노트에 '세포 성분'으로 표시했어요.",
-      "categoryId": "blood",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 혈장·혈구·헤모글로빈"
-    },
-    {
-      "id": "sci134",
-      "type": "blank",
-      "front": "노트에서 혈장에 들어 있는 운반 물질은 영양소, 이산화 탄소, ___이다.",
-      "answer": "노폐물",
-      "hint": "몸 밖으로 내보내야 하는 물질",
       "categoryId": "blood",
       "sourceRef": "note-03",
       "sourceLocation": "중단 혈장·혈구·헤모글로빈"
@@ -1713,51 +633,11 @@
       "sourceLocation": "중단 혈장·혈구·헤모글로빈"
     },
     {
-      "id": "sci137",
-      "type": "qa",
-      "front": "헤모글로빈은 산소가 많은 곳에서 산소와 어떻게 되는가?",
-      "answer": "결합한다",
-      "hint": "운반할 산소를 받아요.",
-      "categoryId": "blood",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 혈장·혈구·헤모글로빈",
-      "acceptedAnswers": [
-        "결합",
-        "붙는다"
-      ]
-    },
-    {
-      "id": "sci138",
-      "type": "qa",
-      "front": "헤모글로빈은 산소가 적은 곳에서 산소를 어떻게 하는가?",
-      "answer": "내놓는다",
-      "hint": "결합했던 산소가 떨어져요.",
-      "categoryId": "blood",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 혈장·혈구·헤모글로빈",
-      "acceptedAnswers": [
-        "놓아준다",
-        "분리한다",
-        "방출한다",
-        "산소를 내놓는다"
-      ]
-    },
-    {
       "id": "sci139",
       "type": "qa",
       "front": "세균을 제거하는 혈구는?",
       "answer": "백혈구",
       "hint": "노트에 식균 작용으로 적혀 있어요.",
-      "categoryId": "blood",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 혈장·혈구·헤모글로빈"
-    },
-    {
-      "id": "sci140",
-      "type": "qa",
-      "front": "노트에서 핵이 있다고 표시한 혈구는?",
-      "answer": "백혈구",
-      "hint": "세균을 제거하는 혈구",
       "categoryId": "blood",
       "sourceRef": "note-03",
       "sourceLocation": "중단 혈장·혈구·헤모글로빈"
@@ -1773,163 +653,11 @@
       "sourceLocation": "중단 혈장·혈구·헤모글로빈"
     },
     {
-      "id": "sci142",
-      "type": "qa",
-      "front": "적혈구·백혈구·혈소판 중 세균 제거와 혈액 응고를 각각 담당하는 것은?",
-      "answer": "백혈구, 혈소판",
-      "hint": "방어 기능과 응고 기능을 구별해요.",
-      "categoryId": "blood",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 혈장·혈구·헤모글로빈",
-      "acceptedAnswers": [
-        "백혈구와 혈소판",
-        "백혈구 혈소판"
-      ]
-    },
-    {
-      "id": "sci143",
-      "type": "qa",
-      "front": "혈장과 적혈구 중 산소 운반을 주로 담당하는 것은?",
-      "answer": "적혈구",
-      "hint": "헤모글로빈이 들어 있는 쪽",
-      "categoryId": "blood",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 혈장·혈구·헤모글로빈"
-    },
-    {
-      "id": "sci144",
-      "type": "qa",
-      "front": "혈장과 적혈구 중 노트에서 영양소·이산화 탄소·노폐물을 담고 있다고 적은 것은?",
-      "answer": "혈장",
-      "hint": "액체 성분을 떠올려요.",
-      "categoryId": "blood",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 혈장·혈구·헤모글로빈"
-    },
-    {
-      "id": "sci145",
-      "type": "qa",
-      "front": "온몸을 거치는 혈액 순환을 무엇이라고 하는가?",
-      "answer": "온몸순환",
-      "hint": "폐를 거치는 순환과 구별해요.",
-      "categoryId": "circulation-path",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 전체 순환 경로 및 온몸순환·허파순환",
-      "acceptedAnswers": [
-        "체순환",
-        "온몸 순환"
-      ]
-    },
-    {
-      "id": "sci146",
-      "type": "qa",
-      "front": "폐를 거치는 혈액 순환을 무엇이라고 하는가?",
-      "answer": "허파순환",
-      "hint": "산소를 받고 이산화 탄소를 내보내요.",
-      "categoryId": "circulation-path",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 전체 순환 경로 및 온몸순환·허파순환",
-      "acceptedAnswers": [
-        "폐순환",
-        "허파 순환"
-      ]
-    },
-    {
-      "id": "sci147",
-      "type": "qa",
-      "front": "온몸순환에서 혈액이 심장을 출발하는 방은?",
-      "answer": "좌심실",
-      "hint": "대동맥으로 이어져요.",
-      "categoryId": "circulation-path",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 전체 순환 경로 및 온몸순환·허파순환"
-    },
-    {
-      "id": "sci148",
-      "type": "qa",
-      "front": "좌심실에서 온몸으로 혈액을 내보내는 큰 혈관은?",
-      "answer": "대동맥",
-      "hint": "좌심실 → ___ → 온몸 모세혈관",
-      "categoryId": "circulation-path",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 전체 순환 경로 및 온몸순환·허파순환"
-    },
-    {
-      "id": "sci149",
-      "type": "qa",
-      "front": "온몸의 모세혈관을 지난 혈액이 심장으로 돌아올 때 지나는 큰 혈관은?",
-      "answer": "대정맥",
-      "hint": "온몸 모세혈관 → ___ → 우심방",
-      "categoryId": "circulation-path",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 전체 순환 경로 및 온몸순환·허파순환"
-    },
-    {
-      "id": "sci150",
-      "type": "qa",
-      "front": "온몸순환을 마친 혈액이 들어오는 심장의 방은?",
-      "answer": "우심방",
-      "hint": "대정맥 다음에 있어요.",
-      "categoryId": "circulation-path",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 전체 순환 경로 및 온몸순환·허파순환"
-    },
-    {
       "id": "sci151",
       "type": "blank",
-      "front": "온몸순환의 경로를 완성하자. 좌심실 → 대동맥 → ___ → 대정맥 → 우심방",
-      "answer": "온몸의 모세혈관",
-      "hint": "세포와 물질을 교환하는 곳",
-      "categoryId": "circulation-path",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 전체 순환 경로 및 온몸순환·허파순환",
-      "acceptedAnswers": [
-        "온몸 모세혈관",
-        "모세혈관"
-      ]
-    },
-    {
-      "id": "sci152",
-      "type": "qa",
-      "front": "허파순환에서 혈액이 심장을 출발하는 방은?",
-      "answer": "우심실",
-      "hint": "폐동맥으로 이어져요.",
-      "categoryId": "circulation-path",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 전체 순환 경로 및 온몸순환·허파순환"
-    },
-    {
-      "id": "sci153",
-      "type": "qa",
-      "front": "우심실에서 폐로 가는 혈액이 지나는 혈관은?",
-      "answer": "폐동맥",
-      "hint": "심장에서 나가는 방향",
-      "categoryId": "circulation-path",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 전체 순환 경로 및 온몸순환·허파순환",
-      "acceptedAnswers": [
-        "허파동맥"
-      ]
-    },
-    {
-      "id": "sci154",
-      "type": "qa",
-      "front": "폐를 지난 혈액이 심장으로 돌아올 때 지나는 혈관은?",
-      "answer": "폐정맥",
-      "hint": "심장으로 들어가는 방향",
-      "categoryId": "circulation-path",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 전체 순환 경로 및 온몸순환·허파순환",
-      "acceptedAnswers": [
-        "허파정맥"
-      ]
-    },
-    {
-      "id": "sci155",
-      "type": "qa",
-      "front": "허파순환을 마친 혈액이 들어오는 심장의 방은?",
-      "answer": "좌심방",
-      "hint": "폐정맥 다음에 있어요.",
+      "front": "온몸순환의 경로를 좌심실에서 우심방까지 순서대로 쓰면?",
+      "answer": "좌심실 → 대동맥 → 온몸의 모세혈관 → 대정맥 → 우심방",
+      "hint": "온몸에 산소와 영양소를 공급하고 심장으로 돌아와요.",
       "categoryId": "circulation-path",
       "sourceRef": "note-03",
       "sourceLocation": "중단 전체 순환 경로 및 온몸순환·허파순환"
@@ -1937,17 +665,12 @@
     {
       "id": "sci156",
       "type": "blank",
-      "front": "허파순환의 경로를 완성하자. 우심실 → 폐동맥 → ___ → 폐정맥 → 좌심방",
-      "answer": "폐의 모세혈관",
-      "hint": "폐에서 기체를 교환하는 곳",
+      "front": "허파순환의 경로를 우심실에서 좌심방까지 순서대로 쓰면?",
+      "answer": "우심실 → 폐동맥 → 폐의 모세혈관 → 폐정맥 → 좌심방",
+      "hint": "폐에서 기체를 교환하고 심장으로 돌아와요.",
       "categoryId": "circulation-path",
       "sourceRef": "note-03",
-      "sourceLocation": "중단 전체 순환 경로 및 온몸순환·허파순환",
-      "acceptedAnswers": [
-        "폐 모세혈관",
-        "허파의 모세혈관",
-        "허파 모세혈관"
-      ]
+      "sourceLocation": "중단 전체 순환 경로 및 온몸순환·허파순환"
     },
     {
       "id": "sci157",
@@ -1970,131 +693,6 @@
       "sourceLocation": "중단 전체 순환 경로 및 온몸순환·허파순환"
     },
     {
-      "id": "sci159",
-      "type": "qa",
-      "front": "온몸순환에서 혈액이 세포에 공급하는 기체는?",
-      "answer": "산소",
-      "hint": "세포 호흡에 필요해요.",
-      "categoryId": "circulation-path",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 전체 순환 경로 및 온몸순환·허파순환",
-      "acceptedAnswers": [
-        "O2",
-        "O₂"
-      ]
-    },
-    {
-      "id": "sci160",
-      "type": "qa",
-      "front": "온몸순환에서 혈액이 세포로부터 받는 기체는?",
-      "answer": "이산화 탄소",
-      "hint": "세포 호흡으로 생겨요.",
-      "categoryId": "circulation-path",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 전체 순환 경로 및 온몸순환·허파순환",
-      "acceptedAnswers": [
-        "이산화탄소",
-        "CO2",
-        "CO₂"
-      ]
-    },
-    {
-      "id": "sci161",
-      "type": "qa",
-      "front": "허파순환에서 혈액이 폐로부터 받는 기체는?",
-      "answer": "산소",
-      "hint": "들이마신 공기에서 얻어요.",
-      "categoryId": "circulation-path",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 전체 순환 경로 및 온몸순환·허파순환",
-      "acceptedAnswers": [
-        "O2",
-        "O₂"
-      ]
-    },
-    {
-      "id": "sci162",
-      "type": "qa",
-      "front": "허파순환에서 혈액이 폐 쪽으로 내보내는 기체는?",
-      "answer": "이산화 탄소",
-      "hint": "날숨으로 몸 밖에 나가요.",
-      "categoryId": "circulation-path",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 전체 순환 경로 및 온몸순환·허파순환",
-      "acceptedAnswers": [
-        "이산화탄소",
-        "CO2",
-        "CO₂"
-      ]
-    },
-    {
-      "id": "sci163",
-      "type": "qa",
-      "front": "심장 → 폐 → 심장으로 이어지는 순환은 온몸순환인가, 허파순환인가?",
-      "answer": "허파순환",
-      "hint": "폐에서의 기체 교환을 위한 순환",
-      "categoryId": "circulation-path",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 전체 순환 경로 및 온몸순환·허파순환",
-      "acceptedAnswers": [
-        "폐순환",
-        "허파 순환"
-      ]
-    },
-    {
-      "id": "sci164",
-      "type": "qa",
-      "front": "심장 → 온몸 → 심장으로 이어지는 순환은 온몸순환인가, 허파순환인가?",
-      "answer": "온몸순환",
-      "hint": "세포에 산소와 영양소를 공급해요.",
-      "categoryId": "circulation-path",
-      "sourceRef": "note-03",
-      "sourceLocation": "중단 전체 순환 경로 및 온몸순환·허파순환",
-      "acceptedAnswers": [
-        "체순환",
-        "온몸 순환"
-      ]
-    },
-    {
-      "id": "sci165",
-      "type": "qa",
-      "front": "숨을 쉬면서 산소를 받아들이고 이산화 탄소를 내보내는 기관계는?",
-      "answer": "호흡계",
-      "hint": "폐가 속한 기관계",
-      "categoryId": "breathing",
-      "sourceRef": "note-03",
-      "sourceLocation": "중하단 호흡계·허파꽈리 및 들숨·날숨 표"
-    },
-    {
-      "id": "sci166",
-      "type": "qa",
-      "front": "호흡계를 통해 몸 안으로 받아들이는 기체는?",
-      "answer": "산소",
-      "hint": "세포 호흡에 쓰여요.",
-      "categoryId": "breathing",
-      "sourceRef": "note-03",
-      "sourceLocation": "중하단 호흡계·허파꽈리 및 들숨·날숨 표",
-      "acceptedAnswers": [
-        "O2",
-        "O₂"
-      ]
-    },
-    {
-      "id": "sci167",
-      "type": "qa",
-      "front": "호흡계를 통해 몸 밖으로 내보내는 기체는?",
-      "answer": "이산화 탄소",
-      "hint": "세포 호흡으로 생겨요.",
-      "categoryId": "breathing",
-      "sourceRef": "note-03",
-      "sourceLocation": "중하단 호흡계·허파꽈리 및 들숨·날숨 표",
-      "acceptedAnswers": [
-        "이산화탄소",
-        "CO2",
-        "CO₂"
-      ]
-    },
-    {
       "id": "sci168",
       "type": "qa",
       "front": "폐 속에서 기체 교환이 일어나는 작은 주머니는?",
@@ -2105,21 +703,6 @@
       "sourceLocation": "중하단 호흡계·허파꽈리 및 들숨·날숨 표",
       "acceptedAnswers": [
         "허파꽈리"
-      ]
-    },
-    {
-      "id": "sci169",
-      "type": "qa",
-      "front": "폐포가 많이 있으면 공기와 닿는 표면적은 어떻게 되는가?",
-      "answer": "넓어진다",
-      "hint": "작은 주머니가 아주 많아요.",
-      "categoryId": "breathing",
-      "sourceRef": "note-03",
-      "sourceLocation": "중하단 호흡계·허파꽈리 및 들숨·날숨 표",
-      "acceptedAnswers": [
-        "증가한다",
-        "증가",
-        "커진다"
       ]
     },
     {
@@ -2167,30 +750,6 @@
       ]
     },
     {
-      "id": "sci173",
-      "type": "qa",
-      "front": "폐는 몸속 어느 공간 안에 있는가?",
-      "answer": "흉강",
-      "hint": "갈비뼈와 가로막의 움직임에 영향을 받아요.",
-      "categoryId": "breathing",
-      "sourceRef": "note-03",
-      "sourceLocation": "중하단 호흡계·허파꽈리 및 들숨·날숨 표"
-    },
-    {
-      "id": "sci174",
-      "type": "qa",
-      "front": "폐는 자체 근육으로 능동적으로 수축하고 이완하는가?",
-      "answer": "아니다",
-      "hint": "노트의 '근육 ×' 표시를 떠올려요.",
-      "categoryId": "breathing",
-      "sourceRef": "note-03",
-      "sourceLocation": "중하단 호흡계·허파꽈리 및 들숨·날숨 표",
-      "acceptedAnswers": [
-        "아니요",
-        "하지 않는다"
-      ]
-    },
-    {
       "id": "sci175",
       "type": "qa",
       "front": "들이쉴 때 가로막은 위로 올라가는가, 아래로 내려가는가?",
@@ -2207,52 +766,6 @@
       ]
     },
     {
-      "id": "sci176",
-      "type": "qa",
-      "front": "들이쉴 때 갈비뼈는 위로 올라가는가, 아래로 내려가는가?",
-      "answer": "위로 올라간다",
-      "hint": "가로막과 방향을 구별해요.",
-      "categoryId": "breathing",
-      "sourceRef": "note-03",
-      "sourceLocation": "중하단 호흡계·허파꽈리 및 들숨·날숨 표",
-      "acceptedAnswers": [
-        "올라간다",
-        "위",
-        "상승",
-        "높아진다"
-      ]
-    },
-    {
-      "id": "sci177",
-      "type": "qa",
-      "front": "들이쉴 때 흉강의 부피는?",
-      "answer": "커진다",
-      "hint": "가로막이 내려가고 갈비뼈가 올라가요.",
-      "categoryId": "breathing",
-      "sourceRef": "note-03",
-      "sourceLocation": "중하단 호흡계·허파꽈리 및 들숨·날숨 표",
-      "acceptedAnswers": [
-        "증가한다",
-        "증가",
-        "늘어난다"
-      ]
-    },
-    {
-      "id": "sci178",
-      "type": "qa",
-      "front": "들이쉴 때 폐의 부피는?",
-      "answer": "커진다",
-      "hint": "흉강의 부피 변화와 같은 방향",
-      "categoryId": "breathing",
-      "sourceRef": "note-03",
-      "sourceLocation": "중하단 호흡계·허파꽈리 및 들숨·날숨 표",
-      "acceptedAnswers": [
-        "증가한다",
-        "증가",
-        "늘어난다"
-      ]
-    },
-    {
       "id": "sci179",
       "type": "qa",
       "front": "들이쉴 때 폐 안의 압력은 대기압보다 어떻게 되는가?",
@@ -2264,21 +777,6 @@
       "acceptedAnswers": [
         "낮다",
         "작아진다"
-      ]
-    },
-    {
-      "id": "sci180",
-      "type": "qa",
-      "front": "들이쉴 때 공기의 이동 방향은?",
-      "answer": "몸 밖에서 폐로",
-      "hint": "압력이 높은 쪽에서 낮은 쪽으로 이동해요.",
-      "categoryId": "breathing",
-      "sourceRef": "note-03",
-      "sourceLocation": "중하단 호흡계·허파꽈리 및 들숨·날숨 표",
-      "acceptedAnswers": [
-        "몸 밖 → 폐",
-        "몸밖에서 폐",
-        "밖에서 안으로"
       ]
     },
     {
@@ -2298,52 +796,6 @@
       ]
     },
     {
-      "id": "sci182",
-      "type": "qa",
-      "front": "내쉴 때 갈비뼈는 위로 올라가는가, 아래로 내려가는가?",
-      "answer": "아래로 내려간다",
-      "hint": "가로막과 방향을 구별해요.",
-      "categoryId": "breathing",
-      "sourceRef": "note-03",
-      "sourceLocation": "중하단 호흡계·허파꽈리 및 들숨·날숨 표",
-      "acceptedAnswers": [
-        "내려간다",
-        "아래",
-        "하강",
-        "낮아진다"
-      ]
-    },
-    {
-      "id": "sci183",
-      "type": "qa",
-      "front": "내쉴 때 흉강의 부피는?",
-      "answer": "작아진다",
-      "hint": "가로막이 올라가고 갈비뼈가 내려가요.",
-      "categoryId": "breathing",
-      "sourceRef": "note-03",
-      "sourceLocation": "중하단 호흡계·허파꽈리 및 들숨·날숨 표",
-      "acceptedAnswers": [
-        "감소한다",
-        "감소",
-        "줄어든다"
-      ]
-    },
-    {
-      "id": "sci184",
-      "type": "qa",
-      "front": "내쉴 때 폐의 부피는?",
-      "answer": "작아진다",
-      "hint": "흉강의 부피 변화와 같은 방향",
-      "categoryId": "breathing",
-      "sourceRef": "note-03",
-      "sourceLocation": "중하단 호흡계·허파꽈리 및 들숨·날숨 표",
-      "acceptedAnswers": [
-        "감소한다",
-        "감소",
-        "줄어든다"
-      ]
-    },
-    {
       "id": "sci185",
       "type": "qa",
       "front": "내쉴 때 폐 안의 압력은 대기압보다 어떻게 되는가?",
@@ -2355,77 +807,6 @@
       "acceptedAnswers": [
         "높다",
         "커진다"
-      ]
-    },
-    {
-      "id": "sci186",
-      "type": "qa",
-      "front": "내쉴 때 공기의 이동 방향은?",
-      "answer": "폐에서 몸 밖으로",
-      "hint": "들이쉴 때와 반대 방향",
-      "categoryId": "breathing",
-      "sourceRef": "note-03",
-      "sourceLocation": "중하단 호흡계·허파꽈리 및 들숨·날숨 표",
-      "acceptedAnswers": [
-        "폐 → 몸 밖",
-        "폐에서 몸밖",
-        "안에서 밖으로"
-      ]
-    },
-    {
-      "id": "sci187",
-      "type": "qa",
-      "front": "가로막이 내려가고 갈비뼈가 올라가는 것은 들숨인가, 날숨인가?",
-      "answer": "들숨",
-      "hint": "흉강의 부피가 커지는 때",
-      "categoryId": "breathing",
-      "sourceRef": "note-03",
-      "sourceLocation": "중하단 호흡계·허파꽈리 및 들숨·날숨 표",
-      "acceptedAnswers": [
-        "들이쉼",
-        "들이쉴 때"
-      ]
-    },
-    {
-      "id": "sci188",
-      "type": "qa",
-      "front": "가로막이 올라가고 갈비뼈가 내려가는 것은 들숨인가, 날숨인가?",
-      "answer": "날숨",
-      "hint": "흉강의 부피가 작아지는 때",
-      "categoryId": "breathing",
-      "sourceRef": "note-03",
-      "sourceLocation": "중하단 호흡계·허파꽈리 및 들숨·날숨 표",
-      "acceptedAnswers": [
-        "내쉼",
-        "내쉴 때"
-      ]
-    },
-    {
-      "id": "sci189",
-      "type": "qa",
-      "front": "폐의 부피가 커지고 폐 안의 압력이 낮아지는 것은 들숨인가, 날숨인가?",
-      "answer": "들숨",
-      "hint": "공기가 몸 밖에서 폐로 들어와요.",
-      "categoryId": "breathing",
-      "sourceRef": "note-03",
-      "sourceLocation": "중하단 호흡계·허파꽈리 및 들숨·날숨 표",
-      "acceptedAnswers": [
-        "들이쉼",
-        "들이쉴 때"
-      ]
-    },
-    {
-      "id": "sci190",
-      "type": "qa",
-      "front": "폐의 부피가 작아지고 폐 안의 압력이 높아지는 것은 들숨인가, 날숨인가?",
-      "answer": "날숨",
-      "hint": "공기가 폐에서 몸 밖으로 나가요.",
-      "categoryId": "breathing",
-      "sourceRef": "note-03",
-      "sourceLocation": "중하단 호흡계·허파꽈리 및 들숨·날숨 표",
-      "acceptedAnswers": [
-        "내쉼",
-        "내쉴 때"
       ]
     },
     {
@@ -2449,26 +830,6 @@
       "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비"
     },
     {
-      "id": "sci193",
-      "type": "qa",
-      "front": "간에서 암모니아를 독성이 더 약한 어떤 물질로 바꾸는가?",
-      "answer": "요소",
-      "hint": "오줌으로 배출되는 물질",
-      "categoryId": "excretion",
-      "sourceRef": "note-03",
-      "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비"
-    },
-    {
-      "id": "sci194",
-      "type": "qa",
-      "front": "암모니아와 요소 중 노트에서 독성이 더 강하다고 적은 것은?",
-      "answer": "암모니아",
-      "hint": "간에서 바뀌기 전의 물질",
-      "categoryId": "excretion",
-      "sourceRef": "note-03",
-      "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비"
-    },
-    {
       "id": "sci195",
       "type": "qa",
       "front": "요소를 오줌으로 내보내기 위해 혈액에서 걸러 내는 기관은?",
@@ -2479,57 +840,6 @@
       "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비",
       "acceptedAnswers": [
         "신장"
-      ]
-    },
-    {
-      "id": "sci196",
-      "type": "blank",
-      "front": "배설계를 이루는 기관은 콩팥, 오줌관, 방광, ___이다.",
-      "answer": "요도",
-      "hint": "오줌이 몸 밖으로 나가는 마지막 통로",
-      "categoryId": "excretion",
-      "sourceRef": "note-03",
-      "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비"
-    },
-    {
-      "id": "sci197",
-      "type": "blank",
-      "front": "노트에 적힌 콩팥의 세 부분은 콩팥겉질, 콩팥속질, ___이다.",
-      "answer": "콩팥깔때기",
-      "hint": "오줌이 모이는 부분",
-      "categoryId": "excretion",
-      "sourceRef": "note-03",
-      "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비",
-      "acceptedAnswers": [
-        "신우"
-      ]
-    },
-    {
-      "id": "sci198",
-      "type": "blank",
-      "front": "콩팥의 구조를 완성하자. ___, 콩팥속질, 콩팥깔때기",
-      "answer": "콩팥겉질",
-      "hint": "콩팥의 바깥쪽 부분",
-      "categoryId": "excretion",
-      "sourceRef": "note-03",
-      "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비",
-      "acceptedAnswers": [
-        "겉질",
-        "신장 피질"
-      ]
-    },
-    {
-      "id": "sci199",
-      "type": "blank",
-      "front": "콩팥의 구조를 완성하자. 콩팥겉질, ___, 콩팥깔때기",
-      "answer": "콩팥속질",
-      "hint": "콩팥의 안쪽 부분",
-      "categoryId": "excretion",
-      "sourceRef": "note-03",
-      "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비",
-      "acceptedAnswers": [
-        "속질",
-        "신장 수질"
       ]
     },
     {
@@ -2558,94 +868,11 @@
       ]
     },
     {
-      "id": "sci202",
-      "type": "qa",
-      "front": "혈구와 포도당 중 정상적인 여과에서 혈액에 남는 큰 성분은?",
-      "answer": "혈구",
-      "hint": "세포 성분과 작은 물질을 구별해요.",
-      "categoryId": "excretion",
-      "sourceRef": "note-03",
-      "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비"
-    },
-    {
-      "id": "sci203",
-      "type": "qa",
-      "front": "단백질과 아미노산 중 정상적인 여과에서 혈액에 남는 큰 물질은?",
-      "answer": "단백질",
-      "hint": "단백질의 소화 산물은 작은 물질이에요.",
-      "categoryId": "excretion",
-      "sourceRef": "note-03",
-      "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비"
-    },
-    {
-      "id": "sci204",
-      "type": "qa",
-      "front": "여과에서 물과 함께 빠져나온 작은 물질이 들어가는 주머니는?",
-      "answer": "보먼주머니",
-      "hint": "세뇨관으로 이어지는 주머니",
-      "categoryId": "excretion",
-      "sourceRef": "note-03",
-      "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비",
-      "acceptedAnswers": [
-        "보먼 주머니"
-      ]
-    },
-    {
       "id": "sci205",
       "type": "qa",
       "front": "노트에서 포도당·요소·무기염류·아미노산이 물과 함께 보먼주머니로 빠져나오는 과정은?",
       "answer": "여과",
       "hint": "큰 성분은 혈액에 남아요.",
-      "categoryId": "excretion",
-      "sourceRef": "note-03",
-      "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비"
-    },
-    {
-      "id": "sci206",
-      "type": "qa",
-      "front": "노트의 여과 대상 중 에너지원으로 쓰이는 당은?",
-      "answer": "포도당",
-      "hint": "광합성으로 만들어지는 당",
-      "categoryId": "excretion",
-      "sourceRef": "note-03",
-      "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비"
-    },
-    {
-      "id": "sci207",
-      "type": "qa",
-      "front": "노트의 여과 대상 중 단백질의 최종 소화 산물은?",
-      "answer": "아미노산",
-      "hint": "작은 물질이어서 여과돼요.",
-      "categoryId": "excretion",
-      "sourceRef": "note-03",
-      "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비"
-    },
-    {
-      "id": "sci208",
-      "type": "qa",
-      "front": "노트의 여과 대상 중 간에서 암모니아로부터 만들어진 것은?",
-      "answer": "요소",
-      "hint": "배출해야 하는 노폐물",
-      "categoryId": "excretion",
-      "sourceRef": "note-03",
-      "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비"
-    },
-    {
-      "id": "sci209",
-      "type": "blank",
-      "front": "노트의 여과 대상은 포도당·요소·아미노산과 ___이다. 물도 함께 이동한다.",
-      "answer": "무기염류",
-      "hint": "염류 성분",
-      "categoryId": "excretion",
-      "sourceRef": "note-03",
-      "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비"
-    },
-    {
-      "id": "sci210",
-      "type": "qa",
-      "front": "여과된 물질이 보먼주머니 다음에 흐르는 관은?",
-      "answer": "세뇨관",
-      "hint": "재흡수와 분비가 일어나는 곳",
       "categoryId": "excretion",
       "sourceRef": "note-03",
       "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비"
@@ -2661,33 +888,6 @@
       "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비"
     },
     {
-      "id": "sci212",
-      "type": "blank",
-      "front": "재흡수의 이동 방향을 완성하자. 세뇨관 → ___",
-      "answer": "모세혈관",
-      "hint": "혈액으로 다시 돌아가요.",
-      "categoryId": "excretion",
-      "sourceRef": "note-03",
-      "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비",
-      "acceptedAnswers": [
-        "혈액"
-      ]
-    },
-    {
-      "id": "sci213",
-      "type": "qa",
-      "front": "재흡수는 물질이 모세혈관에서 세뇨관으로 이동하는 과정인가?",
-      "answer": "아니다",
-      "hint": "재흡수는 혈액으로 돌아오는 방향이에요.",
-      "categoryId": "excretion",
-      "sourceRef": "note-03",
-      "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비",
-      "acceptedAnswers": [
-        "아니요",
-        "반대이다"
-      ]
-    },
-    {
       "id": "sci214",
       "type": "qa",
       "front": "노폐물이 모세혈관에서 세뇨관으로 이동하는 과정은?",
@@ -2696,59 +896,6 @@
       "categoryId": "excretion",
       "sourceRef": "note-03",
       "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비"
-    },
-    {
-      "id": "sci215",
-      "type": "blank",
-      "front": "분비의 이동 방향을 완성하자. 모세혈관 → ___",
-      "answer": "세뇨관",
-      "hint": "오줌 쪽으로 노폐물을 보내요.",
-      "categoryId": "excretion",
-      "sourceRef": "note-03",
-      "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비"
-    },
-    {
-      "id": "sci216",
-      "type": "qa",
-      "front": "여과·재흡수·분비 중 물질이 세뇨관에서 혈액으로 되돌아가는 것은?",
-      "answer": "재흡수",
-      "hint": "다시 몸 안으로 받아들여요.",
-      "categoryId": "excretion",
-      "sourceRef": "note-03",
-      "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비"
-    },
-    {
-      "id": "sci217",
-      "type": "qa",
-      "front": "여과·재흡수·분비 중 혈액의 노폐물을 세뇨관으로 더 보내는 것은?",
-      "answer": "분비",
-      "hint": "모세혈관 → 세뇨관",
-      "categoryId": "excretion",
-      "sourceRef": "note-03",
-      "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비"
-    },
-    {
-      "id": "sci218",
-      "type": "qa",
-      "front": "소화계에서 쓸개즙을 만들고, 배설과 관련해서 암모니아를 요소로 바꾸는 기관은?",
-      "answer": "간",
-      "hint": "두 기관계 내용에 함께 나오는 기관",
-      "categoryId": "excretion",
-      "sourceRef": "note-03",
-      "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비; note-01 하단 간의 기능과 연결"
-    },
-    {
-      "id": "sci219",
-      "type": "qa",
-      "front": "노트의 재흡수 설명에서 작은 물질들과 함께 세뇨관에서 모세혈관으로 이동하는 액체는?",
-      "answer": "물",
-      "hint": "여과 때에도 작은 물질들과 함께 이동해요.",
-      "categoryId": "excretion",
-      "sourceRef": "note-03",
-      "sourceLocation": "하단 암모니아·요소·배설계·여과·재흡수·분비",
-      "acceptedAnswers": [
-        "수분"
-      ]
     }
   ]
 }
